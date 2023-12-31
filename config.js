@@ -1,0 +1,35 @@
+module.exports = {
+  siteTitle: '', // <title>
+  manifestName: 'Jalen Smith',
+  manifestShortName: 'Landing', // max 12 characters
+  manifestStartUrl: '/',
+  manifestBackgroundColor: '#663399',
+  manifestThemeColor: '#663399',
+  manifestDisplay: 'standalone',
+  manifestIcon: 'src/assets/img/red.png',
+  pathPrefix: `/gatsby-starter-grayscale/`, // This path is subpath of your hosting https://domain/portfolio
+  heading: 'Jalen Smith',
+  subHeading: 'Adventurer. Filmmaker. World Traveler.',
+
+  // social
+  socialLinks: [
+    {
+      icon: 'fa-github',
+      name: 'Github',
+      url: 'https://github.com/thepuzzlebox',
+    },
+    {
+      icon: 'fa-linkedin-in',
+      name: 'Linkedin',
+      url: 'https://linkedin.com/in/jalensmith/',
+    },
+    {
+      icon: 'fa-youtube',
+      name: 'YouTube',
+      url: 'https://youtube.com/@jalen_smith',
+    },
+  ],
+  email: 'jalen.smith@yale.edu',
+  phone: '000-00000',
+  address: 'New Haven, CT',
+};
