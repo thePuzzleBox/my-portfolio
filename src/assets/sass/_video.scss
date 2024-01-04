@@ -1,0 +1,15 @@
+video {
+
+
+    /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+    width: 100%;
+  }
+
+.video-section {
+    padding-top: 5rem;
+    background: linear-gradient(to bottom, $black 40%,#{fade-out($black, .1)} 100%,#{fade-out(black, .2)} 100%);
+  }
+
+  .video-container {
+  }
+  

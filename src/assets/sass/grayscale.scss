@@ -8,6 +8,7 @@
 @import 'projects.scss';
 @import 'signup.scss';
 @import 'contact.scss';
+@import 'video.scss';
 
 @import './fontawesome/css/all.min.css';
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
@@ -19,7 +20,7 @@ body {
 }
 
 a {
-  color: $primary;
+  color: white;
   &:focus,
   &:hover {
     text-decoration: none;

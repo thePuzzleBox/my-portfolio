@@ -28,7 +28,6 @@ class Layout2 extends Component {
   }
 
   render() {
-    <Header />
     const { children } = this.props;
     const { isPreloaded } = this.state;
     return (

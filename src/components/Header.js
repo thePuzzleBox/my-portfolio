@@ -17,7 +17,7 @@ export default class Header extends Component {
   };
   handleScroll = () => {
     const { visibilityClass } = this.state;
-    if (window.pageYOffset > 300) {
+    if (window.pageYOffset > 0) {
       if (visibilityClass !== 'navbar-shrink') {
         this.setState({ visibilityClass: 'navbar-shrink' });
       }
@@ -57,7 +57,6 @@ export default class Header extends Component {
             aria-expanded={openMenu}
             aria-label="Toggle navigation"
           >
-            Menu
             <i className="fas fa-bars"></i>
           </button>
           <div
@@ -69,20 +68,9 @@ export default class Header extends Component {
                 <Scroll
                   onClick={_ => this.toggleMenu(!openMenu)}
                   type="id"
-                  element="about"
+                  element="portfolio"
                 >
-                  <a className="nav-link">
-                  <Link to="/about">About</Link>
-                  </a>
-                </Scroll>
-              </li>
-              <li className="nav-item">
-                <Scroll
-                  onClick={_ => this.toggleMenu(!openMenu)}
-                  type="id"
-                  element="projects"
-                >
-                  <a className="nav-link" href="#projects">
+                  <a className="nav-link" href="#portfolio">
                   <Link to="/portfolio">Portfolio</Link>
                   </a>
                 </Scroll>
@@ -91,9 +79,20 @@ export default class Header extends Component {
                 <Scroll
                   onClick={_ => this.toggleMenu(!openMenu)}
                   type="id"
+                  element="about"
+                >
+                 <a className="nav-link" href="about">
+                  <Link to="/about">About</Link>
+                  </a> 
+                </Scroll>
+              </li>
+              <li className="nav-item">
+                <Scroll
+                  onClick={_ => this.toggleMenu(!openMenu)}
+                  type="id"
                   element="signup"
                 >
-                  <a className="nav-link" href="#signup">
+                  <a className="nav-link" href="#contact">
                   <Link to="/contact">Contact</Link>
                   </a>
                 </Scroll>

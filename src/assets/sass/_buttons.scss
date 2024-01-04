@@ -21,3 +21,18 @@
     background-color: darken($primary, 15%) !important;
   }
 }
+
+.more {
+				background-image: url('../images/arrow.png');
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: contain;
+				bottom: 4em;
+				content: '';
+				display: block;
+				height: 1.5em;
+				left: 50%;
+				margin: 0 0 0 -0.75em;
+				position: absolute;
+				width: 1.5em;
+			}

@@ -4,8 +4,6 @@
   .navbar-toggler {
     font-size: 80%;
     padding: 0.75rem;
-    color: $primary;
-    border: 1px solid $primary;
     &:focus {
       outline: none;
     }
@@ -43,16 +41,16 @@
     .nav-link {
       transition: none;
       padding: 2rem 1.5rem;
-      color: fade-out($white, .5);
+      color: fade-out($black, .5);
       &:hover {
-        color: fade-out($white, .25);
+        color: fade-out(black, .25);
       }
       &:active {
-        color: white;
+        color: black;
       }
     }
     &.navbar-shrink {
-      background-color: $white;
+      background: rgba($color: white, $alpha: 0.8);
       .navbar-brand {
         color: $black;
       }
@@ -64,7 +62,7 @@
           color: $black;
         }
         &:active {
-          color: darken($primary, 15%);
+          color: darken($black, 15%);
         }
         &.active {
           color: $primary;
