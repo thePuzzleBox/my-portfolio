@@ -3,7 +3,7 @@ import React from 'react';
 import Layout from './src/components/Layout';
 import Gallery from './src/components/Gallery';
 
-{/*const img_set = [
+const img_set = [
   {
     src: require('./src/assets/images/fulls/01.jpg'),
     thumbnail: require('./src/assets/images/thumbs/01.jpg'),
@@ -76,7 +76,7 @@ import Gallery from './src/components/Gallery';
     title: 'Nature',
     desc: 'Be one with the nature',
   },
-];*/}
+];
 
 const IndexPage = () => (
   <Layout>
