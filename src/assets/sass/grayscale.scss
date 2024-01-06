@@ -20,11 +20,11 @@ body {
 }
 
 a {
-  color: white;
+  color: $black;
   &:focus,
   &:hover {
+    color: $primary;
     text-decoration: none;
-    color: darken($primary, 20%);
   }
 }
 
