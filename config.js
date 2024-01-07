@@ -3,8 +3,8 @@ module.exports = {
   manifestName: 'Jalen Smith',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
-  manifestBackgroundColor: '#663399',
-  manifestThemeColor: '#663399',
+  manifestBackgroundColor: '#6e0505',
+  manifestThemeColor: '#6e0505',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/red.png',
   pathPrefix: `/gatsby-starter-grayscale/`, // This path is subpath of your hosting https://domain/portfolio

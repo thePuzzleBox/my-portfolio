@@ -21,16 +21,16 @@ const IndexPage = () => (
             {config.subHeading}
           </h2>
           
-          {/*<Scroll type="id" element="video">
+          <Scroll type="id" offset={200} element="video">
             <a href="#video" className="btn btn-primary">
               Enter
             </a>
-            </Scroll>*/}
+            </Scroll>
 
-          <Scroll type="id" offset={200} element="video">
+          {/*<Scroll type="id" offset={200} element="video">
         <a href="#video" className="more">
         </a>
-      </Scroll>
+          </Scroll>*/}
           
         </div>
       </div>
@@ -38,7 +38,7 @@ const IndexPage = () => (
 
     <section id="video" className="video-section align-center">
   <div className="video-container">
-   <video src={reel} autoPlay loop muted/>
+   <video src={reel} autoPlay={true} playsInline={true} loop muted/>
   </div>
 </section>
 
