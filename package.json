@@ -19,7 +19,7 @@
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-helmet": "^5.2.1",
-    "react-images": "^1.1.0",
+    "react-images": "^0.5.19",
     "react-scrollspy": "^3.4.0",
     "sass": "^1.69.6",
     "smoothscroll-polyfill": "^0.4.4"
