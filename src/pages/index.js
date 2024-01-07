@@ -21,16 +21,16 @@ const IndexPage = () => (
             {config.subHeading}
           </h2>
           
-          <Scroll type="id" offset={200} element="video">
+          {/*<Scroll type="id" offset={200} element="video">
             <a href="#video" className="btn btn-primary">
               Enter
             </a>
-            </Scroll>
+</Scroll>*/}
 
-          {/*<Scroll type="id" offset={200} element="video">
+          <Scroll type="id" offset={200} element="video">
         <a href="#video" className="more">
         </a>
-          </Scroll>*/}
+          </Scroll>
           
         </div>
       </div>
