@@ -27,7 +27,7 @@ const AboutPage = () => (
           and Yale and Oxford Law Professor Jonny Steinberg.
 
           <br /><br />Outside of being an adventurer, Jalen is also an avid skateboarder, writer, frequent moviegoer, and die-hard comic book fan who can tell you one too many Marvel movie easter-eggs.
-          <br /><br /> Photo by Cullen Welch
+          <br /><br /><br/><br/>Photo by Cullen Welch
         </p>
       </div>
     </div>
