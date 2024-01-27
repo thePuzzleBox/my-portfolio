@@ -27,7 +27,7 @@ const AboutPage = () => (
           and Yale and Oxford Law Professor Jonny Steinberg.
 
           <br /><br />Outside of being an adventurer, Jalen is an avid skateboarder, writer, and undercover pianist. He takes pride in being a jack-of-all-trades and believes his greatest skill is his eagerness to learn something new.
-          <br /><br /><br/><br/>Photo by Cullen Welch
+          {/*<br /><br /><br/><br/>Photo by Cullen Welch*/}
         </p>
       </div>
     </div>
