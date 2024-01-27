@@ -19,14 +19,15 @@ const AboutPage = () => (
       <div className="col-lg-8 mx-auto">
         <h2 className="fg text-black mb-4 text-center">About</h2>
         <p className="fg text-black">
-          Jalen Smith is a travel film creative and nomadic storyteller. Hailing from southern California, he transferred to Yale upon graduating from community college in 2022 and is currently completeing an interdiscplinary major of political science and film.
-           With an extensive background in advocacy, Jalen seeks to do meaningful work in visual storytelling and ecotourism. Through documentary, adventure filmmaking, and cinematic outdoor videography, he hopes to travel, capture the natural world, and explore
-          the intersection between entertainment and the environment. 
+          Jalen Smith is a travel film creative and nomadic storyteller. Hailing from southern California, he is currently completeing an interdisciplinary major of political science and film at Yale. After transferring from community college in 2022 with 
+          an extensive background in advocacy, Jalen seeks to do meaningful work in visual storytelling and ecotourism. Through documentary and adventure filmmaking, he hopes to travel, capture the natural world, and inspire others to not just see it,
+           but to feel and live through all of the experiences it has to offer. His one piece of advice? "Go."
           
-          <br/><br/>He is currently writing his senior thesis on the South African energy crisis and the corruption of its major utility company, Eskom, under the supervision of South African author
+          <br/><br/>He is currently writing his senior thesis on the South African energy crisis and corruption of its major utility company, Eskom, under the supervision of South African author
           and Yale and Oxford Law Professor Jonny Steinberg.
 
-          <br /><br />Outside of being an adventurer, Jalen is also an avid skateboarder, writer, frequent moviegoer, and die-hard comic book fan who can tell you one too many Marvel movie easter-eggs.
+          <br /><br />Outside of being an adventurer, Jalen is an avid skateboarder, writer, and undercover pianist. He takes pride in being a jack-of-all-trades and believes his greatest skill is his eagerness to learn something new.
+          And he looks forward to the day he'll be able to take his mom and younger sister along his journeys.
           <br /><br /><br/><br/>Photo by Cullen Welch
         </p>
       </div>
