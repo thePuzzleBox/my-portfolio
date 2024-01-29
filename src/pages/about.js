@@ -19,8 +19,8 @@ const AboutPage = () => (
       <div className="col-lg-8 mx-auto">
         <h2 className="fg text-black mb-4 text-center">About</h2>
         <p className="fg text-black">
-          Jalen Smith is a travel film creative and nomadic storyteller. Hailing from southern California, he is currently completeing an interdisciplinary major of political science and film at Yale. After transferring from community college in 2022 with 
-          an extensive background in advocacy, Jalen seeks to do meaningful work in visual storytelling and ecotourism. Through documentary and adventure filmmaking, he hopes to travel, capture the natural world, and inspire others to not just see it,
+          Jalen Smith is a travel film creative and nomadic storyteller. Hailing from southern California, he is currently completing an interdisciplinary major of political science and film at Yale. Upon transferring from community college in 2022 with 
+          an extensive background in advocacy, Jalen sought to do meaningful work in visual storytelling and ecotourism. Through documentary and adventure filmmaking, he hopes to travel, capture the natural world, and inspire others to not just see it,
            but to feel and live through all of the experiences it has to offer. His one piece of advice? "Go."
           
           <br/><br/>He is currently writing his senior thesis on the South African energy crisis and corruption of its major utility company, Eskom, under the supervision of South African author
