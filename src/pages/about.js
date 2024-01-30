@@ -19,14 +19,14 @@ const AboutPage = () => (
       <div className="col-lg-8 mx-auto">
         <h2 className="fg text-black mb-4 text-center">About</h2>
         <p className="fg text-black">
-          Jalen Smith is a travel film creative and nomadic storyteller. Hailing from southern California, he is currently completing an interdisciplinary major of political science and film at Yale. Upon transferring from community college in 2022 with 
+          Jalen Smith is a travel film creative and nomadic storyteller. A southern California native, he is currently completing an interdisciplinary major of political science and film at Yale. Upon transferring from community college in 2022 with 
           an extensive background in advocacy, Jalen sought to do meaningful work in visual storytelling and ecotourism. Through documentary and adventure filmmaking, he hopes to travel, capture the natural world, and inspire others to not just see it,
            but to feel and live through all of the unforgettable experiences it has to offer. His one piece of advice? "Go."
           
           <br/><br/>He is currently writing his senior thesis on the South African energy crisis and corruption of its major utility company, Eskom, under the supervision of South African author
           and Yale and Oxford Law Professor Jonny Steinberg.
 
-          <br /><br />Outside of being an adventurer, Jalen is an avid skateboarder, writer, and undercover pianist. Amongst friends, he is known for being incredibly spontaneuous and a jack-of-all-trades. He believes his greatest skill is his ability to learn new skills.
+          <br /><br />Outside of being an adventurer, Jalen is an avid skateboarder, writer, and undercover pianist. Those closest to him would describe him as incredibly spontaneuous and a jack-of-all-trades. As he believes his greatest skill is his ability to learn new skills.
           {/*<br /><br /><br/><br/>Photo by Cullen Welch*/}
         </p>
       </div>
