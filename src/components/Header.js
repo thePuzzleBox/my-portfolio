@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Scroll from './Scroll';
+
 import img from '../assets/img/red.png';
 import { Link } from 'gatsby';
 import Layout from '../components/Layout';

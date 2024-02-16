@@ -20,12 +20,6 @@ const IndexPage = () => (
           <h2 className="text-white-50 mx-auto mt-2 mb-5">
             {config.subHeading}
           </h2>
-          
-          {/*<Scroll type="id" offset={200} element="video">
-            <a href="#video" className="btn btn-primary">
-              Enter
-            </a>
-</Scroll>*/}
 
           <Scroll type="id" offset={200} element="video">
         <a href="#video" className="more">

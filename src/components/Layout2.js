@@ -28,8 +28,9 @@ class Layout2 extends Component {
   }
 
   render() {
-    const { children } = this.props;
+    const { children, hideFooter } = this.props;
     const { isPreloaded } = this.state;
+
     return (
       <StaticQuery
         query={graphql`
@@ -43,7 +44,7 @@ class Layout2 extends Component {
         `}
         render={data => (
           <>
-          <Header />
+            <Header />
             <Helmet
               title={data.site.siteMetadata.title}
               meta={[
@@ -53,13 +54,12 @@ class Layout2 extends Component {
             >
               <html lang="en" />
             </Helmet>
-            <div className={isPreloaded ? 'main-body is-preload' : 'main-body'}>
-              <div id="wrapper">
-
+            <div className={isPreloaded ? 'main-body is-preload' : 'main-body'} style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+              <div id="wrapper" style={{ flex: '1' }}>
                 {children}
-                <Footer />
               </div>
             </div>
+            {!hideFooter && <Footer />}
           </>
         )}
       />
@@ -69,6 +69,7 @@ class Layout2 extends Component {
 
 Layout2.propTypes = {
   children: PropTypes.node.isRequired,
+  hideFooter: PropTypes.bool, // control footer visibility
 };
 
 export default Layout2;
