@@ -1,0 +1,94 @@
+// _responsive-layout.scss
+
+/* Media query for screens with a maximum width of 1400 pixels (adjust as needed) */
+@media only screen and (max-width: 1400px) {
+    /* Override default styles and apply new styles for mobile */
+  
+    .side {
+      width: 100% !important;
+      flex-direction: column !important;
+      margin-top: 80px !important; /* Adjusted to the navbar height */
+      gap: 5px; /* Adjusted space between child elements to 5px */
+      height: calc(100vh - 80px); /* Set height to 100% of the viewport height minus navbar height */
+    }
+  
+    article {
+      max-width: 100% !important;
+      height: 100% !important; /* Set height to 100% of the container height */
+      box-sizing: border-box !important;
+  
+      .image,
+      .video-article {
+        position: relative;
+        overflow: hidden;
+        cursor: pointer; /* Add cursor pointer to indicate clickable elements */
+  
+        img,
+        video {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          transition: transform 0.3s ease; /* Add transition for a smooth effect */
+        }
+  
+        &:before {
+          content: ''; /* Add a pseudo-element for the overlay */
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          z-index: 2; /* Ensure this overlay is above other content */
+          opacity: 0; /* Initial opacity set to 0 */
+          transition: opacity 0.3s ease; /* Add transition for a smooth effect */
+        }
+  
+        .content {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          z-index: 3; /* Ensure content is above overlay */
+          opacity: 0;
+          transition: opacity 0.3s ease; /* Add transition for a smooth effect */
+          text-align: center;
+          color: white; /* Text color */
+          font-size: 24px; /* Adjust font size */
+  
+          &.active {
+            opacity: 1; /* Show content when active */
+          }
+        }
+  
+        &:hover, &.active {
+          &:before {
+            opacity: 1; /* Update the overlay opacity on hover or click */
+          }
+  
+          img,
+          video {
+            transform: scale(1.1); /* Zoom in effect on hover or click */
+          }
+        }
+      }
+    }
+  }
+  
+  /* Media query for landscape orientation */
+  @media only screen and (max-width: 1400px) and (orientation: landscape) {
+    .side {
+      flex-direction: row !important;
+    }
+  
+    article {
+      max-width: 50% !important;
+      height: 100% !important; /* Set height to 100% of the container height */
+      margin: 0 !important; /* Remove any margin or padding */
+      padding: 0 !important;
+  
+      &:first-child {
+        margin-top: 0 !important;
+      }
+    }
+  }
+  
