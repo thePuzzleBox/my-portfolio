@@ -1,15 +1,22 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import Layout from '../components/Layout2';
-
 import '../assets/sass/_port.scss';
 import '../assets/sass/_mobile.scss';
-
 import pic1 from '../assets/images/shots/43.jpg';
 import clip from '../assets/images/fulls/vids/clip.mp4';
+import gif from '../assets/images/fulls/vids/clip.gif';
 import { Link } from 'gatsby';
 
 const IndexPage = () => {
   const videoRef = useRef(null);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const userAgent = window.navigator.userAgent.toLowerCase();
+    setIsMobile(/android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(userAgent));
+  }, []);
+
+  const media = isMobile ? gif : clip;
 
   const handleHover = () => {
     if (videoRef.current) {
@@ -43,10 +50,14 @@ const IndexPage = () => {
           onMouseLeave={handleLeave}
         >
           <span className="image">
-            <video ref={videoRef} loop muted playsInline>
-              <source src={clip} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+            {isMobile ? (
+              <img src={media} alt="Motion" />
+            ) : (
+              <video ref={videoRef} loop muted playsInline>
+                <source src={media} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            )}
           </span>
           <Link to="/motion">
             <div className="content">
