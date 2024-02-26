@@ -25,7 +25,7 @@ const AboutPage = () => (
           <br/><br/>He is currently writing his senior thesis on the South African energy crisis and corruption of its major utility company, Eskom, under the supervision of South African author
           and Yale and Oxford Law Professor Jonny Steinberg.
 
-          <br /><br />Outside of being an adventurer, Jalen is an avid skateboarder, writer, and undercover pianist. Those closest to him would describe him as incredibly spontaneous and a modern jack-of-all-trades. As he believes his greatest skill is his ability to learn new skills.
+          <br /><br />Outside of being an adventurer, Jalen is an avid skateboarder, writer, undercover pianist, and part-time urban forester with plans to become a certified diver this year. Those closest to him would describe him as incredibly spontaneous and a modern jack-of-all-trades. As he believes his greatest skill is his ability to learn new skills.
           {/*<br /><br /><br/><br/>Photo by Cullen Welch*/}
         </p>
       </div>

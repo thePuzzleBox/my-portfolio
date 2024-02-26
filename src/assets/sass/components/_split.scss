@@ -158,4 +158,20 @@
       }
     }
   }
+
+  /* Media query for screens with a maximum width of 1400 pixels and mobile devices */
+  @media only screen and (max-width: 767px) {
+    article {
+      .image,
+      .video-article {
+        &:before {
+          opacity: 1; /* Set initial overlay opacity to 1 for mobile */
+        }
+
+        .content {
+          opacity: 1; /* Set initial content opacity to 1 for mobile */
+        }
+      }
+    }
+  }
 }

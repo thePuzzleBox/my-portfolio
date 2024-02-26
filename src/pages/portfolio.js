@@ -1,7 +1,9 @@
 import React, { useRef, useEffect, useState } from 'react';
 import Layout from '../components/Layout2';
+
 import '../assets/sass/_port.scss';
 import '../assets/sass/_mobile.scss';
+
 import pic1 from '../assets/images/shots/43.jpg';
 import clip from '../assets/images/fulls/vids/clip.mp4';
 import gif from '../assets/images/fulls/vids/clip.gif';
@@ -19,13 +21,19 @@ const IndexPage = () => {
   const media = isMobile ? gif : clip;
 
   const handleHover = () => {
-    if (videoRef.current) {
+    if (isMobile) {
+      // Add your logic for handling hover/click effects on mobile
+      // For example, you can update state variables to control the styles
+      // You can also play the gif here if needed
+    } else if (videoRef.current) {
       videoRef.current.play();
     }
   };
 
   const handleLeave = () => {
-    if (videoRef.current) {
+    if (isMobile) {
+      // Add your logic for leaving hover state on mobile
+    } else if (videoRef.current) {
       videoRef.current.pause();
     }
   };
