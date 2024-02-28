@@ -6,6 +6,7 @@ import Scroll from '../components/Scroll';
 import config from '../../config';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
+import Subscribe from '../components/Subscribe';
 
 import reel from '../assets/images/wn.mp4';
 
@@ -21,7 +22,7 @@ const IndexPage = () => (
             {config.subHeading}
           </h2>
 
-          <Scroll type="id" offset={200} element="video">
+          <Scroll type="id" element="video">
         <a href="#video" className="more">
         </a>
           </Scroll>
@@ -36,6 +37,7 @@ const IndexPage = () => (
   </div>
 </section>
 
+<Subscribe/>
     <Footer />
   </Layout>
 );

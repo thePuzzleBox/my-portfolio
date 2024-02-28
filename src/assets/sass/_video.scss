@@ -7,7 +7,7 @@ video {
 
 .video-section {
     padding-top: 5rem;
-    background: linear-gradient(to bottom, $black 40%,#{fade-out($black, .1)} 100%,#{fade-out(black, .2)} 100%);
+    background: linear-gradient(to bottom, $black 40%,#{fade-out(black, .08)} 100%,#{fade-out($black, .2)} 50%);
   }
 
   .video-container {

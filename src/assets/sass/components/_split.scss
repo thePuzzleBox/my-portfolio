@@ -18,24 +18,25 @@
       ('transform #{$duration} #{$ease}', 'opacity #{$duration} #{$ease}')
     );
     position: relative;
-    flex: 1; // Each article takes equal width
-    max-width: 50%; // Limit maximum width to 50%
+    flex: 1;
+    max-width: 50%;
     height: 100vh; // Fill the page vertically
-    margin: 0px; // Remove margin space between articles
+    margin: 0px;
 
     > .image {
       @include vendor('transition', 'transform #{$duration} #{$ease}');
       position: relative;
-      display: flex; // Updated to flex
-      justify-content: center; // Center the content horizontally
-      align-items: center; // Center the content vertically
-      height: 100%; // Fill the article vertically
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      z-index: 3;
 
       img,
       video {
         width: 100%;
         height: 100%;
-        object-fit: cover; // Crop the image or video to fit the container while maintaining aspect ratio
+        object-fit: cover;
       }
 
       &:before {
@@ -54,9 +55,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        opacity: 1;
         z-index: 1;
-        opacity: 0.8;
       }
 
       &:after {
@@ -69,7 +68,6 @@
         left: 0;
         width: 100%;
         height: 100%;
-        opacity: 0.55;
         z-index: 2;
       }
 
@@ -125,7 +123,7 @@
         max-height: 0;
         line-height: 1.5;
         margin-top: 0.35em;
-        opacity: 0;
+        opacity: 1;
 
         > :last-child {
           margin-bottom: 0;
@@ -133,17 +131,15 @@
       }
     }
 
-    body:not(.is-touch) &:hover {
+    body:not(.is-touch) &:not(:hover) {
       > .image {
-        @include vendor('transform', 'scale(1.1)');
-
         &:before {
           background-color: black;
-          opacity: 0.50;
+          opacity: 0.50; //change for initial
         }
 
         &:after {
-          opacity: 0;
+          background-color: transparent;
         }
 
         video {
@@ -157,6 +153,30 @@
         opacity: 1;
       }
     }
+
+    body:not(.is-touch) &:hover {
+      > .image {
+        @include vendor('transform', 'scale(1.1)');
+
+        &:before {
+          background-color: transparent;
+        }
+
+        &:after {
+          background-color: transparent;
+        }
+
+        video {
+          animation: none; // Stop any ongoing video animation
+          animation-play-state: running; // Allow the video to play on hover
+        }
+      }
+
+      .content {
+        max-height: 15em;
+        opacity: 0;
+      }
+    }
   }
 
   /* Media query for screens with a maximum width of 1400 pixels and mobile devices */
@@ -165,7 +185,7 @@
       .image,
       .video-article {
         &:before {
-          opacity: 1; /* Set initial overlay opacity to 1 for mobile */
+          opacity: 0.40;
         }
 
         .content {

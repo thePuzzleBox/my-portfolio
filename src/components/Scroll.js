@@ -15,13 +15,16 @@ class Scroll extends React.Component {
     children: PropTypes.node.isRequired,
     onClick: PropTypes.func,
   };
+
   constructor() {
     super();
     this.handleClick = this.handleClick.bind(this);
   }
+
   componentDidMount() {
     smoothscroll.polyfill();
   }
+
   handleClick(e) {
     e.preventDefault();
     const { onClick = () => {} } = this.props;
@@ -47,18 +50,23 @@ class Scroll extends React.Component {
 
     onClick(e);
   }
+
   scrollTo(element, offSet = 0, timeout = null) {
-    const elemPos = element
-      ? element.getBoundingClientRect().top + window.pageYOffset
-      : 0;
+    const windowHeight = window.innerHeight;
+    const elementHeight = element ? element.offsetHeight : 0;
+    const elementTop = element ? element.getBoundingClientRect().top + window.pageYOffset : 0;
+
+    let scrollToY = elementTop - (windowHeight - elementHeight) / 2;
+
     if (timeout) {
       setTimeout(() => {
-        window.scroll({ top: elemPos + offSet, left: 0, behavior: 'smooth' });
+        window.scroll({ top: scrollToY + offSet, left: 0, behavior: 'smooth' });
       }, timeout);
     } else {
-      window.scroll({ top: elemPos + offSet, left: 0, behavior: 'smooth' });
+      window.scroll({ top: scrollToY + offSet, left: 0, behavior: 'smooth' });
     }
   }
+
   render() {
     return (
       <Element>
