@@ -38,14 +38,14 @@ const VideoPage = () => {
 
           <div className="video-container" style={{ width: '50%', maxWidth: '1000px', paddingBottom: '50px', textAlign: 'center' }}>
             <video ref={videoRefs.skate} controls onPlay={() => handleVideoPlay('skate')}>
-              <source src={satellite} type="video/mp4" />
+              <source src={skate} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
 
           <div className="video-container" style={{ width: '50%', maxWidth: '1000px', paddingBottom: '50px', textAlign: 'center' }}>
             <video ref={videoRefs.satellite} controls onPlay={() => handleVideoPlay('satellite')}>
-              <source src={skate} type="video/mp4" />
+              <source src={satellite} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
         </div>
