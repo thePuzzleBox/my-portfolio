@@ -45,7 +45,7 @@ const IndexPage = () => {
           <span className="image">
             <img src={pic1} alt="Stills" />
           </span>
-          <Link to="/stills">
+          <Link to="/au">
             <div className="content">
               <h2>STILLS</h2>
             </div>
