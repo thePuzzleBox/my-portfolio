@@ -4,6 +4,16 @@ export default function Subscribe() {
   return (
     <section id="signup" className="signup-section">
       <div className="container">
+
+      <div className="row">
+          <div className="col-md-10 col-lg-8 mx-auto text-center">
+          <br/><br/><br/><br/>
+            <h2 className="text-white mb-5">"We don't travel simply to see the world.<br/>
+            We travel to understand what it means to be a part of it."<br/><br/></h2>
+          <h2 className="text-white mb-5 text-right">- Sam Newton</h2>
+          </div>
+  </div>
+
         {/*<div className="row">
           <div className="col-md-10 col-lg-8 mx-auto text-center">
             <i className="far fa-paper-plane fa-2x mb-2 text-white"></i>
