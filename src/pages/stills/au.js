@@ -21,7 +21,7 @@ import pic15 from '../../assets/images/shots/au/15.jpg';
 import pic16 from '../../assets/images/shots/au/16.jpg';
 import pic17 from '../../assets/images/shots/au/17.jpg';
 import pic18 from '../../assets/images/shots/au/18.jpg';
-import pic20 from '../../assets/images/shots/au/20.jpg';
+import pic20 from '../../assets/images/shots/au/19.jpg';
 import pic22 from '../../assets/images/shots/au/22.jpg';
 import pic23 from '../../assets/images/shots/au/23.jpg';
 import pic25 from '../../assets/images/shots/au/25.jpg';
@@ -83,7 +83,6 @@ import pic85 from '../../assets/images/shots/au/85.jpg';
 import pic86 from '../../assets/images/shots/au/86.jpg';
 import pic87 from '../../assets/images/shots/au/87.jpg';
 import pic88 from '../../assets/images/shots/au/88.jpg';
-import pic89 from '../../assets/images/shots/au/89.jpg';
 
 import pic91 from '../../assets/images/shots/au/91.jpg';
 import pic92 from '../../assets/images/shots/au/92.jpg';
@@ -556,12 +555,6 @@ const IndexPage = () => (
           <article>
             <span className="image">
               <img src={pic88} alt="" />
-            </span>
-            <Link to="/au"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic89} alt="" />
             </span>
             <Link to="/au"/>
           </article>
