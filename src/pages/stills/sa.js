@@ -71,7 +71,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic1} alt="" />
             </span>
-            <Link to="/stills">
+            <Link to="/stills/sa">
               {/*<div className="content">
               <h2>Magna</h2>
                 <p>
@@ -85,301 +85,301 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic2} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic3} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic4} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article className="style5">
             <span className="image">
               <img src={pic5} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic6} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic7} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic8} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic9} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic10} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic11} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic12} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic13} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic14} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic15} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic16} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic17} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic18} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic19} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic20} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic21} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic22} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic23} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic24} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic25} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic26} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic27} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic28} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic29} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic30} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic31} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic32} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic33} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic34} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic35} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic36} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic37} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic38} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic39} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic40} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic41} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic42} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic43} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic44} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic45} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic46} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic47} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic48} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic49} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic50} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
           <article>
             <span className="image">
               <img src={pic51} alt="" />
             </span>
-            <Link to="/stills"/>
+            <Link to="/stills/sa"/>
           </article>
         </section>
       </div>

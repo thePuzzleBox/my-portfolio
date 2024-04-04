@@ -24,13 +24,10 @@ import pic18 from '../../assets/images/shots/au/18.jpg';
 import pic20 from '../../assets/images/shots/au/19.jpg';
 import pic22 from '../../assets/images/shots/au/22.jpg';
 import pic23 from '../../assets/images/shots/au/23.jpg';
-import pic25 from '../../assets/images/shots/au/25.jpg';
 import pic27 from '../../assets/images/shots/au/27.jpg';
 import pic28 from '../../assets/images/shots/au/28.jpg';
-import pic29 from '../../assets/images/shots/au/29.jpg';
-import pic30 from '../../assets/images/shots/au/30.jpg';
-import pic31 from '../../assets/images/shots/au/31.jpg';
-import pic32 from '../../assets/images/shots/au/32.jpg';
+import pic30 from '../../assets/images/shots/au/32.jpg';
+import pic32 from '../../assets/images/shots/au/46.jpg';
 import pic33 from '../../assets/images/shots/au/33.jpg';
 import pic34 from '../../assets/images/shots/au/52.jpg';
 
@@ -40,7 +37,7 @@ import pic42 from '../../assets/images/shots/au/42.jpg';
 import pic43 from '../../assets/images/shots/au/43.jpg';
 import pic44 from '../../assets/images/shots/au/44.jpg';
 import pic45 from '../../assets/images/shots/au/45.jpg';
-import pic46 from '../../assets/images/shots/au/46.jpg';
+import pic46 from '../../assets/images/shots/au/92.jpg';
 import pic47 from '../../assets/images/shots/au/47.jpg';
 import pic48 from '../../assets/images/shots/au/48.jpg';
 
@@ -84,10 +81,7 @@ import pic86 from '../../assets/images/shots/au/86.jpg';
 import pic87 from '../../assets/images/shots/au/87.jpg';
 import pic88 from '../../assets/images/shots/au/88.jpg';
 
-import pic91 from '../../assets/images/shots/au/91.jpg';
-import pic92 from '../../assets/images/shots/au/92.jpg';
-import pic93 from '../../assets/images/shots/au/93.jpg';
-import pic94 from '../../assets/images/shots/au/94.jpg';
+import pic92 from '../../assets/images/shots/au/93.jpg';
 
 
 
@@ -103,7 +97,7 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic1} alt="" />
             </span>
-            <Link to="/au">
+            <Link to="/stills/au">
               {/*<div className="content">
               <h2>Magna</h2>
                 <p>
@@ -117,470 +111,434 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic2} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic3} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic4} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article className="style5">
             <span className="image">
               <img src={pic5} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic6} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic7} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic8} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic9} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic10} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic11} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic12} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic13} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic14} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic15} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic16} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic17} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic18} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic20} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic22} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic23} alt="" />
             </span>
-            <Link to="/au"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic25} alt="" />
-            </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic27} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic28} alt="" />
             </span>
-            <Link to="/au"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic29} alt="" />
-            </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic30} alt="" />
             </span>
-            <Link to="/au"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic31} alt="" />
-            </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic32} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic33} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic34} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic40} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic41} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic42} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic43} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic44} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic45} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic46} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic47} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic48} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic49} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic50} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic51} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
 
           <article>
             <span className="image">
               <img src={pic52} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic54} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article className="style5">
             <span className="image">
               <img src={pic55} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic56} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic57} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic58} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic59} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic60} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic61} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic62} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic63} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic64} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic65} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic66} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic67} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic69} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic70} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic71} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic72} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic74} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic76} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic77} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic78} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic79} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic80} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic81} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic82} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic83} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic84} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic85} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic86} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic87} alt="" />
             </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic88} alt="" />
             </span>
-            <Link to="/au"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic91} alt="" />
-            </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic92} alt="" />
             </span>
-            <Link to="/au"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic93} alt="" />
-            </span>
-            <Link to="/au"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic94} alt="" />
-            </span>
-            <Link to="/au"/>
+            <Link to="/stills/au"/>
           </article>
         </section>
       </div>

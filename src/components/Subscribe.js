@@ -7,10 +7,10 @@ export default function Subscribe() {
 
       <div className="row">
           <div className="col-md-10 col-lg-8 mx-auto text-center">
-          <br/><br/><br/><br/>
-            <h2 className="text-white mb-5">"We don't travel simply to see the world.<br/>
-            We travel to understand what it means to be a part of it."<br/><br/></h2>
-          <h2 className="text-white mb-5 text-right">- Sam Newton</h2>
+          <br/><br/><br/>
+            <h3 className="text-white mb-5">"We don't travel simply to see the world.<br/>
+            We travel to understand what it means to be a part of it."<br/><br/><br/></h3>
+          <h3 className="text-white mb-5 text-right">- Sam Newton</h3>
           </div>
   </div>
 
