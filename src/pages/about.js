@@ -22,10 +22,9 @@ const AboutPage = () => (
           an extensive background in advocacy, Jalen sought to do meaningful work in visual storytelling and ecotourism. Through documentary and adventure filmmaking, he hopes to travel, capture the natural world, and inspire others to not just see it,
            but to feel and live through all of the unforgettable experiences it has to offer. His one piece of advice? "Go."
           
-          <br/><br/>He is currently writing his senior thesis on the South African energy crisis and corruption of its major utility company, Eskom, under the supervision of South African author
-          and Yale and Oxford Law Professor Jonny Steinberg.
+          <br/><br/>He dedicated his senior thesis to the ongoing energy crisis in South Africa and corruption of its major utility company, Eskom, under the supervision of South African author and Yale and Oxford Law Professor Jonny Steinberg.
 
-          <br /><br />Outside of being an adventurer, Jalen is an avid skateboarder, writer, undercover pianist, and part-time urban forester with hopes of becoming a recreational freediver. Those closest to him would describe him as incredibly spontaneous and a modern jack-of-all-trades. As he believes his greatest skill is his ability to learn new skills.
+          <br /><br />Outside of being an adventurer, Jalen is an avid skateboarder, writer, undercover pianist, and part-time urban forester on his way to becoming a recreational freediver. Those closest to him would describe him as incredibly spontaneous and a modern jack-of-all-trades. As he believes his greatest skill is his ability to learn new skills.
           {/*<br /><br /><br/><br/>Photo by Cullen Welch*/}
         </p>
       </div>
