@@ -11,7 +11,6 @@ import pic6 from '../../assets/images/shots/au/06.jpg';
 import pic7 from '../../assets/images/shots/au/07.jpg';
 import pic8 from '../../assets/images/shots/au/08.jpg';
 import pic9 from '../../assets/images/shots/au/09.jpg';
-import pic10 from '../../assets/images/shots/au/10.jpg';
 import pic11 from '../../assets/images/shots/au/11.jpg';
 import pic12 from '../../assets/images/shots/au/12.jpg';
 
@@ -20,16 +19,13 @@ import pic14 from '../../assets/images/shots/au/14.jpg';
 import pic15 from '../../assets/images/shots/au/15.jpg';
 import pic16 from '../../assets/images/shots/au/16.jpg';
 import pic17 from '../../assets/images/shots/au/17.jpg';
-import pic18 from '../../assets/images/shots/au/18.jpg';
-import pic20 from '../../assets/images/shots/au/19.jpg';
 import pic22 from '../../assets/images/shots/au/22.jpg';
 import pic23 from '../../assets/images/shots/au/23.jpg';
 import pic27 from '../../assets/images/shots/au/27.jpg';
 import pic28 from '../../assets/images/shots/au/28.jpg';
 import pic30 from '../../assets/images/shots/au/32.jpg';
 import pic32 from '../../assets/images/shots/au/46.jpg';
-import pic33 from '../../assets/images/shots/au/33.jpg';
-import pic34 from '../../assets/images/shots/au/52.jpg';
+import pic33 from '../../assets/images/shots/au/33.jpg'
 
 import pic40 from '../../assets/images/shots/au/40.jpg';
 import pic41 from '../../assets/images/shots/au/41.jpg';
@@ -39,13 +35,10 @@ import pic44 from '../../assets/images/shots/au/44.jpg';
 import pic45 from '../../assets/images/shots/au/45.jpg';
 import pic46 from '../../assets/images/shots/au/92.jpg';
 import pic47 from '../../assets/images/shots/au/47.jpg';
-import pic48 from '../../assets/images/shots/au/48.jpg';
 
 import pic49 from '../../assets/images/shots/au/49.jpg';
-import pic50 from '../../assets/images/shots/au/50.jpg';
 import pic51 from '../../assets/images/shots/au/51.jpg';
 
-import pic52 from '../../assets/images/shots/au/52.jpg';
 import pic54 from '../../assets/images/shots/au/54.jpg';
 import pic55 from '../../assets/images/shots/au/55.jpg';
 import pic56 from '../../assets/images/shots/au/56.jpg';
@@ -74,11 +67,6 @@ import pic80 from '../../assets/images/shots/au/80.jpg';
 
 import pic81 from '../../assets/images/shots/au/81.jpg';
 import pic82 from '../../assets/images/shots/au/82.jpg';
-import pic83 from '../../assets/images/shots/au/83.jpg';
-import pic84 from '../../assets/images/shots/au/84.jpg';
-import pic85 from '../../assets/images/shots/au/85.jpg';
-import pic86 from '../../assets/images/shots/au/86.jpg';
-import pic87 from '../../assets/images/shots/au/87.jpg';
 import pic88 from '../../assets/images/shots/au/88.jpg';
 
 import pic92 from '../../assets/images/shots/au/93.jpg';
@@ -157,19 +145,7 @@ const IndexPage = () => (
           </article>
           <article>
             <span className="image">
-              <img src={pic10} alt="" />
-            </span>
-            <Link to="/stills/au"/>
-          </article>
-          <article>
-            <span className="image">
               <img src={pic11} alt="" />
-            </span>
-            <Link to="/stills/au"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic12} alt="" />
             </span>
             <Link to="/stills/au"/>
           </article>
@@ -181,13 +157,7 @@ const IndexPage = () => (
           </article>
           <article>
             <span className="image">
-              <img src={pic14} alt="" />
-            </span>
-            <Link to="/stills/au"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic15} alt="" />
+              <img src={pic12} alt="" />
             </span>
             <Link to="/stills/au"/>
           </article>
@@ -199,19 +169,13 @@ const IndexPage = () => (
           </article>
           <article>
             <span className="image">
-              <img src={pic17} alt="" />
+              <img src={pic15} alt="" />
             </span>
             <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
-              <img src={pic18} alt="" />
-            </span>
-            <Link to="/stills/au"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic20} alt="" />
+              <img src={pic14} alt="" />
             </span>
             <Link to="/stills/au"/>
           </article>
@@ -229,19 +193,25 @@ const IndexPage = () => (
           </article>
           <article>
             <span className="image">
+              <img src={pic17} alt="" />
+            </span>
+            <Link to="/stills/au"/>
+          </article>
+          <article>
+            <span className="image">
               <img src={pic27} alt="" />
             </span>
             <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
-              <img src={pic28} alt="" />
+              <img src={pic30} alt="" />
             </span>
             <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
-              <img src={pic30} alt="" />
+              <img src={pic28} alt="" />
             </span>
             <Link to="/stills/au"/>
           </article>
@@ -254,12 +224,6 @@ const IndexPage = () => (
           <article>
             <span className="image">
               <img src={pic33} alt="" />
-            </span>
-            <Link to="/stills/au"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic34} alt="" />
             </span>
             <Link to="/stills/au"/>
           </article>
@@ -289,19 +253,13 @@ const IndexPage = () => (
           </article>
           <article>
             <span className="image">
-              <img src={pic44} alt="" />
-            </span>
-            <Link to="/stills/au"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic45} alt="" />
-            </span>
-            <Link to="/stills/au"/>
-          </article>
-          <article>
-            <span className="image">
               <img src={pic46} alt="" />
+            </span>
+            <Link to="/stills/au"/>
+          </article>
+          <article>
+            <span className="image">
+              <img src={pic44} alt="" />
             </span>
             <Link to="/stills/au"/>
           </article>
@@ -313,7 +271,7 @@ const IndexPage = () => (
           </article>
           <article>
             <span className="image">
-              <img src={pic48} alt="" />
+              <img src={pic45} alt="" />
             </span>
             <Link to="/stills/au"/>
           </article>
@@ -325,38 +283,25 @@ const IndexPage = () => (
           </article>
           <article>
             <span className="image">
-              <img src={pic50} alt="" />
-            </span>
-            <Link to="/stills/au"/>
-          </article>
-          <article>
-            <span className="image">
               <img src={pic51} alt="" />
-            </span>
-            <Link to="/stills/au"/>
-          </article>
-
-          <article>
-            <span className="image">
-              <img src={pic52} alt="" />
-            </span>
-            <Link to="/stills/au"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic54} alt="" />
-            </span>
-            <Link to="/stills/au"/>
-          </article>
-          <article className="style5">
-            <span className="image">
-              <img src={pic55} alt="" />
             </span>
             <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
               <img src={pic56} alt="" />
+            </span>
+            <Link to="/stills/au"/>
+          </article>
+          <article className="style5">
+            <span className="image">
+              <img src={pic54} alt="" />
+            </span>
+            <Link to="/stills/au"/>
+          </article>
+          <article>
+            <span className="image">
+              <img src={pic55} alt="" />
             </span>
             <Link to="/stills/au"/>
           </article>
@@ -404,13 +349,19 @@ const IndexPage = () => (
           </article>
           <article>
             <span className="image">
+              <img src={pic65} alt="" />
+            </span>
+            <Link to="/stills/au"/>
+          </article>
+          <article>
+            <span className="image">
               <img src={pic64} alt="" />
             </span>
             <Link to="/stills/au"/>
           </article>
           <article>
             <span className="image">
-              <img src={pic65} alt="" />
+              <img src={pic72} alt="" />
             </span>
             <Link to="/stills/au"/>
           </article>
@@ -441,12 +392,6 @@ const IndexPage = () => (
           <article>
             <span className="image">
               <img src={pic71} alt="" />
-            </span>
-            <Link to="/stills/au"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic72} alt="" />
             </span>
             <Link to="/stills/au"/>
           </article>
@@ -495,36 +440,6 @@ const IndexPage = () => (
           <article>
             <span className="image">
               <img src={pic82} alt="" />
-            </span>
-            <Link to="/stills/au"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic83} alt="" />
-            </span>
-            <Link to="/stills/au"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic84} alt="" />
-            </span>
-            <Link to="/stills/au"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic85} alt="" />
-            </span>
-            <Link to="/stills/au"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic86} alt="" />
-            </span>
-            <Link to="/stills/au"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic87} alt="" />
             </span>
             <Link to="/stills/au"/>
           </article>
