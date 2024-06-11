@@ -69,8 +69,6 @@ import pic81 from '../../assets/images/shots/au/81.jpg';
 import pic82 from '../../assets/images/shots/au/82.jpg';
 import pic88 from '../../assets/images/shots/au/88.jpg';
 
-import pic92 from '../../assets/images/shots/au/93.jpg';
-
 
 
 import { Link } from 'gatsby';
@@ -446,12 +444,6 @@ const IndexPage = () => (
           <article>
             <span className="image">
               <img src={pic88} alt="" />
-            </span>
-            <Link to="/stills/au"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic92} alt="" />
             </span>
             <Link to="/stills/au"/>
           </article>
