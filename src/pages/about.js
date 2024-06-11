@@ -20,7 +20,7 @@ const AboutPage = () => (
         <p className="fg text-black">
           Jalen Smith is a travel film creative and nomadic storyteller. A southern California native, he is currently completing an interdisciplinary major of political science and film at Yale. Upon transferring from community college with 
           an extensive background in advocacy, Jalen sought to do meaningful work in visual storytelling and ecotourism. Through documentary and adventure filmmaking, he hopes to travel, capture the natural world, and inspire others to not just see it,
-          but to discover for themselves what it means to be a part of it. His one piece of advice? "Go."
+          but to discover for themselves what it means to be a part of it. His one word of advice? "Go."
           
           <br/><br/>He dedicated his senior thesis to the ongoing energy crisis in South Africa, detailing the corruption and downfall of its major utility company, Eskom, under the supervision of South African author and Yale and Oxford Law Professor Jonny Steinberg.
 
