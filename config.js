@@ -13,11 +13,11 @@ module.exports = {
 
   // social
   socialLinks: [
-    {
-      icon: 'fa-github',
+   /*{
+     icon: 'fa-github',
       name: 'Github',
       url: 'https://github.com/thepuzzlebox',
-    },
+    },*/
     {
       icon: 'fa-linkedin-in',
       name: 'Linkedin',
@@ -29,7 +29,7 @@ module.exports = {
       url: 'https://youtube.com/@jalen_smith',
     },
   ],
-  email: 'jalen.smith@yale.edu',
+  email: '',
   phone: '000-00000',
-  address: 'New Haven, CT',
+  address: '',
 };
