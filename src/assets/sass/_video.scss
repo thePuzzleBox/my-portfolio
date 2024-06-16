@@ -10,6 +10,38 @@ video {
     background: linear-gradient(to bottom, $black 40%,#{fade-out(black, .08)} 100%,#{fade-out($black, .2)} 50%);
   }
 
-  .video-container {
+  .vid-container {
   }
+
+  .video-container {
+    width: 100%;
+    max-width: 1000px;
+    padding-bottom: 57px;
+    text-align: center;
+  }
+  
+  .video-wrapper {
+    position: relative;
+    padding-bottom: 57%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    background: #000;
+  }
+  
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .video-container {
+      padding-left: 25px;
+      padding-right: 25px;
+      padding-bottom: 30px;
+    }
+  }
+  
+  
   

@@ -32,7 +32,7 @@ const IndexPage = () => (
     </header>
 
     <section id="video" className="video-section align-center">
-  <div className="video-container">
+  <div className="vid-container">
    <video src={reel} autoPlay={true} playsInline={true} loop muted/>
   </div>
 </section>

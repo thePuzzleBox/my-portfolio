@@ -25,40 +25,49 @@ const VideoPage = () => {
       <Header />
       <section style={{ minHeight: '100vh' }}>
         <div className="app" style={{ alignItems: 'center', display: 'flex', flexDirection: 'column' }}>
-          <div className="video-container" style={{ width: '50%', maxWidth: '1000px', paddingBottom: '50px', paddingTop: '150px', textAlign: 'center' }}>
-            <iframe
-              width="100%"
-              height="500"
-              src="https://www.youtube.com/embed/bH25f59aO4I?enablejsapi=1&modestbranding=1&rel=0&showinfo=0"
-              frameBorder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              title="WN Video"
-            ></iframe>
+          <div className="video-container" style={{ paddingTop: '150px'}}>
+            <div className="video-wrapper">
+              <iframe
+                ref={videoRefs.wn}
+                width="100%"
+                height="500"
+                src="https://www.youtube.com/embed/bH25f59aO4I?controls=1&rel=0&modestbranding=1"
+                frameBorder="0"
+                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                title="WN"
+              ></iframe>
+            </div>
           </div>
 
-          <div className="video-container" style={{ width: '50%', maxWidth: '1000px', paddingBottom: '50px', textAlign: 'center' }}>
-            <iframe
-              width="100%"
-              height="500"
-              src="https://www.youtube.com/embed/t6AaEDmw9ak?enablejsapi=1&modestbranding=1&rel=0&showinfo=0"
-              frameBorder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              title="Skate Video"
-            ></iframe>
+          <div className="video-container">
+            <div className="video-wrapper">
+              <iframe
+                ref={videoRefs.skate}
+                width="100%"
+                height="500"
+                src="https://www.youtube.com/embed/t6AaEDmw9ak?controls=1&rel=0&modestbranding=1"
+                frameBorder="0"
+                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                title="skate"
+              ></iframe>
+            </div>
           </div>
 
-          <div className="video-container" style={{ width: '50%', maxWidth: '1000px', paddingBottom: '50px', textAlign: 'center' }}>
-            <iframe
-              width="100%"
-              height="500"
-              src="https://www.youtube.com/embed/7Lo8HUedzUs?enablejsapi=1&modestbranding=1&rel=0&showinfo=0"
-              frameBorder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              title="Satellite Video"
-            ></iframe>
+          <div className="video-container">
+            <div className="video-wrapper">
+              <iframe
+                ref={videoRefs.satellite}
+                width="100%"
+                height="500"
+                src="https://www.youtube.com/embed/7Lo8HUedzUs?controls=1&rel=0&modestbranding=1"
+                frameBorder="0"
+                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                title="satellite"
+              ></iframe>
+            </div>
           </div>
         </div>
       </section>
