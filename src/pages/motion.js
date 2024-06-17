@@ -25,7 +25,7 @@ const VideoPage = () => {
       <Header />
       <section style={{ minHeight: '100vh' }}>
         <div className="app" style={{ alignItems: 'center', display: 'flex', flexDirection: 'column' }}>
-          <div className="video-container" style={{ paddingTop: '150px'}}>
+          <div className="video-container" style={{ paddingTop: '160px'}}>
             <div className="video-wrapper">
               <iframe
                 ref={videoRefs.wn}
