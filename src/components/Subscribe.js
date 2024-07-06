@@ -8,9 +8,9 @@ export default function Subscribe() {
       <div className="row">
           <div className="col-md-10 col-lg-8 mx-auto text-center">
           <br/><br/><br/>
-            <h3 className="text-white mb-5 text-left">I promise you.</h3>
-            <h3 className="text-white mb-5 text-left"> You'll want so much more than to see the world...<br/><br/><br/></h3>
-          <h3 className="text-white mb-5 text-right">- Sam Newton</h3>
+          <i><h4 className="text-white mb-5 text-center">I promise you.</h4>
+            <h4 className="text-white mb-5 text-center"> You'll want so much more than to see the world.<br/><br/></h4>
+          </i><h5 className="text-white mb-5 text-right">- S. Newton</h5>
           </div>
   </div>
 

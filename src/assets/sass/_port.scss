@@ -1,4 +1,6 @@
+/* _port.scss */
 
+/* General styles */
 .header {
   background-color: white;
 }
@@ -7,7 +9,7 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  overflow: hidden;  // Hide vertical scrollbar
+  overflow: hidden; /* Hide vertical scrollbar */
 }
 
 .main-body {
@@ -21,6 +23,106 @@
     }
     100% {
       opacity: 1;
+    }
+  }
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 1400px) {
+  .side {
+    width: 100% !important;
+    flex-direction: column !important;
+    margin-top: 80px !important; /* Adjusted to the navbar height */
+    gap: 2px;
+    height: calc(100vh - 80px); /* Set height to fill remaining viewport height after accounting for navbar */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds container height */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+
+  article {
+    max-width: 100% !important;
+    height: 100% !important;
+    box-sizing: border-box !important;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+
+    .image,
+    .video-article {
+      position: relative;
+      overflow: hidden;
+
+      img,
+      video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+      }
+
+      &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 2;
+        opacity: 1;
+        transition: opacity 0.3s ease;
+      }
+
+      .content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 3;
+        opacity: 1;
+        transition: opacity 0.3s ease;
+        text-align: center;
+        color: white;
+        font-size: clamp(12px, 3vw, 24px); /* Responsive font size */
+        max-width: 90%; /* Limit text width to 90% of parent container */
+        white-space: nowrap; /* Prevent text wrapping */
+
+        &.active {
+          opacity: 0;
+        }
+      }
+
+      &:hover, &.active {
+        &:before {
+          opacity: 0;
+        }
+
+        img,
+        video {
+          transform: scale(1); /* Zoom out effect on hover or click */
+        }
+      }
+    }
+  }
+}
+
+/* Landscape orientation */
+@media only screen and (max-width: 1400px) and (orientation: landscape) {
+  .side {
+    flex-direction: row !important;
+  }
+
+  article {
+    max-width: 50% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+
+    .content {
+      font-size: 15px; /* Font size for landscape orientation */
+    }
+
+    &:first-child {
+      margin-top: 0 !important;
     }
   }
 }

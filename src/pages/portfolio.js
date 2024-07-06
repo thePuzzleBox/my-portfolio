@@ -47,7 +47,7 @@ const IndexPage = () => {
           </span>
           <Link to="/stills">
             <div className="content">
-              <h2>STILLS</h2>
+            <h2>STILLS</h2>
             </div>
           </Link>
         </article>

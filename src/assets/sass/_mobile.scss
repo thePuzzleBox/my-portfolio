@@ -1,44 +1,75 @@
-/* Media query for screens with a maximum width of 1400 pixels (adjust as needed) */
+/* _port.scss */
+
+/* General styles */
+.header {
+  background-color: white;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: hidden; /* Hide vertical scrollbar */
+}
+
+.main-body {
+  &.is-preload {
+    animation: fadeIn 4s ease-out;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}
+
+/* Mobile styles */
 @media only screen and (max-width: 1400px) {
-  /* Override default styles and apply new styles for mobile */
-  
   .side {
     width: 100% !important;
     flex-direction: column !important;
     margin-top: 80px !important; /* Adjusted to the navbar height */
-    gap: 5px; /* Adjusted space between child elements to 5px */
-    height: calc(100vh - 80px); /* Set height to 100% of the viewport height minus navbar height */
+    gap: 2px;
+    height: calc(100vh - 80px); /* Set height to fill remaining viewport height after accounting for navbar */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds container height */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
   }
 
   article {
     max-width: 100% !important;
-    height: 100% !important; /* Set height to 100% of the container height */
+    height: 100% !important;
     box-sizing: border-box !important;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
 
     .image,
     .video-article {
       position: relative;
       overflow: hidden;
-      cursor: pointer; /* Add cursor pointer to indicate clickable elements */
 
       img,
       video {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        transition: transform 0.3s ease; /* Add transition for a smooth effect */
+        transition: transform 0.3s ease;
       }
 
       &:before {
-        content: ''; /* Add a pseudo-element for the overlay */
+        content: '';
         position: absolute;
         top: 0;
         left: 0;
         right: 0;
         bottom: 0;
-        z-index: 2; /* Ensure this overlay is above other content */
-        opacity: 1; /* Initial opacity set to 1 */
-        transition: opacity 0.3s ease; /* Add transition for a smooth effect */
+        z-index: 2;
+        opacity: 1;
+        transition: opacity 0.3s ease;
       }
 
       .content {
@@ -46,21 +77,21 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        z-index: 3; /* Ensure content is above overlay */
-        opacity: 1; /* Initial opacity set to 1 */
-        transition: opacity 0.3s ease; /* Add transition for a smooth effect */
+        z-index: 3;
+        opacity: 1;
+        transition: opacity 0.3s ease;
         text-align: center;
-        color: white; /* Text color */
-        font-size: 24px; /* Adjust font size */
+        color: white;
+        font-size: 24px;
 
         &.active {
-          opacity: 0; /* Hide content when active */
+          opacity: 0;
         }
       }
 
       &:hover, &.active {
         &:before {
-          opacity: 0; /* Update the overlay opacity on hover or click */
+          opacity: 0;
         }
 
         img,
@@ -72,7 +103,7 @@
   }
 }
 
-/* Media query for landscape orientation */
+/* Landscape orientation */
 @media only screen and (max-width: 1400px) and (orientation: landscape) {
   .side {
     flex-direction: row !important;
@@ -80,9 +111,13 @@
 
   article {
     max-width: 50% !important;
-    height: 100% !important; /* Set height to 100% of the container height */
-    margin: 0 !important; /* Remove any margin or padding */
+    height: 100% !important;
+    margin: 0 !important;
     padding: 0 !important;
+
+    .content {
+      font-size: 15px;
+    }
 
     &:first-child {
       margin-top: 0 !important;
