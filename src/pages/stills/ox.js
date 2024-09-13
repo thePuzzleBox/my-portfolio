@@ -25,7 +25,7 @@ import pic19 from '../../assets/images/fulls/fullscreen/ox/19.JPG';
 import pic20 from '../../assets/images/fulls/fullscreen/ox/20.JPG';
 import pic21 from '../../assets/images/fulls/fullscreen/ox/21.JPG';
 import pic22 from '../../assets/images/fulls/fullscreen/ox/22.JPG';
-import pic23 from '../../assets/images/fulls/fullscreen/ox/23.JPG'
+import pic23 from '../../assets/images/fulls/fullscreen/ox/23.JPG';
 
 import pic24 from '../../assets/images/fulls/fullscreen/ox/24.JPG';
 import pic25 from '../../assets/images/fulls/fullscreen/ox/25.JPG';
