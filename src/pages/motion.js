@@ -43,14 +43,29 @@ const VideoPage = () => {
           <div className="video-container">
             <div className="video-wrapper">
               <iframe
-                ref={videoRefs.skate}
+                ref={videoRefs.photo}
                 width="100%"
                 height="500"
-                src="https://www.youtube.com/embed/t6AaEDmw9ak?controls=1&rel=0&modestbranding=1"
+                src="https://youtube.com/embed/RsK_VVAskJE?controls=1&rel=0&modestbranding=1"
                 frameBorder="0"
                 allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
-                title="skate"
+                title="photo"
+              ></iframe>
+            </div>
+          </div>
+
+          <div className="video-container">
+            <div className="video-wrapper">
+              <iframe
+                ref={videoRefs.ox}
+                width="100%"
+                height="500"
+                src="https://youtube.com/embed/cxsvWjbjeWQ?controls=1&rel=0&modestbranding=1"
+                frameBorder="0"
+                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                title="oceanxplorers"
               ></iframe>
             </div>
           </div>
@@ -69,6 +84,22 @@ const VideoPage = () => {
               ></iframe>
             </div>
           </div>
+
+          <div className="video-container">
+            <div className="video-wrapper">
+              <iframe
+                ref={videoRefs.skate}
+                width="100%"
+                height="500"
+                src="https://www.youtube.com/embed/t6AaEDmw9ak?controls=1&rel=0&modestbranding=1"
+                frameBorder="0"
+                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                title="skate"
+              ></iframe>
+            </div>
+          </div>
+
         </div>
       </section>
       <Footer />
