@@ -27,23 +27,7 @@ const VideoPage = () => {
         <div className="app" style={{ alignItems: 'center', display: 'flex', flexDirection: 'column' }}>
           <div className="video-container" style={{ paddingTop: '160px'}}>
             <div className="video-wrapper">
-              <iframe
-                ref={videoRefs.tnc}
-                width="100%"
-                height="500"
-                src="https://youtube.com/embed/A1xf2RrvUOk?controls=1&rel=0&modestbranding=1"
-                frameBorder="0"
-                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                title="TNC"
-              ></iframe>
-            </div>
-          </div>
-
-
-          <div className="video-container">
-            <div className="video-wrapper">
-              <iframe
+            <iframe
                 ref={videoRefs.au}
                 width="100%"
                 height="500"
@@ -52,6 +36,22 @@ const VideoPage = () => {
                 allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
                 title="WNT"
+              ></iframe>
+            </div>
+          </div>
+
+
+          <div className="video-container">
+            <div className="video-wrapper">
+            <iframe
+                ref={videoRefs.tnc}
+                width="100%"
+                height="500"
+                src="https://youtube.com/embed/A1xf2RrvUOk?controls=1&rel=0&modestbranding=1"
+                frameBorder="0"
+                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                title="TNC"
               ></iframe>
             </div>
           </div>
