@@ -41,7 +41,7 @@ const VideoPage = () => {
           </div>
 
 
-          <div className="video-container">
+          {/*<div className="video-container">
             <div className="video-wrapper">
             <iframe
                 ref={videoRefs.tnc}
@@ -54,7 +54,7 @@ const VideoPage = () => {
                 title="TNC"
               ></iframe>
             </div>
-          </div>
+          </div> */}
             
             
           <div className="video-container">
