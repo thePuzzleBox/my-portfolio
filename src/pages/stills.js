@@ -5,7 +5,7 @@ import '../assets/sass/_mobile.scss';
 
 import pic1 from '../assets/images/shots/sa/001.jpg';
 import pic2 from '../assets/images/shots/au/26.jpg';
-import pic3 from '../assets/images/shots/pl/02.jpg';
+import pic3 from '../assets/images/shots/plant/02.jpg';
 import pic4 from '../assets/images/shots/ox/lucia.jpg';
 import { Link } from 'gatsby';
 
@@ -39,7 +39,7 @@ const IndexPage = () => {
           <span className="image">
             <img src={pic3} alt="Stills" />
           </span>
-          <Link to="/stills/pl">
+          <Link to="/stills/planting">
             <div className="content">
               <h2>planting</h2>
             </div>
