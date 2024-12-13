@@ -40,6 +40,20 @@ const VideoPage = () => {
             </div>
           </div>
 
+          <div className="video-container">
+            <div className="video-wrapper">
+              <iframe
+                ref={videoRefs.wn}
+                width="100%"
+                height="500"
+                src="https://www.youtube.com/embed/bH25f59aO4I?controls=1&rel=0&modestbranding=1"
+                frameBorder="0"
+                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                title="WN"
+              ></iframe>
+            </div>
+          </div>
 
           <div className="video-container">
             <div className="video-wrapper">
@@ -57,20 +71,6 @@ const VideoPage = () => {
           </div>
             
             
-          <div className="video-container">
-            <div className="video-wrapper">
-              <iframe
-                ref={videoRefs.wn}
-                width="100%"
-                height="500"
-                src="https://www.youtube.com/embed/bH25f59aO4I?controls=1&rel=0&modestbranding=1"
-                frameBorder="0"
-                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                title="WN"
-              ></iframe>
-            </div>
-          </div>
 
 
           {/*<div className="video-container">
@@ -94,7 +94,8 @@ const VideoPage = () => {
                 ref={videoRefs.photo}
                 width="100%"
                 height="500"
-                src="https://youtube.com/embed/RsK_VVAskJE?controls=1&rel=0&modestbranding=1"
+                src="https://youtube.com/embed/1UZ2VDcOa9I?controls=1&rel=0&modestbranding=1"
+                //src="https://youtube.com/embed/RsK_VVAskJE?controls=1&rel=0&modestbranding=1"
                 frameBorder="0"
                 allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
@@ -118,7 +119,7 @@ const VideoPage = () => {
             </div>
           </div>
           
-          <div className="video-container">
+         {/* <div className="video-container">
             <div className="video-wrapper">
               <iframe
                 ref={videoRefs.skate}
@@ -131,7 +132,7 @@ const VideoPage = () => {
                 title="skate"
               ></iframe>
             </div>
-          </div>
+          </div>*/}
 
           
         </div>
