@@ -34,9 +34,6 @@ import pic27 from '../../assets/images/shots/plant/27.jpg';
 import pic28 from '../../assets/images/shots/plant/28.jpg';
 import pic29 from '../../assets/images/shots/plant/29.jpg';
 import pic30 from '../../assets/images/shots/plant/30.jpg';
-import pic31 from '../../assets/images/shots/plant/31.jpg';
-import pic32 from '../../assets/images/shots/plant/32.jpg';
-import pic33 from '../../assets/images/shots/plant/33.jpg';
 
 import { Link } from 'gatsby';
 
@@ -234,24 +231,7 @@ const IndexPage = () => (
             </span>
             <Link to="/stills/planting"/>
           </article>
-          <article>
-            <span className="image">
-              <img src={pic31} alt="" />
-            </span>
-            <Link to="/stills/plantinganting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic32} alt="" />
-            </span>
-            <Link to="/stills/plantinganting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic33} alt="" />
-            </span>
-            <Link to="/stills/plantinganting"/>
-          </article>
+
 
 
         </section>
