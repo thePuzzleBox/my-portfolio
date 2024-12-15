@@ -50,10 +50,10 @@ const IndexPage = () => {
           <span className="image">
             <img src={pic4} alt="Stills" />
           </span>
-          <Link to="/stills/ox">
+          <Link to="/stills/">
             <div className="content">
-            <h2>oceanx</h2>
-              {/*<i><h2>&#40;coming soon&#41;</h2></i>*/}
+            {/*<h2>oceanx</h2>*/}
+              <i><h2>&#40;coming soon&#41;</h2></i>
             </div>
           </Link>
         </article>
