@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="bg-black small text-center text-white-50">
       <div className="container">
-        &copy; 2024
+        &copy; 2025
       </div>
     </footer>
   );
