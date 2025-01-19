@@ -109,7 +109,7 @@ const VideoPage = () => {
                 ref={videoRefs.lifelines}
                 width="100%"
                 height="500"
-                src="https://www.youtube.com/embed/ZGWD_mbJKOo?controls=1&rel=0&modestbranding=1"
+                src="https://www.youtube.com/embed/AViQThEzhvc?controls=1&rel=0&modestbranding=1"
                 frameBorder="0"
                 allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
