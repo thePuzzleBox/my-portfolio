@@ -34,6 +34,23 @@ import pic27 from '../../assets/images/shots/plant/27.jpg';
 import pic28 from '../../assets/images/shots/plant/28.jpg';
 import pic29 from '../../assets/images/shots/plant/29.jpg';
 import pic30 from '../../assets/images/shots/plant/30.jpg';
+import pic31 from '../../assets/images/shots/plant/31.jpg';
+import pic32 from '../../assets/images/shots/plant/32.jpg';
+import pic33 from '../../assets/images/shots/plant/33.jpg';
+import pic34 from '../../assets/images/shots/plant/34.jpg';
+import pic35 from '../../assets/images/shots/plant/35.jpg';
+import pic36 from '../../assets/images/shots/plant/36.jpg';
+import pic37 from '../../assets/images/shots/plant/37.jpg';
+
+
+import pic38 from '../../assets/images/shots/plant/38.jpg';
+import pic39 from '../../assets/images/shots/plant/39.jpg';
+import pic40 from '../../assets/images/shots/plant/40.jpg';
+import pic41 from '../../assets/images/shots/plant/41.jpg';
+import pic42 from '../../assets/images/shots/plant/42.jpg';
+
+
+
 
 import { Link } from 'gatsby';
 
@@ -231,6 +248,79 @@ const IndexPage = () => (
             </span>
             <Link to="/stills/planting"/>
           </article>
+          <article>
+            <span className="image">
+              <img src={pic31} alt="" />
+            </span>
+            <Link to="/stills/planting"/>
+          </article>
+          <article>
+            <span className="image">
+              <img src={pic32} alt="" />
+            </span>
+            <Link to="/stills/planting"/>
+          </article>
+          <article>
+            <span className="image">
+              <img src={pic33} alt="" />
+            </span>
+            <Link to="/stills/planting"/>
+          </article>
+          <article>
+            <span className="image">
+              <img src={pic34} alt="" />
+            </span>
+            <Link to="/stills/planting"/>
+          </article>
+          <article>
+            <span className="image">
+              <img src={pic35} alt="" />
+            </span>
+            <Link to="/stills/planting"/>
+          </article>
+          <article>
+            <span className="image">
+              <img src={pic36} alt="" />
+            </span>
+            <Link to="/stills/planting"/>
+          </article>
+          <article>
+            <span className="image">
+              <img src={pic37} alt="" />
+            </span>
+            <Link to="/stills/planting"/>
+          </article>
+          <article>
+            <span className="image">
+              <img src={pic38} alt="" />
+            </span>
+            <Link to="/stills/planting"/>
+          </article>
+          <article>
+            <span className="image">
+              <img src={pic39} alt="" />
+            </span>
+            <Link to="/stills/planting"/>
+          </article>
+          <article>
+            <span className="image">
+              <img src={pic40} alt="" />
+            </span>
+            <Link to="/stills/planting"/>
+          </article>
+          <article>
+            <span className="image">
+              <img src={pic41} alt="" />
+            </span>
+            <Link to="/stills/planting"/>
+          </article>
+          <article>
+            <span className="image">
+              <img src={pic42} alt="" />
+            </span>
+            <Link to="/stills/planting"/>
+          </article>
+          
 
 
 
