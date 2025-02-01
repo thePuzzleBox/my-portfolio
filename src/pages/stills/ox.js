@@ -2,9 +2,9 @@ import React from 'react';
 
 import Layout from '../../components/Layout2';
 
-import pic1 from '../../assets/images/shots/ox/01.jpg';
-import pic2 from '../../assets/images/shots/ox/02.jpg';
-import pic3 from '../../assets/images/shots/ox/03.jpg';
+//import pic1 from '../../assets/images/shots/ox/01.jpg';
+//import pic2 from '../../assets/images/shots/ox/02.jpg';
+//import pic3 from '../../assets/images/shots/ox/03.jpg';
 import pic4 from '../../assets/images/shots/ox/04.jpg';
 import pic5 from '../../assets/images/shots/ox/05.jpg';
 import pic6 from '../../assets/images/shots/ox/06.jpg';
@@ -77,32 +77,7 @@ const IndexPage = () => (
       <div className="inner">
           <br/><br/><br/><br/><br/><br/>
         <section className="tiles">
-          <article>
-            <span className="image">
-              <img src={pic1} alt="" />
-            </span>
-            <Link to="/stills/ox">
-              {/*<div className="content">
-              <h2>Magna</h2>
-                <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
-                </p>
-</div>*/}
-            </Link>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic2} alt="" />
-            </span>
-            <Link to="/stills/ox"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic3} alt="" />
-            </span>
-            <Link to="/stills/ox"/>
-          </article>
+
           <article>
             <span className="image">
               <img src={pic4} alt="" />

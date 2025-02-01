@@ -151,7 +151,7 @@ const VideoPage = () => {
           </div>
 
           
-         <div className="video-container">
+        {/*} <div className="video-container">
             <div className="video-wrapper">
               <iframe
                 ref={videoRefs.skate}
@@ -179,7 +179,7 @@ const VideoPage = () => {
                 title="satellite"
               ></iframe>
             </div>
-          </div>
+          </div>*/}
 
           
         </div>
