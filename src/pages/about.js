@@ -17,8 +17,8 @@ const AboutPage = () => (
       <div className="col-lg-8 mx-auto">
         <h2 className="fg text-black mb-4 text-center">{/*possible title */}</h2>
         <p className="fg text-black">
-          Jalen Smith is a nomadic filmmaker and visual storyteller from Los Angeles, CA. He graduated studying film and political science at Yale College. After transferring from community college with 
-          an extensive background in advocacy, Jalen sought to do meaningful work in visual storytelling. He aims to travel, capture the natural world, share its stories of conservation, and through his work, prompt others to ask themselves what it means to be a part of it.
+          Jalen Smith is a nomadic filmmaker and conservation storyteller from Los Angeles, CA. He graduated studying film and political science at Yale College. After transferring from community college with 
+          an extensive background in advocacy, Jalen sought to do meaningful work in visual storytelling. He aims to travel, capture the natural world, share its stories, and through his work, prompt others to ask themselves what it means to be a part of it.
           
           <br/><br/> Upon returning home, Jalen dedicated his senior thesis to the ongoing energy crisis in South Africa. Written under the supervision of South African author Jonny Steinberg, he details the corruption and downfall of its major utility company, Eskom, and recounts his experience living in the wild and having to adapt to the man-made effects of a country's politics.
 
