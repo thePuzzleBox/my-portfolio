@@ -27,6 +27,39 @@ const VideoPage = () => {
         <div className="app" style={{ alignItems: 'center', display: 'flex', flexDirection: 'column' }}>
           
         <div className="video-container" style={{ paddingTop: '160px'}}>
+        
+            <div className="video-wrapper">
+            <iframe
+                ref={videoRefs.au}
+                width="100%"
+                height="500"
+                src="https://youtube.com/embed/rpTR5hea4GE?controls=1&rel=0&modestbranding=1"
+                frameBorder="0"
+                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                title="WNT"
+              ></iframe>
+            </div>
+            </div>
+
+          <div className="video-container">
+            <div className="video-wrapper">
+              <iframe
+                ref={videoRefs.wn}
+                width="100%"
+                height="500"
+                src="https://www.youtube.com/embed/bH25f59aO4I?controls=1&rel=0&modestbranding=1"
+                frameBorder="0"
+                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                title="WN"
+              ></iframe>
+            </div>
+          </div>
+          
+          
+          
+          <div className="video-container">
           <div className="video-wrapper">
             <iframe
                 ref={videoRefs.grow}
@@ -71,35 +104,11 @@ const VideoPage = () => {
             </div>
           </div>
             
-          <div className="video-container">
-            <div className="video-wrapper">
-            <iframe
-                ref={videoRefs.au}
-                width="100%"
-                height="500"
-                src="https://youtube.com/embed/rpTR5hea4GE?controls=1&rel=0&modestbranding=1"
-                frameBorder="0"
-                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                title="WNT"
-              ></iframe>
-            </div>
-            </div>
+          
 
-          <div className="video-container">
-            <div className="video-wrapper">
-              <iframe
-                ref={videoRefs.wn}
-                width="100%"
-                height="500"
-                src="https://www.youtube.com/embed/bH25f59aO4I?controls=1&rel=0&modestbranding=1"
-                frameBorder="0"
-                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                title="WN"
-              ></iframe>
-            </div>
-          </div>
+
+
+
 
 
 
