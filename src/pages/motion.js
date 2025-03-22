@@ -27,7 +27,52 @@ const VideoPage = () => {
         <div className="app" style={{ alignItems: 'center', display: 'flex', flexDirection: 'column' }}>
           
         <div className="video-container" style={{ paddingTop: '160px'}}>
-        
+        <div className="video-wrapper">
+            <iframe
+                ref={videoRefs.grow}
+                width="100%"
+                height="500"
+                src="https://youtube.com/embed/231F8qevHLg?controls=1&rel=0&modestbranding=1"
+                frameBorder="0"
+                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                title="regrow"
+              ></iframe>
+            </div>
+            </div>
+
+
+            <div className="video-container">  
+            <div className="video-wrapper">
+            <iframe
+                ref={videoRefs.tnc}
+                width="100%"
+                height="500"
+                src="https://youtube.com/embed/5s2WVWY5fGU?controls=1&rel=0&modestbranding=1"
+                frameBorder="0"
+                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                title="TNC"
+              ></iframe>
+            </div>
+          </div>
+
+          <div className="video-container">  
+            <div className="video-wrapper">
+            <iframe
+                ref={videoRefs.tnc2}
+                width="100%"
+                height="500"
+                src="https://youtube.com/embed/A1xf2RrvUOk?controls=1&rel=0&modestbranding=1"
+                frameBorder="0"
+                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                title="TNC2"
+              ></iframe>
+            </div>
+          </div>
+
+            <div className="video-container">
             <div className="video-wrapper">
             <iframe
                 ref={videoRefs.au}
@@ -58,60 +103,7 @@ const VideoPage = () => {
           </div>
           
           
-          
-          <div className="video-container">
-          <div className="video-wrapper">
-            <iframe
-                ref={videoRefs.grow}
-                width="100%"
-                height="500"
-                src="https://youtube.com/embed/231F8qevHLg?controls=1&rel=0&modestbranding=1"
-                frameBorder="0"
-                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                title="regrow"
-              ></iframe>
-            </div>
-          </div>
-
-          <div className="video-container">  
-            <div className="video-wrapper">
-            <iframe
-                ref={videoRefs.tnc}
-                width="100%"
-                height="500"
-                src="https://youtube.com/embed/5s2WVWY5fGU?controls=1&rel=0&modestbranding=1"
-                frameBorder="0"
-                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                title="TNC"
-              ></iframe>
-            </div>
-          </div>
-
-          <div className="video-container">  
-            <div className="video-wrapper">
-            <iframe
-                ref={videoRefs.tnc2}
-                width="100%"
-                height="500"
-                src="https://youtube.com/embed/A1xf2RrvUOk?controls=1&rel=0&modestbranding=1"
-                frameBorder="0"
-                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                title="TNC2"
-              ></iframe>
-            </div>
-          </div>
             
-          
-
-
-
-
-
-
-
           <div className="video-container">
             <div className="video-wrapper">
               <iframe
@@ -128,7 +120,7 @@ const VideoPage = () => {
           </div>
           
 
-        <div className="video-container">
+        {/*<div className="video-container">
             <div className="video-wrapper">
               <iframe
                 ref={videoRefs.ox}
@@ -146,7 +138,7 @@ const VideoPage = () => {
           
 
           
-         <div className="video-container">
+        <div className="video-container">
             <div className="video-wrapper">
               <iframe
                 ref={videoRefs.skate}
@@ -159,7 +151,7 @@ const VideoPage = () => {
                 title="skate"
               ></iframe>
             </div>
-          </div>
+          </div>*/}
 
           <div className="video-container">
             <div className="video-wrapper">
