@@ -133,7 +133,7 @@ const VideoPage = () => {
                 title="oceanxplorers"
               ></iframe>
             </div>
-          </div>
+          </div>*/}
 
           
 
@@ -151,7 +151,7 @@ const VideoPage = () => {
                 title="skate"
               ></iframe>
             </div>
-          </div>*/}
+          </div>*/
 
           <div className="video-container">
             <div className="video-wrapper">
