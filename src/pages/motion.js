@@ -41,20 +41,6 @@ const VideoPage = () => {
             </div>
             </div>
 
-            <div className="video-container">
-            <div className="video-wrapper">
-              <iframe
-                ref={videoRefs.skate}
-                width="100%"
-                height="500"
-                src="https://www.youtube.com/embed/t6AaEDmw9ak?controls=1&rel=0&modestbranding=1"
-                frameBorder="0"
-                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                title="skate"
-              ></iframe>
-            </div>
-          </div>
 
 
             <div className="video-container">  
@@ -146,6 +132,24 @@ const VideoPage = () => {
                 allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
                 title="oceanxplorers"
+              ></iframe>
+            </div>
+          </div>
+          
+        
+          
+          
+          <div className="video-container">
+            <div className="video-wrapper">
+              <iframe
+                ref={videoRefs.skate}
+                width="100%"
+                height="500"
+                src="https://www.youtube.com/embed/t6AaEDmw9ak?controls=1&rel=0&modestbranding=1"
+                frameBorder="0"
+                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                title="skate"
               ></iframe>
             </div>
           </div>*/}
