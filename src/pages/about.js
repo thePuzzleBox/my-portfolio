@@ -22,7 +22,7 @@ const AboutPage = () => (
           
           <br/><br/> Upon returning home, Jalen dedicated his senior thesis to the ongoing energy crisis in South Africa. With the help of South African author Jonny Steinberg, he details the corruption and downfall of its major utility company, Eskom, and recounts his experience living in the wild and having to adapt to the man-made effects of a country's politics.
 
-          <br /><br />Outside of being an adventurer, Jalen is an avid skateboarder, writer, undercover pianist, and urban forester who recently ventured into the world of freediving. Those closest to him would describe him as incredibly spontaneous and a modern jack-of-all-trades. He believes his greatest skill is his ability to learn new skills.
+          <br /><br />Outside of being an adventurer, Jalen is an avid skateboarder, writer, undercover pianist, and urban forester who recently ventured into the world of freediving. Those closest to him would describe him as incredibly spontaneous and a modern jack-of-all-trades.
         </p>
       </div>
     </div>
