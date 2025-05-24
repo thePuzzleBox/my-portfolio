@@ -4,19 +4,14 @@ import Layout from '../components/Layout2';
 import '../assets/sass/_port.scss';
 import '../assets/sass/_mobile.scss';
 
-import pic1 from '../assets/images/shots/braz/DSC00164.jpg';
-import pic1Hover from '../assets/images/shots/braz/DSC00162.jpg';
-
+import pic1 from '../assets/images/shots/plant/073.jpg';
 import clip from '../assets/images/fulls/vids/clip.mp4';
 import gif from '../assets/images/fulls/vids/clip.gif';
 import { Link } from 'gatsby';
 
 const IndexPage = () => {
   const videoRef = useRef(null);
-  const hoverTimeoutRef = useRef(null);
-
   const [isMobile, setIsMobile] = useState(false);
-  const [isStillsHovered, setIsStillsHovered] = useState(false);
 
   useEffect(() => {
     const userAgent = window.navigator.userAgent.toLowerCase();
@@ -26,42 +21,33 @@ const IndexPage = () => {
   const media = isMobile ? gif : clip;
 
   const handleHover = () => {
-    if (!isMobile && videoRef.current) {
+    if (isMobile) {
+      // Add your logic for handling hover/click effects on mobile
+      // For example, you can update state variables to control the styles
+      // You can also play the gif here if needed
+    } else if (videoRef.current) {
       videoRef.current.play();
     }
   };
 
   const handleLeave = () => {
-    if (!isMobile && videoRef.current) {
+    if (isMobile) {
+      // Add your logic for leaving hover state on mobile
+    } else if (videoRef.current) {
       videoRef.current.pause();
     }
-  };
-
-  const handleStillsEnter = () => {
-    hoverTimeoutRef.current = setTimeout(() => {
-      setIsStillsHovered(true);
-    }, 120);
-  };
-
-  const handleStillsLeave = () => {
-    clearTimeout(hoverTimeoutRef.current);
-    setIsStillsHovered(false);
   };
 
   return (
     <Layout hideFooter={true}>
       <div className="side">
-        <article
-          className="image-article"
-          onMouseEnter={handleStillsEnter}
-          onMouseLeave={handleStillsLeave}
-        >
+        <article className="image-article">
           <span className="image">
-            <img src={isStillsHovered ? pic1Hover : pic1} alt="Stills" />
+            <img src={pic1} alt="Stills" />
           </span>
           <Link to="/stills">
             <div className="content">
-              <h2>STILLS</h2>
+            <h2>STILLS</h2>
             </div>
           </Link>
         </article>
