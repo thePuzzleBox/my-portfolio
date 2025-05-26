@@ -20,8 +20,7 @@ const AboutPage = () => (
           Jalen Smith is a nomadic filmmaker and conservation storyteller from Los Angeles, CA. He graduated studying film and political science at Yale College. After transferring from community college with 
           an extensive background in advocacy, Jalen sought to do meaningful work in visual storytelling. Having lived in some of the most remote places on Earth, he aims to capture the natural world, share its stories, and prompt others to ask themselves what it means to be a part of it.
           
-          <br/><br/> After living on a bush camp, Jalen dedicated his senior thesis to the ongoing energy crisis in South Africa, detailing his experience living in the wild and having to adapt to the man-made effects of a country's politics. He fell in love with the natural
-          world and with sharing it. As an urban forester, he taught high school students how to plant and take care of trees. And since then, his commitment to conservation has led him to work and film in communities worldwide.
+          <br/><br/> After living in South Africa, filming wildlife, Jalen fell in love with the natural world and with sharing it. Back home, he became an urban forester and taught high school students how to plant and take care of trees. And since then, his commitment to conservation has led him to work and film in communities worldwide.
 
           <br /><br />Outside of being an adventurer, Jalen is an avid skateboarder, writer, undercover pianist, and animal lover who recently ventured into the world of freediving. Those closest to him would describe him as incredibly spontaneous and a modern jack-of-all-trades.
         </p>
