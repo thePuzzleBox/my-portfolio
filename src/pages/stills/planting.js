@@ -57,7 +57,7 @@ import pic48 from '../../assets/images/shots/plant/048.jpg';
 import pic49 from '../../assets/images/shots/plant/049.jpg';
 import pic50 from '../../assets/images/shots/plant/050.jpg';
 import pic51 from '../../assets/images/shots/plant/051.jpg';
-import pic52 from '../../assets/images/shots/plant/051.jpg';
+import pic52 from '../../assets/images/shots/plant/052.jpg';
 import pic53 from '../../assets/images/shots/plant/053.jpg';
 import pic54 from '../../assets/images/shots/plant/054.jpg';
 import pic55 from '../../assets/images/shots/plant/055.jpg';
