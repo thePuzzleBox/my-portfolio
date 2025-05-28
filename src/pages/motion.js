@@ -107,7 +107,25 @@ const VideoPage = () => {
           </div>
           
           
-            
+          
+
+        <div className="video-container">
+            <div className="video-wrapper">
+              <iframe
+                ref={videoRefs.ox}
+                width="100%"
+                height="500"
+                src="https://youtube.com/embed/cxsvWjbjeWQ?controls=1&rel=0&modestbranding=1"
+                frameBorder="0"
+                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                title="oceanxplorers"
+              ></iframe>
+            </div>
+          </div>
+          
+        
+          
           <div className="video-container">
             <div className="video-wrapper">
               <iframe
@@ -122,25 +140,9 @@ const VideoPage = () => {
               ></iframe>
             </div>
           </div>
-          
 
-        {/*<div className="video-container">
-            <div className="video-wrapper">
-              <iframe
-                ref={videoRefs.ox}
-                width="100%"
-                height="500"
-                src="https://youtube.com/embed/cxsvWjbjeWQ?controls=1&rel=0&modestbranding=1"
-                frameBorder="0"
-                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                title="oceanxplorers"
-              ></iframe>
-            </div>
-          </div> */}
-          
-        
-          
+
+
           
           <div className="video-container">
             <div className="video-wrapper">
