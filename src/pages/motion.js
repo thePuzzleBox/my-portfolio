@@ -32,7 +32,7 @@ const VideoPage = () => {
                 ref={videoRefs.yasc}
                 width="100%"
                 height="500"
-                src="https://youtube.com/embed/Gb7leum1RFs?controls=1&rel=0&modestbranding=1"
+                src="https://youtube.com/embed/lCt_0XmwSwE?controls=1&rel=0&modestbranding=1"
                 frameBorder="0"
                 allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
@@ -40,7 +40,6 @@ const VideoPage = () => {
               ></iframe>
             </div>
             </div>
-
             
             
             <div className="video-container">
@@ -75,36 +74,6 @@ const VideoPage = () => {
             </div>
             </div>
 
-
-            <div className="video-container">
-            <div className="video-wrapper">
-            <iframe
-                ref={videoRefs.tnc}
-                width="100%"
-                height="500"
-                src="https://youtube.com/embed/5s2WVWY5fGU?controls=1&rel=0&modestbranding=1"
-                frameBorder="0"
-                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                title="TNC"
-              ></iframe>
-            </div>
-          </div>
-
-          {/*<div className="video-container">  
-            <div className="video-wrapper">
-            <iframe
-                ref={videoRefs.tnc2}
-                width="100%"
-                height="500"
-                src="https://youtube.com/embed/A1xf2RrvUOk?controls=1&rel=0&modestbranding=1"
-                frameBorder="0"
-                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                title="TNC2"
-              ></iframe>
-            </div>
-          </div>*/}
 
            
 
@@ -141,7 +110,38 @@ const VideoPage = () => {
             </div>
           </div>
           
-        
+
+
+          
+        <div className="video-container">
+            <div className="video-wrapper">
+            <iframe
+                ref={videoRefs.tnc}
+                width="100%"
+                height="500"
+                src="https://youtube.com/embed/5s2WVWY5fGU?controls=1&rel=0&modestbranding=1"
+                frameBorder="0"
+                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                title="TNC"
+              ></iframe>
+            </div>
+          </div>
+
+          {/*<div className="video-container">  
+            <div className="video-wrapper">
+            <iframe
+                ref={videoRefs.tnc2}
+                width="100%"
+                height="500"
+                src="https://youtube.com/embed/A1xf2RrvUOk?controls=1&rel=0&modestbranding=1"
+                frameBorder="0"
+                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                title="TNC2"
+              ></iframe>
+            </div>
+          </div>*/}
           
           <div className="video-container">
             <div className="video-wrapper">
