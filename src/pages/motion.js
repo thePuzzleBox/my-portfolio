@@ -32,7 +32,7 @@ const VideoPage = () => {
                 ref={videoRefs.yasc}
                 width="100%"
                 height="500"
-                src="https://youtube.com/embed/M7iz61TifnQ?controls=1&rel=0&modestbranding=1"
+                src="https://youtube.com/embed/jf5DybyWT6w?controls=1&rel=0&modestbranding=1"
                 frameBorder="0"
                 allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
@@ -83,7 +83,7 @@ const VideoPage = () => {
                 ref={videoRefs.wn}
                 width="100%"
                 height="500"
-                src="https://www.youtube.com/embed/jf5DybyWT6w?controls=1&rel=0&modestbranding=1"
+                src="https://www.youtube.com/embed/bH25f59aO4I?controls=1&rel=0&modestbranding=1"
                 frameBorder="0"
                 allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
