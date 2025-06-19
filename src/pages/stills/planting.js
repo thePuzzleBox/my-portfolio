@@ -91,12 +91,7 @@ import pic80 from '../../assets/images/shots/plant/080.jpg';
 import pic81 from '../../assets/images/shots/plant/081.jpg';
 import pic82 from '../../assets/images/shots/plant/082.jpg';
 import pic83 from '../../assets/images/shots/plant/083.jpg';
-
-
 import pic84 from '../../assets/images/shots/plant/084.jpg';
-import pic85 from '../../assets/images/shots/plant/085.jpg';
-import pic86 from '../../assets/images/shots/plant/086.jpg';
-import pic87 from '../../assets/images/shots/plant/087.jpg';
 
 
 
@@ -613,30 +608,6 @@ const IndexPage = () => (
           <article>
             <span className="image">
               <img src={pic83} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic84} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic85} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic86} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic87} alt="" />
             </span>
             <Link to="/stills/planting"/>
           </article>
