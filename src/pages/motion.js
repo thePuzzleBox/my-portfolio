@@ -42,20 +42,6 @@ const VideoPage = () => {
             </div>
             
             
-            <div className="video-container">
-            <div className="video-wrapper">
-            <iframe
-                ref={videoRefs.grow}
-                width="100%"
-                height="500"
-                src="https://youtube.com/embed/231F8qevHLg?controls=1&rel=0&modestbranding=1"
-                frameBorder="0"
-                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                title="regrow"
-              ></iframe>
-            </div>
-            </div>
         
         
         
@@ -108,6 +94,21 @@ const VideoPage = () => {
             </div>
           </div>
           
+
+        <div className="video-container">
+            <div className="video-wrapper">
+            <iframe
+                ref={videoRefs.grow}
+                width="100%"
+                height="500"
+                src="https://youtube.com/embed/231F8qevHLg?controls=1&rel=0&modestbranding=1"
+                frameBorder="0"
+                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                title="regrow"
+              ></iframe>
+            </div>
+            </div>
 
 
           
