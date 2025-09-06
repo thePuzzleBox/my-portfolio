@@ -95,7 +95,7 @@ const images = [
   pic51,pic52,pic53,pic54,pic55,pic56,pic57,pic58,pic59,pic60,
   pic61,pic62,pic63,pic64,pic65,pic66,pic67,pic68,pic69,pic70,
   pic71,pic72,pic73,pic74,pic75,pic76,pic77,pic78,pic79,pic80,
-  pic81,pic82,pic83,pic84
+  pic81,pic82,pic83, pic84
 ];
 
 const firstBatch = images.slice(0, 54);
@@ -117,7 +117,7 @@ const IndexPage = () => (
           ))}
         </section>
 
-        {/* Horizontal break */}
+        
         <br /><br /><hr /><br /><br /><br /><br />
 
         {/* Second Batch */}
@@ -129,7 +129,7 @@ const IndexPage = () => (
           ))}
         </section>
 
-        {/* Horizontal break */}
+        
         <br /><br /><hr /><br /><br /><br /><br />
 
          {/* Remaining images */}
