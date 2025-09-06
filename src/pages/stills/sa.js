@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Layout from '../../components/Layout2';
 
 import pic1 from '../../assets/images/shots/sa/01.jpg';
@@ -14,7 +13,6 @@ import pic9 from '../../assets/images/shots/sa/016.jpg';
 import pic10 from '../../assets/images/shots/sa/10.jpg';
 import pic11 from '../../assets/images/shots/sa/42.jpg';
 import pic12 from '../../assets/images/shots/sa/12.jpg';
-
 import pic13 from '../../assets/images/shots/sa/001.jpg';
 import pic14 from '../../assets/images/shots/sa/002.jpg';
 import pic15 from '../../assets/images/shots/sa/003.jpg';
@@ -39,7 +37,6 @@ import pic33 from '../../assets/images/shots/sa/020.jpg';
 import pic34 from '../../assets/images/shots/sa/04.jpg';
 import pic35 from '../../assets/images/shots/sa/24.jpg';
 import pic36 from '../../assets/images/shots/sa/25.jpg';
-
 import pic37 from '../../assets/images/shots/sa/44.jpg';
 import pic38 from '../../assets/images/shots/sa/27.jpg';
 import pic39 from '../../assets/images/shots/sa/45.jpg';
@@ -52,339 +49,35 @@ import pic45 from '../../assets/images/shots/sa/33.jpg';
 import pic46 from '../../assets/images/shots/sa/23.jpg';
 import pic47 from '../../assets/images/shots/sa/36.jpg';
 import pic48 from '../../assets/images/shots/sa/37.jpg';
-
 import pic49 from '../../assets/images/shots/sa/07.jpg';
 import pic50 from '../../assets/images/shots/sa/26.jpg';
 import pic51 from '../../assets/images/shots/sa/40.jpg';
 
-
-
-import { Link } from 'gatsby';
+const images = [
+  pic1, pic2, pic3, pic4, pic5, pic6, pic7, pic8, pic9, pic10,
+  pic11, pic12, pic13, pic14, pic15, pic16, pic17, pic18, pic19, pic20,
+  pic21, pic22, pic23, pic24, pic25, pic26, pic27, pic28, pic29, pic30,
+  pic31, pic32, pic33, pic34, pic35, pic36, pic37, pic38, pic39, pic40,
+  pic41, pic42, pic43, pic44, pic45, pic46, pic47, pic48, pic49, pic50, pic51
+];
 
 const IndexPage = () => (
   <Layout>
     <div id="main">
       <div className="inner">
-          <br/><br/><br/><br/><br/><br/>
-        <section className="tiles">
-          <article>
-            <span className="image">
-              <img src={pic1} alt="" />
-            </span>
-            <Link to="/stills/sa">
-              {/*<div className="content">
-              <h2>Magna</h2>
-                <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
-                </p>
-</div>*/}
-            </Link>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic2} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic3} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic4} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article className="style5">
-            <span className="image">
-              <img src={pic5} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic6} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic7} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic8} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic9} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic10} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic11} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic12} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic13} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic14} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic15} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic16} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic17} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic18} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic19} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic20} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic21} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic22} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic23} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic24} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic25} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic26} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic27} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic28} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic29} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic30} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic31} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic32} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic33} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic34} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic35} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic36} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic37} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic38} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic39} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic40} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic41} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic42} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic43} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic44} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic45} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic46} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic47} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic48} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic49} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic50} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic51} alt="" />
-            </span>
-            <Link to="/stills/sa"/>
-          </article>
-        </section>
+        <br /><br /><br /><br /><br /><br /><br /><br />
+        
+        <section className="tiles" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '15px' }}>
+  {images.map((img, idx) => (
+    <div key={idx} style={{ width: '100%', overflow: 'hidden' }}>
+      <img src={img} alt="" style={{ width: '100%', height: 'auto', display: 'block' }} />
+    </div>
+  ))}
+</section>
+
       </div>
     </div>
-    <br/><br/><br/>
+    <br /><br /><br />
   </Layout>
 );
 

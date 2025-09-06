@@ -1,0 +1,36 @@
+.horizontal-gallery {
+  display: grid;
+  grid-template-rows: repeat(2, 200px); // two rows of fixed height
+  grid-auto-flow: column;               // fill horizontally
+  gap: 8px;
+  overflow-x: auto;
+  padding: 8px;
+
+  width: 1200px;      // <-- extended width of the gallery
+  max-width: none;    // prevents shrinking to page container
+  margin: 0 auto;     // center horizontally on page
+
+  &::-webkit-scrollbar {
+    height: 8px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,0.3);
+    border-radius: 4px;
+  }
+
+  article {
+    flex: 0 0 auto;
+
+    span.image {
+      display: block;
+
+      img {
+        width: auto;        // scale width automatically
+        height: 200px;      // matches grid row height
+        object-fit: cover;  // fill image nicely
+        border-radius: 4px;
+      }
+    }
+  }
+}

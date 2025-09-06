@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Layout from '../../components/Layout2';
 
 import pic1 from '../../assets/images/shots/plant/01.jpg';
@@ -13,7 +12,6 @@ import pic8 from '../../assets/images/shots/plant/08.jpg';
 import pic9 from '../../assets/images/shots/plant/09.jpg';
 import pic10 from '../../assets/images/shots/plant/010.jpg';
 import pic11 from '../../assets/images/shots/plant/011.jpg';
-
 import pic12 from '../../assets/images/shots/plant/012.jpg';
 import pic13 from '../../assets/images/shots/plant/013.jpg';
 import pic14 from '../../assets/images/shots/plant/014.jpg';
@@ -25,8 +23,7 @@ import pic19 from '../../assets/images/shots/plant/019.jpg';
 import pic20 from '../../assets/images/shots/plant/020.jpg';
 import pic21 from '../../assets/images/shots/plant/021.jpg';
 import pic22 from '../../assets/images/shots/plant/022.jpg';
-import pic23 from '../../assets/images/shots/plant/023.jpg'
-
+import pic23 from '../../assets/images/shots/plant/023.jpg';
 import pic24 from '../../assets/images/shots/plant/024.jpg';
 import pic25 from '../../assets/images/shots/plant/025.jpg';
 import pic26 from '../../assets/images/shots/plant/026.jpg';
@@ -41,8 +38,6 @@ import pic34 from '../../assets/images/shots/plant/034.jpg';
 import pic35 from '../../assets/images/shots/plant/035.jpg';
 import pic36 from '../../assets/images/shots/plant/036.jpg';
 import pic37 from '../../assets/images/shots/plant/037.jpg';
-
-
 import pic38 from '../../assets/images/shots/plant/038.jpg';
 import pic39 from '../../assets/images/shots/plant/039.jpg';
 import pic40 from '../../assets/images/shots/plant/040.jpg';
@@ -61,7 +56,6 @@ import pic52 from '../../assets/images/shots/plant/052.jpg';
 import pic53 from '../../assets/images/shots/plant/053.jpg';
 import pic54 from '../../assets/images/shots/plant/054.jpg';
 import pic55 from '../../assets/images/shots/plant/055.jpg';
-
 import pic56 from '../../assets/images/shots/plant/056.jpg';
 import pic57 from '../../assets/images/shots/plant/057.jpg';
 import pic58 from '../../assets/images/shots/plant/058.jpg';
@@ -76,7 +70,6 @@ import pic66 from '../../assets/images/shots/plant/066.jpg';
 import pic67 from '../../assets/images/shots/plant/067.jpg';
 import pic68 from '../../assets/images/shots/plant/068.jpg';
 import pic69 from '../../assets/images/shots/plant/069.jpg';
-
 import pic70 from '../../assets/images/shots/plant/070.jpg';
 import pic71 from '../../assets/images/shots/plant/071.jpg';
 import pic72 from '../../assets/images/shots/plant/072.jpg';
@@ -93,539 +86,64 @@ import pic82 from '../../assets/images/shots/plant/082.jpg';
 import pic83 from '../../assets/images/shots/plant/083.jpg';
 import pic84 from '../../assets/images/shots/plant/084.jpg';
 
+const images = [
+  pic1,pic2,pic3,pic4,pic5,pic6,pic7,pic8,pic9,pic10,
+  pic11,pic12,pic13,pic14,pic15,pic16,pic17,pic18,pic19,pic20,
+  pic21,pic22,pic23,pic24,pic25,pic26,pic27,pic28,pic29,pic30,
+  pic31,pic32,pic33,pic34,pic35,pic36,pic37,pic38,pic39,pic40,
+  pic41,pic42,pic43,pic44,pic45,pic46,pic47,pic48,pic49,pic50,
+  pic51,pic52,pic53,pic54,pic55,pic56,pic57,pic58,pic59,pic60,
+  pic61,pic62,pic63,pic64,pic65,pic66,pic67,pic68,pic69,pic70,
+  pic71,pic72,pic73,pic74,pic75,pic76,pic77,pic78,pic79,pic80,
+  pic81,pic82,pic83,pic84
+];
 
-
-
-
-import { Link } from 'gatsby';
+const firstBatch = images.slice(0, 54);
+const secondBatch = images.slice(54, 72);
+const thirdBatch = images.slice(72);
 
 const IndexPage = () => (
   <Layout>
     <div id="main">
       <div className="inner">
-          <br/><br/><br/><br/><br/><br/>
-        <section className="tiles">
-          <article>
-            <span className="image">
-              <img src={pic1} alt="" />
-            </span>
-            <Link to="/stills/planting">
-              {/*<div className="content">
-              <h2>Magna</h2>
-                <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
-                </p>
-</div>*/}
-            </Link>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic2} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic3} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic4} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article className="style5">
-            <span className="image">
-              <img src={pic5} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic6} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic7} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic8} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic9} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic10} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic11} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic12} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic13} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic14} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic15} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic16} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic17} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic18} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic19} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic20} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic21} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic22} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic23} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic24} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic25} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic26} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic27} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic28} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic29} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic30} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic31} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic32} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic33} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic34} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic35} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic36} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic37} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic38} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic39} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic40} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic41} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic42} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic43} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic44} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic45} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic46} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic47} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic48} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic49} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic50} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic51} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic52} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic53} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article className="style5">
-            <span className="image">
-              <img src={pic54} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic55} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic56} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic57} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic58} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic59} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic60} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic61} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic62} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic63} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic64} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic65} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic66} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic67} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic68} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic69} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic70} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic71} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic72} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic73} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic74} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic75} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic76} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic77} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic78} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic79} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic80} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic81} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic82} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic83} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          <article>
-            <span className="image">
-              <img src={pic84} alt="" />
-            </span>
-            <Link to="/stills/planting"/>
-          </article>
-          
+        <br /><br /><br /><br /><br /><br /><br /><br />
 
-          
-
-
+        {/* First Batch */}
+        <section className="tiles" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '15px' }}>
+          {firstBatch.map((img, idx) => (
+            <div key={idx} style={{ width: '100%', overflow: 'hidden' }}>
+              <img src={img} alt="" style={{ width: '100%', height: 'auto', display: 'block' }} />
+            </div>
+          ))}
         </section>
+
+        {/* Horizontal break */}
+        <br /><br /><hr /><br /><br /><br /><br />
+
+        {/* Second Batch */}
+        <section className="tiles" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '15px' }}>
+          {secondBatch.map((img, idx) => (
+            <div key={idx} style={{ width: '100%', overflow: 'hidden' }}>
+              <img src={img} alt="" style={{ width: '100%', height: 'auto', display: 'block' }} />
+            </div>
+          ))}
+        </section>
+
+        {/* Horizontal break */}
+        <br /><br /><hr /><br /><br /><br /><br />
+
+         {/* Remaining images */}
+        <section className="tiles" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '15px' }}>
+          {thirdBatch.map((img, idx) => (
+            <div key={idx} style={{ width: '100%', overflow: 'hidden' }}>
+              <img src={img} alt="" style={{ width: '100%', height: 'auto', display: 'block' }} />
+            </div>
+          ))}
+        </section>
+
       </div>
     </div>
-    <br/><br/><br/>
+    <br /><br /><br />
   </Layout>
 );
 
