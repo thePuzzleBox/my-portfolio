@@ -158,7 +158,7 @@ const IndexPage = () => (
       <div className="inner">
         <br /><br /><br /><br /><br /><br /><br /><br />
 
-        {/* First 60 images */}
+        {/* First set */}
         <section className="tiles" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '15px' }}>
           {firstBatch.map((img, idx) => (
             <div key={idx} style={{ width: '100%', overflow: 'hidden' }}>
