@@ -5,7 +5,7 @@ import '../assets/sass/_port.scss';
 import '../assets/sass/_mobile.scss';
 
 import pic1 from '../assets/images/shots/sa/001.jpg';
-import pic2 from '../assets/images/peak.jpg';
+import pic2 from '../assets/images/peak2.jpg';
 import pic3 from '../assets/images/shots/plant/046.jpg';
 import pic4 from '../assets/images/shots/ox/lucia.jpg';
 
