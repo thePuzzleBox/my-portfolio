@@ -19,6 +19,11 @@ module.exports = {
       url: 'https://github.com/thepuzzlebox',
     },*/
     {
+      icon: 'far fa-envelope',
+      name: 'Email',
+      url: 'mailto:hello@jalensmith.org',
+    },
+    {
       icon: 'fa-linkedin-in',
       name: 'Linkedin',
       url: 'https://linkedin.com/in/jalensmith/',
@@ -26,7 +31,7 @@ module.exports = {
     {
       icon: 'fa-youtube',
       name: 'YouTube',
-      url: 'https://youtube.com/@jalen_smith',
+      url: 'https://youtube.com/@whereisJalen',
     },
   ],
   email: '',
