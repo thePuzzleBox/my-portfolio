@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Subscribe() {
+export default function Ending() {
   return (
     <section id="signup" className="signup-section">
       <div className="container">
