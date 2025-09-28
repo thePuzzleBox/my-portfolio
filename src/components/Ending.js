@@ -8,9 +8,10 @@ export default function Ending() {
       <div className="row">
           <div className="col-md-10 col-lg-8 mx-auto text-center">
           <br/><br/><br/>
-          <i><h4 className="text-white mb-5 text-center">I promise you.</h4>
+          <i><h4 className="text-white mb-5 text-center">I promise you,</h4>
             <h4 className="text-white mb-5 text-center"> You'll want so much more than to see the world.<br/><br/></h4>
-          </i><h5 className="text-white mb-5 text-right">- S. Newton</h5>
+          </i>
+          {/*<h5 className="text-white mb-5 text-right">- S. Newton</h5>*/}
           </div>
   </div>
 
