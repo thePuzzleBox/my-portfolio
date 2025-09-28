@@ -21,7 +21,7 @@ const AboutPage = () => (
           an extensive background in advocacy, Jalen sought to do meaningful work in visual storytelling. Since then, his commitment to conservation and storytelling has led him to work and film in communities worldwide.
           
           
-          <br/><br/> Having lived in some of the most remote places on Earth, Jalen found his passion for nature and for sharing it. From sailing the Indonesian ocean to surviving the South African wild, he has found himself
+          <br/><br/> Having lived in some of the most remote places on Earth, Jalen found his passion for nature and for sharing it. From sailing across Indonesia to surviving in the wild in South Africa, he has found himself
           in the presence of exceptionally diverse fauna, people, ecosystems, and their alternative ways of life. As a result, he aims to share this wealth and knowledge of the natural world, and the underlying lessons from its stories of preservation.
 
 
