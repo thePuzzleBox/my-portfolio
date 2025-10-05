@@ -93,7 +93,7 @@ const VideoPage = () => {
             </div>
           
 
-        <div className="video-container">
+       {/* <div className="video-container">
             <div className="video-wrapper">
               <iframe
                 ref={videoRefs.ox}
@@ -106,7 +106,7 @@ const VideoPage = () => {
                 title="oceanxplorers"
               ></iframe>
             </div>
-          </div>
+          </div>*/}
           
 
 
