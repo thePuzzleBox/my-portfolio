@@ -22,8 +22,8 @@ const AboutPage = () => (
           
           
           <br/><br/> Having lived in some of the most remote places on Earth, Jalen found his passion for nature and for sharing it. From sailing across Indonesia to planting trees across South America, he has found himself
-          in the presence of exceptionally diverse fauna, people, ecosystems, and their alternative ways of life. As a result, he aims to share this wealth and knowledge of the natural world, and through these stories of preservation,
-          he hopes others can find their place in it too.
+          in the presence of exceptionally diverse fauna, people, ecosystems, and their alternative ways of life. As a result, he aims to share this wealth and knowledge of the natural world, and through its stories of preservation,
+          he hopes others find their place in it too.
 
 
           <br /><br />Outside of being an adventurer, Jalen is an avid skateboarder, writer, undercover pianist, and urban forester who recently ventured into the world of freediving.
