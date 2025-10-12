@@ -23,7 +23,7 @@ const AboutPage = () => (
           
           <br/><br/> Since then, Jalen's commitment to conservation, reforestation, and natural world storytelling has led him to work and film in communities worldwide. From sailing on expedition across Indonesia to planting trees across South America, he has lived in some
           of the most remote regions on Earth, and has found himself in the presence of exceptionally diverse fauna, people, ecosystems, and their alternative ways of life. As a result, he aims to not only share this wealth and knowledge of the
-          natural world, but through its stories of preservation, he hopes others find their place in it too.
+          natural world, but through its stories of preservation, he hopes others find what it means to be a part of it.
 
 
           <br /><br />Outside of being an adventurer, Jalen is an avid skateboarder, writer, undercover pianist, and urban forester who recently ventured into the world of freediving.
