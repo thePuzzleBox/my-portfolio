@@ -29,24 +29,6 @@ const VideoPage = () => {
         <div className="video-container" style={{ paddingTop: '160px'}}>
             <div className="video-wrapper">
             <iframe
-                ref={videoRefs.grow}
-                width="100%"
-                height="500"
-                src="https://youtube.com/embed/231F8qevHLg?controls=1&rel=0&modestbranding=1"
-                frameBorder="0"
-                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                title="regrow"
-              ></iframe>
-            </div>
-            </div>
-  
-            
-            
-        
-        <div className="video-container">
-        <div className="video-wrapper">
-            <iframe
                 ref={videoRefs.au}
                 width="100%"
                 height="500"
@@ -58,6 +40,25 @@ const VideoPage = () => {
               ></iframe>
             </div>
             </div>
+  
+            
+            
+        
+        <div className="video-container">
+        <div className="video-wrapper">
+           <iframe
+                ref={videoRefs.grow}
+                width="100%"
+                height="500"
+                src="https://youtube.com/embed/231F8qevHLg?controls=1&rel=0&modestbranding=1"
+                frameBorder="0"
+                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                title="regrow"
+              ></iframe>
+            </div>
+            </div>
+           
 
 
         <div className="video-container">
