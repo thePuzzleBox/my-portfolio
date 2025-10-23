@@ -100,7 +100,7 @@ const VideoPage = () => {
                 ref={videoRefs.yasc}
                 width="100%"
                 height="500"
-                src="https://youtube.com/embed/Hblfdw6pMrE?controls=1&rel=0&modestbranding=1"
+                src="https://youtube.com/embed/eLdN6zc399I?controls=1&rel=0&modestbranding=1"
                 frameBorder="0"
                 allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
