@@ -4,7 +4,7 @@ import Layout from '../components/Layout2';
 import '../assets/sass/_port.scss';
 import '../assets/sass/_mobile.scss';
 
-import pic1 from '../assets/images/jon2.jpg';
+import pic1 from '../assets/images/jon.jpg';
 import clip from '../assets/images/fulls/vids/clip.mp4';
 import gif from '../assets/images/fulls/vids/clip.gif';
 import { Link } from 'gatsby';
