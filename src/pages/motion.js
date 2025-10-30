@@ -48,6 +48,8 @@ const VideoPage = () => {
       <Header />
       <section style={{ minHeight: '100vh' }}>
         <div className="app" style={{ alignItems: 'center', display: 'flex', flexDirection: 'column' }}>
+          
+          
           <div
             className="video-grid"
             style={{
@@ -93,9 +95,19 @@ const VideoPage = () => {
       </section>
       <Footer />
 
-      {/* Mobile*/}
+
+
+      {/* Mobile + iPad */}
       <style>
         {`
+
+              @media (min-width: 768px) and (max-width: 1024px) {
+                .video-grid {
+                  padding-left: 30px;
+                  padding-right: 30px;
+                }
+              }
+
                 @media (max-width: 768px) {
               .video-wrapper {
                 margin: 20px 0;
