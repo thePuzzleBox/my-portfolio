@@ -31,10 +31,10 @@ const VideoPage = () => {
   // Video list (with comments for excluded videos)
   const videos = [
     { ref: videoRefs.yasc, src: 'https://youtube.com/embed/yW_stTSn6HU', title: 'yasc' },
-     { ref: videoRefs.teng, src: 'https://youtube.com/embed/p1IDbZ-1jLg', title: 'teng' },
     { ref: videoRefs.au, src: 'https://youtube.com/embed/rpTR5hea4GE', title: 'WNT' },
+     { ref: videoRefs.wn, src: 'https://www.youtube.com/embed/bH25f59aO4I', title: 'WN' },
     { ref: videoRefs.grow, src: 'https://youtube.com/embed/231F8qevHLg', title: 'regrow' },
-    { ref: videoRefs.wn, src: 'https://www.youtube.com/embed/bH25f59aO4I', title: 'WN' },
+     { ref: videoRefs.teng, src: 'https://youtube.com/embed/p1IDbZ-1jLg', title: 'teng' },
     { ref: videoRefs.ox, src: 'https://youtube.com/embed/cxsvWjbjeWQ', title: 'OX' },
     { ref: videoRefs.tnc, src: 'https://youtube.com/embed/5s2WVWY5fGU', title: 'TNC' },
     // { ref: videoRefs.tnc2, src: 'https://youtube.com/embed/A1xf2RrvUOk', title: 'TNC2' },
