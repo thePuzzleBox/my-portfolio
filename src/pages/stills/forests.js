@@ -9,9 +9,9 @@ import pic3 from '../../assets/images/shots/plant/03.jpg';
 import pic4 from '../../assets/images/shots/plant/04.jpg';
 import pic5 from '../../assets/images/shots/plant/05.jpg';
 import pic6 from '../../assets/images/shots/plant/06.jpg';
-import pic7 from '../../assets/images/shots/plant/07.jpg';
-import pic8 from '../../assets/images/shots/plant/08.jpg';
-import pic9 from '../../assets/images/shots/plant/09.jpg';
+//import pic7 from '../../assets/images/shots/plant/07.jpg';
+//import pic8 from '../../assets/images/shots/plant/08.jpg';
+//import pic9 from '../../assets/images/shots/plant/09.jpg';
 import pic10 from '../../assets/images/shots/plant/010.jpg';
 import pic11 from '../../assets/images/shots/plant/011.jpg';
 import pic12 from '../../assets/images/shots/plant/012.jpg';
@@ -92,7 +92,8 @@ import pic84 from '../../assets/images/shots/plant/084.jpg';
 // THIS IS A HORIZONTAL SCROLL LAYOUT, GREAT BUT STILL NEEDS VISUAL WORK
 
 const gallery1 = [ 
-  pic1, pic2, pic3, pic4, pic5, pic6, pic7, pic8, pic9, pic10,
+  pic1, pic2, pic3, pic4, pic5, pic6, //pic7, pic8, pic9,
+  pic10,
   pic11, pic12, pic13, pic14, pic15, pic16, pic17, pic18, pic19, pic20,
   pic21, pic22, pic23, pic24, pic25, pic26, pic27, pic28, pic29, pic30,
   pic31, pic32, pic33, pic34, pic35, pic36, //pic37, pic38, pic39,
