@@ -26,7 +26,7 @@ const AboutPage = () => (
           natural world, but through capturing its stories of preservation, he hopes others learn what it means to be a part of it.
 
 
-          <br /><br />Outside of being an adventurer, Jalen is an avid skateboarder, writer, undercover pianist, and urban forester who has found a new passion in "seaforestation" and telling ocean stories.
+          <br /><br />Outside of being an adventurer, Jalen is an avid skateboarder, writer, undercover pianist, and urban forester who has ventured into the world of "seaforestation" and freediving.
         </p>
       </div>
     </div>

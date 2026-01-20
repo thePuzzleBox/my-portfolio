@@ -7,9 +7,9 @@ import pic3 from '../../assets/images/shots/plant/03.jpg';
 import pic4 from '../../assets/images/shots/plant/04.jpg';
 import pic5 from '../../assets/images/shots/plant/05.jpg';
 import pic6 from '../../assets/images/shots/plant/06.jpg';
-import pic7 from '../../assets/images/shots/plant/07.jpg';
-import pic8 from '../../assets/images/shots/plant/08.jpg';
-import pic9 from '../../assets/images/shots/plant/09.jpg';
+//import pic7 from '../../assets/images/shots/plant/07.jpg';
+//import pic8 from '../../assets/images/shots/plant/08.jpg';
+//import pic9 from '../../assets/images/shots/plant/09.jpg';
 import pic10 from '../../assets/images/shots/plant/010.jpg';
 import pic11 from '../../assets/images/shots/plant/011.jpg';
 import pic12 from '../../assets/images/shots/plant/012.jpg';
@@ -37,18 +37,18 @@ import pic33 from '../../assets/images/shots/plant/033.jpg';
 import pic34 from '../../assets/images/shots/plant/034.jpg';
 import pic35 from '../../assets/images/shots/plant/035.jpg';
 import pic36 from '../../assets/images/shots/plant/036.jpg';
-import pic37 from '../../assets/images/shots/plant/037.jpg';
-import pic38 from '../../assets/images/shots/plant/038.jpg';
-import pic39 from '../../assets/images/shots/plant/039.jpg';
+//import pic37 from '../../assets/images/shots/plant/037.jpg';
+//import pic38 from '../../assets/images/shots/plant/038.jpg';
+//import pic39 from '../../assets/images/shots/plant/039.jpg';
 import pic40 from '../../assets/images/shots/plant/040.jpg';
 import pic41 from '../../assets/images/shots/plant/041.jpg';
 import pic42 from '../../assets/images/shots/plant/042.jpg';
 import pic43 from '../../assets/images/shots/plant/043.jpg';
 import pic44 from '../../assets/images/shots/plant/044.jpg';
 import pic45 from '../../assets/images/shots/plant/045.jpg';
-import pic46 from '../../assets/images/shots/plant/046.jpg';
-import pic47 from '../../assets/images/shots/plant/047.jpg';
-import pic48 from '../../assets/images/shots/plant/048.jpg';
+//import pic46 from '../../assets/images/shots/plant/046.jpg'; fill in with new
+//import pic47 from '../../assets/images/shots/plant/047.jpg';
+//import pic48 from '../../assets/images/shots/plant/048.jpg';
 import pic49 from '../../assets/images/shots/plant/049.jpg';
 import pic50 from '../../assets/images/shots/plant/050.jpg';
 import pic51 from '../../assets/images/shots/plant/051.jpg';
@@ -86,21 +86,33 @@ import pic82 from '../../assets/images/shots/plant/082.jpg';
 import pic83 from '../../assets/images/shots/plant/083.jpg';
 import pic84 from '../../assets/images/shots/plant/084.jpg';
 
+import pic85 from '../../assets/images/shots/plant/085.jpg';
+import pic86 from '../../assets/images/shots/plant/086.jpg';
+import pic87 from '../../assets/images/shots/plant/087.jpg';
+import pic88 from '../../assets/images/shots/plant/088.jpg';
+import pic89 from '../../assets/images/shots/plant/089.jpg';
+import pic90 from '../../assets/images/shots/plant/090.jpg';
+import pic91 from '../../assets/images/shots/plant/091.jpg';
+import pic92 from '../../assets/images/shots/plant/092.jpg';
+import pic93 from '../../assets/images/shots/plant/093.jpg';
+
 const images = [
-  pic1,pic2,pic3,pic4,pic5,pic6,pic7,pic8,pic9,pic10,
+  pic85, pic86, pic87, pic88, pic89, pic90, pic91, pic92, pic93,
+  pic1,pic2,pic3,pic4,pic5,pic6,pic10,
   pic11,pic12,pic13,pic14,pic15,pic16,pic17,pic18,pic19,pic20,
   pic21,pic22,pic23,pic24,pic25,pic26,pic27,pic28,pic29,pic30,
-  pic31,pic32,pic33,pic34,pic35,pic36,pic37,pic38,pic39,pic40,
-  pic41,pic42,pic43,pic44,pic45,pic46,pic47,pic48,pic49,pic50,
+  pic31,pic32,pic33,pic34,pic35,pic36, pic40,
+  pic41,pic42,pic43,pic44,pic45,pic49,pic50,
   pic51,pic52,pic53,pic54,pic55,pic56,pic57,pic58,pic59,pic60,
   pic61,pic62,pic63,pic64,pic65,pic66,pic67,pic68,pic69,pic70,
   pic71,pic72,pic73,pic74,pic75,pic76,pic77,pic78,pic79,pic80,
   pic81,pic82,pic83, pic84
 ];
 
-const firstBatch = images.slice(0, 54);
-const secondBatch = images.slice(54, 72);
-const thirdBatch = images.slice(72);
+const firstBatch = images.slice(0, 9);
+const secondBatch = images.slice(9, 54);
+const thirdBatch = images.slice(54, 72);
+const fourthBatch = images.slice(72);
 
 const IndexPage = () => (
   <Layout>
@@ -131,10 +143,24 @@ const IndexPage = () => (
 
         
         <br /><br /><hr /><br /><br /><br /><br />
+        
 
-         {/* Remaining images */}
+         {/* Third Batch */}
         <section className="tiles" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '15px' }}>
           {thirdBatch.map((img, idx) => (
+            <div key={idx} style={{ width: '100%', overflow: 'hidden' }}>
+              <img src={img} alt="" style={{ width: '100%', height: 'auto', display: 'block' }} />
+            </div>
+          ))}
+        </section>
+
+
+      <br /><br /><hr /><br /><br /><br /><br />
+
+
+        {/* Fourth Batch */}
+       <section className="tiles" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '15px' }}>
+          {fourthBatch.map((img, idx) => (
             <div key={idx} style={{ width: '100%', overflow: 'hidden' }}>
               <img src={img} alt="" style={{ width: '100%', height: 'auto', display: 'block' }} />
             </div>

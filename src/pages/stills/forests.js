@@ -1,4 +1,4 @@
-import React from 'react';
+{/* import React from 'react';
 import Layout from '../../components/Layout2';
 import HorizontalGallery from '../../components/HorizontalGallery';
 
@@ -39,18 +39,18 @@ import pic33 from '../../assets/images/shots/plant/033.jpg';
 import pic34 from '../../assets/images/shots/plant/034.jpg';
 import pic35 from '../../assets/images/shots/plant/035.jpg';
 import pic36 from '../../assets/images/shots/plant/036.jpg';
-import pic37 from '../../assets/images/shots/plant/037.jpg';
-import pic38 from '../../assets/images/shots/plant/038.jpg';
-import pic39 from '../../assets/images/shots/plant/039.jpg';
+//import pic37 from '../../assets/images/shots/plant/037.jpg';
+//import pic38 from '../../assets/images/shots/plant/038.jpg';
+//import pic39 from '../../assets/images/shots/plant/039.jpg';
 import pic40 from '../../assets/images/shots/plant/040.jpg';
 import pic41 from '../../assets/images/shots/plant/041.jpg';
 import pic42 from '../../assets/images/shots/plant/042.jpg';
 import pic43 from '../../assets/images/shots/plant/043.jpg';
 import pic44 from '../../assets/images/shots/plant/044.jpg';
 import pic45 from '../../assets/images/shots/plant/045.jpg';
-import pic46 from '../../assets/images/shots/plant/046.jpg';
-import pic47 from '../../assets/images/shots/plant/047.jpg';
-import pic48 from '../../assets/images/shots/plant/048.jpg';
+//import pic46 from '../../assets/images/shots/plant/046.jpg';
+//import pic47 from '../../assets/images/shots/plant/047.jpg';
+//import pic48 from '../../assets/images/shots/plant/048.jpg';
 import pic49 from '../../assets/images/shots/plant/049.jpg';
 import pic50 from '../../assets/images/shots/plant/050.jpg';
 import pic51 from '../../assets/images/shots/plant/051.jpg';
@@ -88,7 +88,10 @@ import pic82 from '../../assets/images/shots/plant/082.jpg';
 import pic83 from '../../assets/images/shots/plant/083.jpg';
 import pic84 from '../../assets/images/shots/plant/084.jpg';
 
-const gallery1 = [
+
+// THIS IS A HORIZONTAL SCROLL LAYOUT, GREAT BUT STILL NEEDS VISUAL WORK
+
+const gallery1 = [ 
   pic1, pic2, pic3, pic4, pic5, pic6, pic7, pic8, pic9, pic10,
   pic11, pic12, pic13, pic14, pic15, pic16, pic17, pic18, pic19, pic20,
   pic21, pic22, pic23, pic24, pic25, pic26, pic27, pic28, pic29, pic30,
@@ -126,3 +129,4 @@ const IndexPage = () => (
 );
 
 export default IndexPage;
+*/}

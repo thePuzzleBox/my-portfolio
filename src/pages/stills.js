@@ -6,7 +6,7 @@ import '../assets/sass/_mobile.scss';
 
 import pic1 from '../assets/images/shots/sa/001.jpg';
 import pic2 from '../assets/images/peak2.jpg';
-import pic3 from '../assets/images/shots/plant/046.jpg';
+import pic3 from '../assets/images/shots/plant/088.jpg'; //046
 import pic4 from '../assets/images/shots/au/06.jpg'; //'../assets/images/shots/ox/lucia.jpg';
 
 
@@ -51,8 +51,8 @@ const IndexPage = () => {
           </span>
           <Link to="/stills/plants">
             <div className="content">
-              <h2>plants</h2>
-              <h3><i>& forests</i></h3>
+              <h2>rainforests</h2>
+              <h3><i>& plants</i></h3>
             </div>
           </Link>
         </article>
