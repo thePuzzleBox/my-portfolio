@@ -39,6 +39,7 @@ const IndexPage = () => {
           <Link to="/stills/">
             <div className="content">
               <h2>mountains</h2>
+              <h3><i>& highlands</i></h3>
               <h3><i>coming soon</i></h3>
             </div>
           </Link>
