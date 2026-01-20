@@ -155,17 +155,7 @@ const IndexPage = () => (
         </section>
 
 
-      <br /><br /><hr /><br /><br /><br /><br />
 
-
-        {/* Fourth Batch */}
-       <section className="tiles" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '15px' }}>
-          {fourthBatch.map((img, idx) => (
-            <div key={idx} style={{ width: '100%', overflow: 'hidden' }}>
-              <img src={img} alt="" style={{ width: '100%', height: 'auto', display: 'block' }} />
-            </div>
-          ))}
-        </section>
 
       </div>
     </div>
