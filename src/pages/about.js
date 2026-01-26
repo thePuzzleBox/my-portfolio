@@ -17,7 +17,7 @@ const AboutPage = () => (
       <div className="col-lg-8 mx-auto">
         <h2 className="fg text-black mb-4 text-center">{/*possible title */}</h2>
         <p className="fg text-black">
-          Jalen Smith is a nomadic filmmaker and conservation storyteller from Los Angeles, CA. He graduated studying film and political science at Yale College. Upon transferring from community college with 
+          Jalen Smith is a nomadic documentary filmmaker and conservation storyteller from Los Angeles, CA. He graduated studying film and political science at Yale College. Upon transferring from community college with 
           an extensive background in advocacy, Jalen sought to do meaningful work in visual storytelling. Through filming wildlife and teaching kids how to plant trees, he found he had a passion for nature and for sharing it. 
           
           
@@ -26,7 +26,7 @@ const AboutPage = () => (
           natural world, but through capturing its stories of preservation, he hopes others learn what it means to be a part of it.
 
 
-          <br /><br />Outside of being an adventurer, Jalen is an avid skateboarder, writer, undercover pianist, and urban forester who loves sharing random ocean fun facts he's learned.
+          <br /><br />Outside of being an adventurer, Jalen is an avid skateboarder, writer, undercover pianist, and urban forester who loves sharing his ever-growing list of random ocean fun facts.
         </p>
       </div>
     </div>
