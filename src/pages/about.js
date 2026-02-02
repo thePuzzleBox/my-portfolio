@@ -17,11 +17,11 @@ const AboutPage = () => (
       <div className="col-lg-8 mx-auto">
         <h2 className="fg text-black mb-4 text-center">{/*possible title */}</h2>
         <p className="fg text-black">
-          Jalen Smith is a nomadic documentary filmmaker and conservation storyteller from Los Angeles, CA. He graduated studying film and political science at Yale College after starting a nontraditional journey at community college. With an extensive background in advocacy, Jalen sought to do meaningful work in visual storytelling. From filming wildlife to teaching kids how to plant trees, he found he had a passion for nature and for sharing it. 
+          Jalen Smith is a nomadic filmmaker, documentary cinematographer, and conservation storyteller from Los Angeles, CA. After starting his undergraduate career at community college, he graduated from Yale University studying film and political science. Seeking to do work in the field and behind a camera, Jalen started filming wildlife and teaching kids how to plant trees. There, he found he had a passion for nature and for sharing it. 
           
           
-          <br/><br/> Currently, Jalen's commitment to conservation and natural world stories has led him to work and film in communities worldwide. From sailing across Indonesia to planting trees across South America, he has found himself 
-          in some of the most remote regions on Earth, in the presence of exceptionally diverse people, ecosystems, and alternative ways of life. As a result, he aims to not only share this wealth and knowledge of the
+          <br/><br/> Since then, Jalen's commitment to conservation and natural world storytelling has led him to work and film in communities worldwide. From sailing across Indonesia to planting trees across South America, he has found himself 
+          in some of the most biodiverse regions on Earth, learning from their rich mosaic of people, ecosystems, and alternative ways of life. As a result, he aims to not only share this wealth and knowledge of the
           natural world, but through capturing its stories of preservation, he hopes others learn what it means to be a part of it.
 
 
