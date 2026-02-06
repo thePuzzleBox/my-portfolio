@@ -24,9 +24,9 @@ const AboutPage = () => (
           natural world, but through capturing its stories of preservation, he hopes others learn what it means to be a part of it.
 
 
-          <br /><br />Jalen has worked with companies such as The Nature Conservancy and OceanX, after he began his undergraduate journey at community college and graduated from Yale University studying film and political science. 
-          He seeks purpose-driven work at the intersection of conservation and human connection. 
-          <br /><br />When he’s not in the field, Jalen can usually be found skateboarding, writing, planting trees of all sizes, or learning how to freedive.
+          <br /><br />Jalen has worked with companies such as The Nature Conservancy and OceanX, and holds a B.A. from Yale University after beginning his academic journey at community college. 
+          Today, Jalen seeks purpose-driven work at the intersection of conservation and human connection. 
+          <br /><br />When he’s not in the field, he can usually be found skateboarding, writing, planting trees big and small, or learning how to freedive.
         </p>
       </div>
     </div>
