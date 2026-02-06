@@ -17,16 +17,16 @@ const AboutPage = () => (
       <div className="col-lg-8 mx-auto">
         <h2 className="fg text-black mb-4 text-center">{/*possible title */}</h2>
         <p className="fg text-black">
-          Jalen Smith is a nomadic filmmaker, documentary cinematographer, and conservation storyteller from Los Angeles, CA. After taking the path of community college, he graduated from Yale University with a B.A. studying film and political science. 
-          Seeking experience in the field and behind a camera, Jalen started his career filming wildlife and teaching kids how to plant trees. He knew he had a passion for nature and for sharing it. 
-          
+          Jalen Smith is a nomadic filmmaker, documentary cinematographer, and conservation storyteller from Los Angeles, CA. His unique journey into filmmaking started with filming wildlife and teaching kids how to plant trees — two very different experiences that solidified a lifelong passion for sharing the natural world with others.
           
           <br/><br/> Since then, Jalen's commitment to conservation and natural world storytelling has led him to work and film in communities worldwide. From sailing across Indonesia to planting trees across South America, he has found himself 
           in some of the most biodiverse regions on Earth, filming a vast tapestry of people, ecosystems, and alternative ways of life. As a result, he aims to not only share this wealth and knowledge of the
           natural world, but through capturing its stories of preservation, he hopes others learn what it means to be a part of it.
 
 
-          <br /><br />Outside of being an adventurer, Jalen is an avid skateboarder, writer, undercover pianist, and urban forester who recently ventured into the word of freediving.
+          <br /><br />Jalen has worked with companies such as The Nature Conservancy and OceanX, after he began his undergraduate journey at community college and graduated from Yale University studying film and political science. 
+          He seeks purpose-driven work at the intersection of conservation and human connection. 
+          <br /><br />When he’s not in the field, Jalen can usually be found skateboarding, writing, planting trees of all sizes, or learning how to freedive.
         </p>
       </div>
     </div>
