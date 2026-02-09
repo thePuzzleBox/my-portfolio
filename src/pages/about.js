@@ -17,11 +17,12 @@ const AboutPage = () => (
       <div className="col-lg-8 mx-auto">
         <h2 className="fg text-black mb-4 text-center">{/*possible title */}</h2>
         <p className="fg text-black">
-          Jalen Smith is a nomadic filmmaker, documentary cinematographer, and conservation storyteller from Los Angeles, CA. His unique journey into filmmaking started with filming wildlife and teaching kids how to plant trees — two very different experiences that solidified a lifelong passion for sharing the natural world with others.
+          Jalen Smith is a nomadic filmmaker, documentary cinematographer, and conservation storyteller from Los Angeles, CA. His unique journey into conservation film started with filming wildlife and teaching kids how to plant trees.
+          Two very different experiences that solidified a lifelong passion for bringing people closer to the natural world.
           
-          <br/><br/> Since then, Jalen's commitment to conservation and natural world storytelling has led him to work and film in communities worldwide. From sailing across Indonesia to planting trees across South America, he has found himself 
+          <br/><br/> Since then, Jalen's commitment to this vision has led him to work and film in communities worldwide. From sailing across Indonesia to planting trees across South America, he has found himself 
           in some of the most biodiverse regions on Earth, filming a vast tapestry of people, ecosystems, and alternative ways of life. As a result, he aims to not only share this wealth and knowledge of the
-          natural world, but through capturing its stories of preservation, he hopes others learn what it means to be a part of it.
+          natural world, but through capturing its stories of preservation, he hopes others learn what it means to be truly part of it.
 
 
           <br /><br />Jalen has worked with companies such as The Nature Conservancy and OceanX, and holds a B.A. from Yale University after beginning his academic journey at community college. 
