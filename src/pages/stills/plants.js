@@ -102,17 +102,17 @@ const images = [
   pic11,pic12,pic13,pic14,pic15,pic16,pic17,pic18,pic19,pic20,
   pic21,pic22,pic23,pic24,pic25,pic26,pic27,pic28,pic29,pic30,
   pic31,pic32,pic33,pic34,pic35,pic36, pic40,
-  pic41,pic42,pic43,pic44,pic45,pic49,pic50,
-  pic51,pic52,pic53,pic54,pic55,pic56,pic57,pic58,pic59,pic60,
+  pic41,pic42,pic43,pic44,pic45,pic50,pic53,
+  pic52,pic55,pic56,pic57,pic58,pic59,pic60,
   pic61,pic62,pic63,pic64,pic65,pic66,pic67,pic68,pic69,pic70,
   pic71,pic72,pic73,pic74,pic75,pic76,pic77,pic78,pic79,pic80,
   pic81,pic82,pic83, pic84
 ];
 
 const firstBatch = images.slice(0, 9);
-const secondBatch = images.slice(9, 54);
-const thirdBatch = images.slice(54, 72);
-const fourthBatch = images.slice(72);
+const secondBatch = images.slice(9, 51);
+const thirdBatch = images.slice(51, 69);
+const fourthBatch = images.slice(69);
 
 const IndexPage = () => (
   <Layout>
