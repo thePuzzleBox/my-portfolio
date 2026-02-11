@@ -93,7 +93,7 @@ import pic88 from '../../assets/images/shots/plant/088.jpg';
 import pic89 from '../../assets/images/shots/plant/089.jpg';
 import pic90 from '../../assets/images/shots/plant/090.jpg';
 import pic91 from '../../assets/images/shots/plant/091.jpg';
-import pic92 from '../../assets/images/shots/plant/092.jpg';
+import pic92 from '../../assets/images/shots/plant/095.jpg';
 import pic93 from '../../assets/images/shots/plant/093.jpg';
 
 const images = [
