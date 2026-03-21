@@ -21,11 +21,11 @@ const AboutPage = () => (
           Two very different experiences that solidified a lifelong passion for bringing people closer to the natural world.
           
           <br/><br/> Since then, Jalen's commitment to this vision has led him to work and film in communities worldwide. From sailing across Indonesia to planting trees across South America, he has found himself 
-          in some of the most biodiverse regions on Earth, filming a vast tapestry of people, ecosystems, and alternative ways of life. As a result, he aims to not only share this wealth and knowledge of the
+          in some of the most biodiverse regions on Earth, filming a vibrant range of people, ecosystems, and alternative ways of life. As a result, he aims to not only share this wealth and knowledge of the
           natural world, but through capturing its stories of preservation, he hopes others learn what it means to be truly part of it.
 
 
-          <br /><br />Jalen has worked with companies such as The Nature Conservancy and OceanX, and holds a B.A. from Yale University after beginning his academic journey at community college.
+          <br /><br />Jalen has worked with companies such as The Nature Conservancy and OceanX, and holds a B.A. from Yale College after beginning his academic journey at community college.
            When he’s not in the field, he can usually be found skateboarding, writing, planting trees big and small, or learning how to freedive.
           {/*Today, he seeks initiatives at the intersection of conservation and human connection. */}
         </p>
