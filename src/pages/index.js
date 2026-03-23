@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 import Scroll from '../components/Scroll';
 
 import config from '../../config';
-import Footer from '../components/Footer3';
+import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Ending from '../components/Ending';
 
@@ -21,7 +21,6 @@ const IndexPage = () => (
           <h2 className="text-white-50 mx-auto mt-2 mb-5">
             {config.subHeading}
           </h2>
-          {/*<p style={{ opacity: 0 }}>Yale University</p>*/}
 
           <Scroll type="id" element="video">
         <a href="#video" className="more">
