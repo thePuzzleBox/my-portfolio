@@ -3,7 +3,8 @@ import config from '../../config';
 
 export default function SocialLinks() {
   return (
-    <section className="contact-section bg-black">
+    <section className="contact-section bg-black"
+style={{ paddingTop: '0.2px', paddingBottom: 'px' }}>
       <div className="container">
 
 

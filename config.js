@@ -28,11 +28,11 @@ module.exports = {
       name: 'Linkedin',
       url: 'https://linkedin.com/in/jalensmith/',
     },
-    {
+    /*{
       icon: 'fa-youtube',
       name: 'YouTube',
       url: 'https://youtube.com/@whereisJalen',
-    },
+    },*/
   ],
   email: '',
   phone: '000-00000',

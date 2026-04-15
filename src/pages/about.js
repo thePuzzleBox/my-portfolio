@@ -3,6 +3,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 import Header from '../components/Header';
 import Footer from '../components/Footer2';
+import SocialLinks from '../components/SocialLinks';
 import portrait from '../assets/images/mee.jpg';
 
 const AboutPage = () => (
@@ -33,6 +34,7 @@ const AboutPage = () => (
     </div>
   </div>
 </section>
+    <SocialLinks/>
     <Footer />
   </Layout>
 );
