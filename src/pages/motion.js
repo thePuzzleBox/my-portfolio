@@ -34,7 +34,7 @@ const VideoPage = () => {
     { ref: videoRefs.au, src: 'https://youtube.com/embed/rpTR5hea4GE', title: 'WNT' },
      { ref: videoRefs.wn, src: 'https://www.youtube.com/embed/bH25f59aO4I', title: 'WN' },
     { ref: videoRefs.grow, src: 'https://youtube.com/embed/231F8qevHLg', title: 'regrow' },
-     { ref: videoRefs.teng, src: 'https://youtube.com/embed/p1IDbZ-1jLg', title: 'teng' },
+     { ref: videoRefs.teng, src: 'https://www.youtube.com/embed/zKPUn33k6So', title: 'teng' },
     { ref: videoRefs.ox, src: 'https://youtube.com/embed/cxsvWjbjeWQ', title: 'OX' },
     { ref: videoRefs.tnc, src: 'https://youtube.com/embed/5s2WVWY5fGU', title: 'TNC' },
     // { ref: videoRefs.tnc2, src: 'https://youtube.com/embed/A1xf2RrvUOk', title: 'TNC2' },
