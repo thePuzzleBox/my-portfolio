@@ -22,7 +22,7 @@ const AboutPage = () => (
           Two very different experiences that solidified a lifelong passion for bringing people closer to the natural world.
           
           <br/><br/> Since then, Jalen's commitment to this vision has led him to work and film in communities worldwide. From sailing across Indonesia to planting trees across South America, he has found himself 
-          in some of the most remote regions on Earth, filming and engaging with a diverse range of people, ecosystems, and alternative ways of life. As a result, he aims to not only share this wealth and knowledge of the
+          in some of the most biodiverse regions on Earth, learning from and engaging with a diverse range of people, ecosystems, and alternative ways of life. As a result, he aims to not only share this wealth and knowledge of the
           natural world, but through capturing its stories of preservation, he hopes others learn what it means to be truly part of it.
 
 
