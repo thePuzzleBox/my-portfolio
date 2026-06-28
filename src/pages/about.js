@@ -18,7 +18,7 @@ const AboutPage = () => (
       <div className="col-lg-8 mx-auto">
         <h2 className="fg text-black mb-4 text-center">{/*possible title */}</h2>
         <p className="fg text-black">
-          Jalen Smith is a conservation filmmaker, documentary cinematographer, and nomadic storyteller from Los Angeles, CA. His journey into conservation film started with filming wildlife and teaching kids how to plant trees.
+          Jalen Smith is a conservation filmmaker and nomadic documentary storyteller from Los Angeles, CA. His journey into conservation film started with filming wildlife and teaching kids how to plant trees.
           Two very different experiences that solidified a lifelong passion for bringing people closer to the natural world.
           
           <br/><br/> Since then, Jalen's commitment to this vision has led him to work and film in communities worldwide. From sailing across Indonesia to planting trees across South America, he has found himself 
