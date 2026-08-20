@@ -22,7 +22,7 @@ const AboutPage = () => (
           a dream of filming wildlife. Despite having no prior experience behind a camera, he knew that's where he wanted to be and returned knowing exactly the kind of life he wanted to live. One
           dedicated to protecting the natural world and telling the stories that deepen our connection to it.
           
-          <br/><br/>He believes the most powerful stories are the ones that reveal part of the human experience. Jalen seeks relationships of vulnerability, resilience, and connection to place, to
+          <br/><br/>Jalen believes the most powerful stories are the ones that reveal part of the human experience. He seeks relationships of vulnerability, resilience, and connection to place, to
            recognize something in ourselves that affects how we see the world around us. Because it is through connection that something so distant becomes deeply personal. 
         
 
