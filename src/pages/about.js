@@ -18,19 +18,17 @@ const AboutPage = () => (
       <div className="col-lg-8 mx-auto">
         <h2 className="fg text-black mb-4 text-center">{/*possible title */}</h2>
         <p className="fg text-black">
-          Jalen is a nomadic documentary filmmaker and conservation storyteller driven by a passion for bringing people closer to nature. At 21, he left home for South Africa purely to chase
-          a dream of filming wildlife. Despite having no prior experience behind a camera, he knew that's where he wanted to be and returned knowing exactly the kind of life he wanted to live. One
-          dedicated to protecting the natural world and telling the stories that deepen our connection to it.
+          Jalen is a nomadic documentary filmmaker and conservation storyteller driven by a passion for bringing people closer to the natural world. At 21, he left home for South Africa purely to chase
+          a dream of filming wildlife. Despite having no prior experience behind a camera, he somehow knew that's where he was meant to be and returned knowing how he wanted to spend the rest of his life.
           
-          <br/><br/>Jalen believes the most powerful stories are the ones that reveal part of the human experience. He seeks relationships of vulnerability, resilience, and connection to place, to
-           recognize something in ourselves that affects how we see the world around us. Because it is through connection that something so distant becomes deeply personal. 
+          <br/><br/>Jalen sees storytelling as a way to make the seemingly distant feel personal. Sharing conservation through human experience, his work looks beyond the surface of place and subject to
+          find the underlying experiences and relationships that make life meaningful. The stories that reflect a part of ourselves back to us.
         
-
             <br/><br/>Based in Los Angeles, Jalen’s work spans documentary film and photography in expedition-based environments on land and at sea. He currently freelances for OceanX and has worked
-            with organizations such as The Nature Conservancy. Jalen earned his B.A. from Yale University after starting his education at community college.
+            with organizations such as The Nature Conservancy. He earned his B.A. from Yale University after starting his education at community college.
             
-            <br/><br/>When he’s not in the field, he can usually be found skateboarding, writing, planting
-            trees big and small, or learning how to freedive.
+            <br/><br/>When he’s not in the field, he can usually be found skateboarding, writing, planting trees big and small, or learning how to freedive.
+            And he believes the most powerful stories are the ones that reveal part of the human experience.
 
           {/*Jalen Smith is a nomadic documentary filmmaker and conservation storyteller from Los Angeles, CA. His journey in conservation started with filming wildlife and teaching kids how to plant
            trees. Two very different experiences that solidified a lifelong passion for bringing people closer to the natural world.
