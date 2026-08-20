@@ -26,8 +26,8 @@ const AboutPage = () => (
            recognize something in ourselves that affects how we see the world around us. Because it is through connection that something so distant becomes deeply personal. 
         
 
-            <br/><br/>Based in Los Angeles, Jalen’s work spans documentary film and photography in expedition-based environments on land and at sea. He is curently freelancing for OceanX, has worked
-            with organizations such as The Nature Conservancy, and earned his B.A. from Yale University after starting his education at community college.
+            <br/><br/>Based in Los Angeles, Jalen’s work spans documentary film and photography in expedition-based environments on land and at sea. He currently freelances for OceanX and has worked
+            with organizations such as The Nature Conservancy. Jalen earned his B.A. from Yale University after starting his education at community college.
             
             <br/><br/>When he’s not in the field, he can usually be found skateboarding, writing, planting
             trees big and small, or learning how to freedive.
