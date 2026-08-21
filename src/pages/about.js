@@ -19,7 +19,7 @@ const AboutPage = () => (
         <h2 className="fg text-black mb-4 text-center">{/*possible title */}</h2>
         <p className="fg text-black">
           Jalen is a nomadic documentary filmmaker and conservation storyteller passionate about bringing people closer to the natural world. At 21, he left home for South Africa purely to chase
-          a dream of filming wildlife. Having no prior experience behind a camera, he didn't just find what he was looking for. He returned having found what he wanted to dedicate his life to.
+          a dream of filming wildlife. Without any formal experience behind a camera, he didn't just find what he was looking for. He returned having found what he wanted to dedicate his life to.
           
           <br/><br/>Using visual storytelling to make seemingly distant worlds feel deeply personal, Jalen explores the complex relationships we have with nature and what they reveals about the human experience
           and the greater role we play in bettering it.
