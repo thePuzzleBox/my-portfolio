@@ -21,13 +21,13 @@ const AboutPage = () => (
           Jalen is a nomadic documentary filmmaker and conservation storyteller passionate about bringing people closer to the natural world. At 21, he left home for South Africa purely to chase
           a dream of filming wildlife. Having no prior experience behind a camera, he didn't just find what he was looking for. He returned having found what he wanted to dedicate his life to.
           
-          <br/><br/>His work looks beyond the surface of subject and place, exploring the underlying relationships nature reveals about the human experience.
-          Filmmaking is his way of making the seemingly distant feel deeply personal. 
+          <br/><br/>Using visual storytelling to make seemingly distant worlds feel deeply personal, Jalen explores the complex relationships we have with nature and what they reveals about the human experience
+          and the greater role we play in bettering it.
         
-            <br/><br/>Based in Los Angeles, Jalen’s portfolio spans documentary film and photography in expedition environments on land and at sea. He currently freelances for OceanX and has worked
+            <br/><br/>Based in Los Angeles, Jalen’s portfolio spans documentary film and photography in expedition environments across land and at sea. He currently freelances for OceanX and has worked
             with organizations such as The Nature Conservancy. He earned his B.A. from Yale University after starting his education at community college.
             
-            <br/><br/>When he’s not in the field, he can usually be found skateboarding, writing, planting trees big and small, or learning how to freedive.
+            <br/><br/>When he’s not in the field, he can usually be found sitting at a piano, skateboarding, planting trees big and small, or learning how to freedive.
 
           {/*Jalen Smith is a nomadic documentary filmmaker and conservation storyteller from Los Angeles, CA. His journey in conservation started with filming wildlife and teaching kids how to plant
            trees. Two very different experiences that solidified a lifelong passion for bringing people closer to the natural world.
