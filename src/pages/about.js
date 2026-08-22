@@ -26,10 +26,10 @@ const AboutPage = () => (
               a dream of filming wildlife. Without any prior experience behind a camera, he knew that's where he needed to be. Needless to say, he didn't just find what he was looking for. He returned having
               found what he wanted to dedicate his life to.
 
-              <br/><br/>Using visual storytelling to make seemingly distant worlds feel deeply personal, Jalen captures the complex relationships we have with nature and what they reveal about the human experience
-              and the greater role we play in bettering it.
+              <br/><br/>Using visual storytelling to make seemingly distant worlds feel deeply personal, Jalen captures our complex relationships with nature and what they reveal about the human experience
+              and our role in bettering it.
 
-              <br/><br/>Based in Los Angeles, Jalen’s portfolio spans documentary film and photography in expedition environments across land and at sea. He currently freelances for OceanX and has worked
+              <br/><br/>Based in Los Angeles, Jalen’s portfolio spans documentary film and photography in expedition environments across land and sea. He currently freelances for OceanX and has worked
               with organizations such as The Nature Conservancy. He earned his B.A. from Yale University after starting his education at community college.
 
               <br/><br/>When he’s not in the field, he can usually be found sitting at a piano, skateboarding, planting trees big and small, or learning how to freedive.
