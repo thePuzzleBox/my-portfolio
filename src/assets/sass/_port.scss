@@ -39,7 +39,6 @@
     color: white;
     text-align: center;
     pointer-events: none;
-    font-size: clamp(12px, 3vw, 20px);
     max-width: 90%;
     white-space: nowrap;
   }
@@ -72,8 +71,8 @@
 
  
   /* Portfolio Landing text */
-  .landing-text {
-    font-size: 30px !important;
+  .landing-text h2{
+    font-size: clamp(35px, 3vw, 60px) !important;
   }
 
   /* Stills text */
