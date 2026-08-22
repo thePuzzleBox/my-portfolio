@@ -12,7 +12,7 @@ const IndexPage = () => (
         <div className="mx-auto text-center">
           <h1 className="mx-auto my-0 text-uppercase">Page not found</h1>
           {/*<h2 className="text-white-50 mx-auto mt-2 mb-5">Not a valid URL</h2> */}
-
+          <br/><br/>
           <Link to="/" className="btn btn-primary">
             Return Home
           </Link>

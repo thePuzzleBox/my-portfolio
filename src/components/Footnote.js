@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Ending() {
+export default function Footnote() {
   return (
     <section id="signup" className="signup-section">
       <div className="container">

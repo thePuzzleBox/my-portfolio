@@ -6,7 +6,7 @@ import Scroll from '../components/Scroll';
 import config from '../../config';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-import Ending from '../components/Ending';
+import Footnote from '../components/Footnote';
 
 import reel from '../assets/images/land.mp4';
 
@@ -37,7 +37,7 @@ const IndexPage = () => (
   </div>
 </section>
 
-<Ending/>
+<Footnote/>
     <Footer />
   </Layout>
 );
