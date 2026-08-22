@@ -46,7 +46,7 @@ const IndexPage = () => {
             <img src={pic1} alt="Stills" />
           </span>
           <Link to="/stills">
-            <div className="content">
+            <div className="content landing-text">
             <h2>STILLS</h2>
             </div>
           </Link>
@@ -68,7 +68,7 @@ const IndexPage = () => {
             )}
           </span>
           <Link to="/motion">
-            <div className="content">
+            <div className="content landing-text">
               <h2>MOTION</h2>
             </div>
           </Link>
