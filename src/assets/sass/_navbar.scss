@@ -1,26 +1,52 @@
 #mainNav {
+
   min-height: 56px;
-  background-color: $white;
+  background-color: transparent;
+
+  .container {
+    max-width: none;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .navbar-toggler {
     font-size: 80%;
     padding: 0.75rem;
+    color: #D0D0D0;
+
     &:focus {
       outline: none;
     }
   }
+
   .navbar-brand {
-    color: $black;
+    color: #D0D0D0;
     font-weight: 700;
     padding: .9rem 1rem;
     margin-left: 10px;
   }
+
   .navbar-nav {
     .nav-item {
+
+      .nav-link,
+      .nav-link a {
+        color: #D0D0D0 !important;
+        text-decoration: none;
+      }
+
       &:hover {
-        color: fade(white, 80%);
         outline: none;
         background-color: transparent;
+
+        .nav-link,
+        .nav-link a {
+          color: #D0D0D0 !important;
+          text-decoration: underline;
+        }
       }
+
       &:active,
       &:focus {
         outline: none;
@@ -28,48 +54,160 @@
       }
     }
   }
+
+  // MOBILE
+  @media (max-width: 991px) {
+    .navbar-collapse {
+      text-align: right;
+    }
+
+    .navbar-nav {
+      margin-left: auto;
+      text-align: right;
+      align-items: flex-end;
+    }
+
+    .nav-item {
+      text-align: right;
+    }
+  }
+
+  // SCROLLED STATE — MOBILE + DESKTOP
+  &.navbar-shrink {
+    background: rgba(255, 255, 255, 0.8);
+    transition: background-color 0.3s ease-in-out;
+
+    .navbar-brand {
+      color: #555555 !important;
+    }
+
+    .navbar-toggler {
+      color: #555555;
+    }
+
+    .navbar-nav {
+      .nav-item {
+
+        .nav-link,
+        .nav-link a {
+          color: #555555 !important;
+        }
+
+        &:hover {
+          .nav-link,
+          .nav-link a {
+            color: #555555 !important;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+
   @media (min-width: 992px) {
+
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: none;
     background-color: transparent;
     transition: background-color 0.3s ease-in-out;
+
     .navbar-brand {
       padding: .5rem 0;
-      color: fade-out($white, .5);
+      margin-left: 150px;
+      color: #D0D0D0 !important;
     }
+
+    .navbar-nav {
+      margin-right: 100px;
+    }
+
     .nav-link {
-      transition: none;
+      transition: color 0.3s ease-in-out;
       padding: 2rem 1.5rem;
-      color: fade-out($black, .5);
-      &:hover {
-        color: fade-out(black, .25);
+      color: #D0D0D0 !important;
+
+      a {
+        color: #D0D0D0 !important;
+        text-decoration: none;
       }
+
+      &:hover {
+        color: #D0D0D0 !important;
+
+        a {
+          color: #D0D0D0 !important;
+          text-decoration: underline;
+        }
+      }
+
       &:active {
-        color: black;
+        color: #D0D0D0 !important;
+
+        a {
+          color: #D0D0D0 !important;
+        }
       }
     }
+
     &.navbar-shrink {
-      background: rgba($color: white, $alpha: 0.8);
+
+      background: rgba(255, 255, 255, 0.8);
+
       .navbar-brand {
-        color: $black;
+        color: #555555 !important;
       }
+
       .nav-link {
-        color: $black;
+        color: #555555 !important;
         padding: 1.5rem 1.5rem 1.25rem;
         border-bottom: 0.25rem solid transparent;
+
+        a {
+          color: #555555 !important;
+          text-decoration: none;
+
+          &:hover {
+            color: #555555 !important;
+            text-decoration: underline;
+          }
+        }
+
         &:hover {
-          color: $black;
+          color: #555555 !important;
+
+          a {
+            color: #555555 !important;
+            text-decoration: underline;
+          }
         }
+
         &:active {
-          color: darken($black, 15%);
+          color: #555555 !important;
+
+          a {
+            color: #555555 !important;
+          }
         }
+
         &.active {
-          color: $primary;
+          color: #555555 !important;
           outline: none;
-          border-bottom: 0.25rem solid $primary;
+          border-bottom: 0.25rem solid transparent;
+
+          a {
+            color: #555555 !important;
+          }
         }
       }
     }
   }
+}
+
+#mainNav {
+  transition: transform 0.3s ease-in-out;
+}
+
+#mainNav.navbar-hidden {
+  transform: translateY(-100%);
 }

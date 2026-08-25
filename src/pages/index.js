@@ -15,32 +15,43 @@ const IndexPage = () => (
     <Header />
 
     <header className="masthead">
-      <div className="container d-flex h-100 align-items-center">
-        <div className="mx-auto text-center">
-          <h1 className="mx-auto my-0 text-uppercase">{config.heading}</h1>
-          <h2 className="text-white-50 mx-auto mt-2 mb-5">
-            {config.subHeading}
-          </h2>
+      <video
+        className="masthead-video"
+        src={reel}
+        autoPlay
+        playsInline
+        loop
+        muted
+      />
 
-          <Scroll type="id" element="video">
-        <a href="#video" className="more">
-        </a>
-          </Scroll>
-          
+      <div className="masthead-content">
+        <div className="container d-flex h-100 align-items-center">
+          <div className="mx-auto text-center">
+
+            <div className="masthead-title">
+              <h1 className="mx-auto my-0 text-uppercase">
+                {config.heading}
+              </h1>
+
+              <h2 className="text-white-50 mx-auto mt-2 mb-5">
+                {config.subHeading}
+              </h2>
+            </div>
+
+            <Scroll type="id" element="video">
+              <a href="#video" className="more"></a>
+            </Scroll>
+
+          </div>
         </div>
       </div>
     </header>
 
-    <section id="video" className="video-section align-center">
-  <div className="vid-container">
-   <video src={reel} autoPlay={true} playsInline={true} loop muted/>
-  </div>
-</section>
+    <section id="video" className="original-landing-image"></section>
 
-<Footnote/>
+    <Footnote />
     <Footer />
   </Layout>
 );
-
 
 export default IndexPage;
