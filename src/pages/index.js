@@ -8,7 +8,7 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Footnote from '../components/Footnote';
 
-import reel from '../assets/images/land.mp4';
+import reel from '../assets/images/landing.mp4';
 
 const IndexPage = () => (
   <Layout>
