@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Footnote() {
   return (
-    <section id="signup" className="signup-section">
+    <section id="footnote" className="footnote-section">
       <div className="container">
 
       <div className="row">

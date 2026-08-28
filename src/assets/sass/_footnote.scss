@@ -1,5 +1,5 @@
 /* Default styles for all devices */
-.signup-section {
+.footnote-section {
   padding: 10rem 0;
   background: linear-gradient(
       to top,
@@ -20,7 +20,7 @@
   background-size: cover;
 }
 
-.signup-section .form-inline input {
+.footnote-section .form-inline input {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
   height: auto;
@@ -33,7 +33,7 @@
 
 /* Media query for non-mobile devices */
 @media (min-width: 768px) {
-  .signup-section {
+  .footnote-section {
     min-height: 680px; /* Adjust this value as needed for non-mobile devices */
   }
 }

@@ -9,7 +9,7 @@ module.exports = {
   manifestIcon: 'src/assets/img/red.png',
   pathPrefix: `/gatsby-starter-grayscale/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Jalen Smith',
-  subHeading: 'Adventurer. Filmmaker. World Storyteller.',
+  subHeading: 'Adventurer. Filmmaker. Conservation Storyteller.',
 
   // social
   socialLinks: [

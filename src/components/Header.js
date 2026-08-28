@@ -19,6 +19,9 @@ export default class Header extends Component {
 
   toggleMenu = value => {
     this.setState({ openMenu: value });
+
+    // Prevent the page from scrolling while the mobile menu is open
+    document.body.style.overflow = value ? 'hidden' : '';
   };
 
   handleScroll = () => {
@@ -57,6 +60,9 @@ export default class Header extends Component {
 
   componentWillUnmount() {
     window.removeEventListener('scroll', this.handleScroll);
+
+    // Restore scrolling if the component is removed while menu is open
+    document.body.style.overflow = '';
   }
 
   render() {
@@ -65,7 +71,9 @@ export default class Header extends Component {
     return (
       <Layout>
         <nav
-          className={`navbar navbar-expand-lg navbar-light fixed-top ${visibilityClass}`}
+          className={`navbar navbar-expand-lg navbar-light fixed-top ${
+            visibilityClass
+          } ${openMenu ? 'mobile-menu-open' : ''}`}
           id="mainNav"
         >
           <div className="container">
@@ -96,7 +104,7 @@ export default class Header extends Component {
               id="navbarResponsive"
             >
               <ul className="navbar-nav ml-auto">
-            
+
                 <li className="nav-item">
                   <Scroll
                     onClick={_ => this.toggleMenu(!openMenu)}
@@ -132,7 +140,6 @@ export default class Header extends Component {
                     </a>
                   </Scroll>
                 </li> */}
-
 
               </ul>
             </div>

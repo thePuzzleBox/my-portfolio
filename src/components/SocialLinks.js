@@ -4,7 +4,7 @@ import config from '../../config';
 export default function SocialLinks() {
   return (
     <section
-      className="contact-section bg-black"
+      className="social-section bg-black"
       style={{
         paddingTop: '0',
         paddingBottom: '0',

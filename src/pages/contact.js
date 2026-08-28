@@ -8,7 +8,7 @@ import SocialLinks from '../components/SocialLinks';
 const ContactPage = () => (
   <Layout>
     <Header />
-	<section id="signup" className="signup-section">
+	<section id="footnote" className="footnote-section">
       <div className="container">
         <div className="mx-auto">
           <div className="col-md-10 col-lg-8 mx-auto text-center">

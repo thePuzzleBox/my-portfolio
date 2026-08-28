@@ -15,8 +15,10 @@
     padding: 0.75rem;
     color: #D0D0D0;
 
-    &:focus {
+    &:focus,
+    &:active {
       outline: none;
+      box-shadow: none;
     }
   }
 
@@ -57,18 +59,98 @@
 
   // MOBILE
   @media (max-width: 991px) {
+
     .navbar-collapse {
-      text-align: right;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      height: 100dvh;
+
+      display: flex !important;
+      align-items: center;
+      justify-content: center;
+
+      margin: 0;
+      padding: 0;
+
+      background-color: white;
+
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+
+      transition:
+        opacity 0.35s ease-in-out,
+        visibility 0.35s ease-in-out;
+
+      z-index: 1;
+    }
+
+    .navbar-collapse.show {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
     }
 
     .navbar-nav {
-      margin-left: auto;
-      text-align: right;
-      align-items: flex-end;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      width: 100%;
+      margin: 0;
+      padding: 0;
+
+      text-align: center;
     }
 
     .nav-item {
-      text-align: right;
+      width: auto;
+      margin: 0;
+      text-align: center;
+
+      .nav-link,
+      .nav-link a {
+        color: #555555 !important;
+        text-align: center;
+
+        // MOBILE NAV LINK SIZE
+        font-size: 1.15rem;
+      }
+
+      &:hover {
+        .nav-link,
+        .nav-link a {
+          color: #555555 !important;
+          text-decoration: underline;
+        }
+      }
+    }
+
+    // Keep navbar controls above the fullscreen menu
+    .navbar-brand,
+    .navbar-toggler {
+      position: relative;
+      z-index: 2;
+    }
+
+    // Menu links start below their final position
+    .navbar-collapse .navbar-nav {
+      transform: translateY(40px);
+      opacity: 0;
+
+      transition:
+        transform 0.35s ease-out,
+        opacity 0.35s ease-out;
+    }
+
+    // Move menu links upward when menu opens
+    .navbar-collapse.show .navbar-nav {
+      transform: translateY(0);
+      opacity: 1;
     }
   }
 
@@ -104,6 +186,7 @@
     }
   }
 
+  // DESKTOP
   @media (min-width: 992px) {
 
     padding-top: 0;
@@ -210,4 +293,28 @@
 
 #mainNav.navbar-hidden {
   transform: translateY(-100%);
+}
+
+/* Keep the navbar visible while the mobile menu is open */
+@media (max-width: 991px) {
+
+  #mainNav.mobile-menu-open {
+    transform: translateY(0);
+  }
+
+  /* FULLSCREEN MOBILE MENU ALWAYS USES DARK TEXT */
+  #mainNav.mobile-menu-open .navbar-collapse .navbar-nav .nav-item .nav-link,
+  #mainNav.mobile-menu-open .navbar-collapse .navbar-nav .nav-item .nav-link a,
+  #mainNav.mobile-menu-open.navbar-shrink .navbar-collapse .navbar-nav .nav-item .nav-link,
+  #mainNav.mobile-menu-open.navbar-shrink .navbar-collapse .navbar-nav .nav-item .nav-link a {
+    color: #555555 !important;
+  }
+
+  #mainNav.mobile-menu-open .navbar-collapse .navbar-nav .nav-item:hover .nav-link,
+  #mainNav.mobile-menu-open .navbar-collapse .navbar-nav .nav-item:hover .nav-link a,
+  #mainNav.mobile-menu-open.navbar-shrink .navbar-collapse .navbar-nav .nav-item:hover .nav-link,
+  #mainNav.mobile-menu-open.navbar-shrink .navbar-collapse .navbar-nav .nav-item:hover .nav-link a {
+    color: #555555 !important;
+    text-decoration: underline;
+  }
 }
