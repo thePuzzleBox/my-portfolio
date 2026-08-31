@@ -23,13 +23,13 @@ const AboutPage = () => (
 
             <p className="fg text-black">
               Jalen is a nomadic documentary filmmaker and conservation storyteller passionate about bringing people closer to the natural world. At 21, he left home for South Africa purely to chase
-              a dream of filming wildlife. Without any prior experience behind a camera, he knew that's what he wanted to do. After living amongst wild giants and experiencing a deeply connected way
-              of life, he didn't just find what he was looking for, he returned having found what he wanted to dedicate his life to.
+              a dream of filming wildlife. Without any prior experience behind a camera, he knew that's where he was meant to be. After living among some of the world's most extraordinary creatures
+              and experiencing a deeply connected way of life, he didn't just find what he was looking for, he returned having found what he wanted to dedicate his life to.
 
               <br/><br/>Using visual storytelling to make seemingly distant worlds feel deeply personal, Jalen captures our complex relationships with nature and what they reveal about the human experience
               and our role in bettering it.
 
-              <br/><br/>Based in Los Angeles, Jalen’s portfolio spans documentary film and photography in expedition environments across land and sea. He currently freelances for OceanX and has worked
+              <br/><br/>Jalen’s portfolio spans documentary film and photography in expedition environments across land and sea. Based in Los Angeles, he currently freelances for OceanX and has worked
               with organizations such as The Nature Conservancy. He earned his B.A. from Yale University after starting his education at community college.
 
               <br/><br/>When he’s not in the field, he can usually be found sitting at a piano, skateboarding, planting trees big and small, or learning how to freedive.

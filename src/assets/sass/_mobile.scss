@@ -1,4 +1,4 @@
-/* _port.scss */
+/* _mobile.scss */
 
 /* General styles */
 .header {
@@ -29,6 +29,7 @@
 
 /* Mobile styles */
 @media only screen and (max-width: 1400px) {
+
   .side {
     width: 100% !important;
     flex-direction: column !important;
@@ -101,10 +102,20 @@
       }
     }
   }
+
+  /* Default image for vertical panels */
+  .img-vertical {
+    display: block;
+  }
+
+  .img-horizontal {
+    display: none;
+  }
 }
 
 /* Landscape orientation */
 @media only screen and (max-width: 1400px) and (orientation: landscape) {
+
   .side {
     flex-direction: row !important;
   }
@@ -122,5 +133,14 @@
     &:first-child {
       margin-top: 0 !important;
     }
+  }
+
+  /* Horizontal panels use the horizontal image */
+  .img-vertical {
+    display: none;
+  }
+
+  .img-horizontal {
+    display: block;
   }
 }
