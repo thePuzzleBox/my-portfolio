@@ -4,14 +4,18 @@ import Layout from '../components/Layout2';
 import '../assets/sass/_port.scss';
 import '../assets/sass/_mobile.scss';
 
+
+import pic1 from '../assets/images/shots/sa/11.jpg'; /// remove if switching between imgs
 import pic2 from '../assets/images/peak.jpg';
 import pic3 from '../assets/images/shots/plant/088.jpg';
-import pic4 from '../assets/images/shots/ox/lucia.jpg';
+import pic4 from '../assets/images/shots/ox/lucia.jpg'; //au/44.jpg';
 
 import { Link } from 'gatsby';
 
 const IndexPage = () => {
-  const [pic1, setPic1] = useState(null);
+  //Remove comment brackets for switching between images
+
+  {/* const [pic1, setPic1] = useState(null);
 
   useEffect(() => {
     let currentLayout = null;
@@ -33,13 +37,13 @@ const IndexPage = () => {
       currentLayout = newLayout;
 
       if (isHorizontal) {
-        // HORIZONTAL PANELS → 008.jpg
-        import('../assets/images/shots/sa/008.jpg').then(image => {
+        // HORIZONTAL PANELS → image1.jpg
+        import('../assets/images/shots/sa/11.jpg').then(image => {
           setPic1(image.default);
         });
       } else {
-        // VERTICAL PANELS → 3.jpg
-        import('../assets/images/shots/sa/3.jpg').then(image => {
+        // VERTICAL PANELS → image2.jpg
+        import('../assets/images/shots/sa/11.jpg').then(image => {
           setPic1(image.default);
         });
       }
@@ -65,7 +69,7 @@ const IndexPage = () => {
         resizeObserver.disconnect();
       }
     };
-  }, []);
+  }, []); */}
 
   return (
     <Layout hideFooter={true}>
@@ -74,9 +78,9 @@ const IndexPage = () => {
         <article className="image-article">
           <span className="image">
 
-            {pic1 && (
+            {/* {pic1 && ( */}
               <img src={pic1} alt="Default" />
-            )}
+            {/* })} */}
 
           </span>
 

@@ -21,7 +21,7 @@ import pic17 from '../../assets/images/shots/sa/005.jpg';
 import pic18 from '../../assets/images/shots/sa/019.jpg';
 import pic19 from '../../assets/images/shots/sa/007.jpg';
 import pic20 from '../../assets/images/shots/sa/008.jpg';
-import pic21 from '../../assets/images/shots/sa/009.jpg';
+import pic21 from '../../assets/images/shots/sa/09.jpg';
 import pic22 from '../../assets/images/shots/sa/30.jpg';
 import pic23 from '../../assets/images/shots/sa/011.jpg';
 import pic24 from '../../assets/images/shots/sa/012.jpg';
