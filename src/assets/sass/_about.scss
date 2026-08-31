@@ -18,17 +18,13 @@
     margin: 0 !important;
   }
 
-  .row > div:last-child {
-    transform: translateY(30px);
-  }
-
   img {
     width: 100%;
     height: auto;
     display: block;
   }
 
-  /* Change immage size */
+  /* Change image size */
   .about-image img {
     width: 100%;
     max-width: none !important;
@@ -36,7 +32,6 @@
     transform-origin: right center;
   }
 
-  
   /* Change width of text box */
   .row > div:last-child p {
     width: 124%;
@@ -45,6 +40,30 @@
   p {
     margin-bottom: 5rem;
     opacity: 75%;
+  }
+}
+
+/* About page entrance animation */
+.about-image,
+.about-section .row > div:last-child {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: aboutFadeUp 0.8s ease-out forwards;
+}
+
+.about-section .row > div:last-child {
+  animation-delay: 0.2s;
+}
+
+@keyframes aboutFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
@@ -64,7 +83,6 @@
       max-width: 100%;
       margin: 0 !important;
     }
-    
 
     .about-image {
       display: flex;
