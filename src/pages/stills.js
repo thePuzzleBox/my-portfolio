@@ -5,7 +5,7 @@ import '../assets/sass/_port.scss';
 import '../assets/sass/_mobile.scss';
 
 
-import pic1 from '../assets/images/shots/sa/11.jpg'; /// remove if switching between imgs
+//import pic1 from '../assets/images/shots/sa/DSC13.jpg'; /// remove if switching between imgs
 import pic2 from '../assets/images/peak.jpg';
 import pic3 from '../assets/images/shots/plant/088.jpg';
 import pic4 from '../assets/images/shots/ox/lucia.jpg'; //au/44.jpg';
@@ -15,7 +15,7 @@ import { Link } from 'gatsby';
 const IndexPage = () => {
   //Remove comment brackets for switching between images
 
-  {/* const [pic1, setPic1] = useState(null);
+  const [pic1, setPic1] = useState(null);
 
   useEffect(() => {
     let currentLayout = null;
@@ -38,12 +38,12 @@ const IndexPage = () => {
 
       if (isHorizontal) {
         // HORIZONTAL PANELS → image1.jpg
-        import('../assets/images/shots/sa/11.jpg').then(image => {
+        import('../assets/images/shots/sa/008.jpg').then(image => {
           setPic1(image.default);
         });
       } else {
         // VERTICAL PANELS → image2.jpg
-        import('../assets/images/shots/sa/11.jpg').then(image => {
+        import('../assets/images/shots/sa/DSC30.jpg').then(image => {
           setPic1(image.default);
         });
       }
@@ -69,7 +69,7 @@ const IndexPage = () => {
         resizeObserver.disconnect();
       }
     };
-  }, []); */}
+  }, []);
 
   return (
     <Layout hideFooter={true}>
