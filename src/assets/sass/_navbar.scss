@@ -3,6 +3,30 @@
   min-height: 56px;
   background-color: transparent;
 
+  // Visual background layer.
+  // It exists continuously so there is no hard edge appearing
+  // when navbar-shrink is added.
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 116px;
+    pointer-events: none;
+    z-index: -1;
+
+    background: linear-gradient(
+      to bottom,
+      rgba(20, 20, 20, 0.20) 0,
+      rgba(20, 20, 20, 0.10) 56px,
+      rgba(20, 20, 20, 0) 100px
+    );
+
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+
   .container {
     max-width: none;
     width: 100%;
@@ -13,12 +37,32 @@
   .navbar-toggler {
     font-size: 80%;
     padding: 0.75rem;
-    color: #D0D0D0;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    background: transparent;
+    box-shadow: none;
+
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8.75px;
 
     &:focus,
     &:active {
       outline: none;
       box-shadow: none;
+      border: none;
+    }
+
+    > .hamburger-line {
+      display: block !important;
+      width: 35px !important;
+      height: 2px !important;
+      background-color: #FFFFFF !important;
+      transform: translateX(-20px) scaleY(0.75);
+      transition: transform 0.3s ease-in-out;
     }
   }
 
@@ -60,6 +104,10 @@
   // MOBILE
   @media (max-width: 991px) {
 
+    .navbar-toggler {
+      display: flex;
+    }
+
     .navbar-collapse {
       position: fixed;
       top: 0;
@@ -82,8 +130,8 @@
       pointer-events: none;
 
       transition:
-        opacity 0.35s ease-in-out,
-        visibility 0.35s ease-in-out;
+        opacity 0.5s ease-in-out,
+        visibility 0.5s ease-in-out;
 
       z-index: 1;
     }
@@ -116,9 +164,7 @@
       .nav-link a {
         color: #555555 !important;
         text-align: center;
-
-        // MOBILE NAV LINK SIZE
-        font-size: 1.15rem;
+        font-size: 1.25rem;
       }
 
       &:hover {
@@ -156,15 +202,19 @@
 
   // SCROLLED STATE — MOBILE + DESKTOP
   &.navbar-shrink {
-    background: rgba(255, 255, 255, 0.8);
-    transition: background-color 0.3s ease-in-out;
+
+    background-color: transparent;
+
+    &::before {
+      opacity: 1;
+    }
 
     .navbar-brand {
-      color: #555555 !important;
+      color: #FFFFFF !important;
     }
 
     .navbar-toggler {
-      color: #555555;
+      color: #FFFFFF;
     }
 
     .navbar-nav {
@@ -172,13 +222,13 @@
 
         .nav-link,
         .nav-link a {
-          color: #555555 !important;
+          color: #FFFFFF !important;
         }
 
         &:hover {
           .nav-link,
           .nav-link a {
-            color: #555555 !important;
+            color: #FFFFFF !important;
             text-decoration: underline;
           }
         }
@@ -235,51 +285,51 @@
 
     &.navbar-shrink {
 
-      background: rgba(255, 255, 255, 0.8);
+      background-color: transparent;
 
       .navbar-brand {
-        color: #555555 !important;
+        color: #FFFFFF !important;
       }
 
       .nav-link {
-        color: #555555 !important;
+        color: #FFFFFF !important;
         padding: 1.5rem 1.5rem 1.25rem;
         border-bottom: 0.25rem solid transparent;
 
         a {
-          color: #555555 !important;
+          color: #FFFFFF !important;
           text-decoration: none;
 
           &:hover {
-            color: #555555 !important;
+            color: #FFFFFF !important;
             text-decoration: underline;
           }
         }
 
         &:hover {
-          color: #555555 !important;
+          color: #FFFFFF !important;
 
           a {
-            color: #555555 !important;
+            color: #FFFFFF !important;
             text-decoration: underline;
           }
         }
 
         &:active {
-          color: #555555 !important;
+          color: #FFFFFF !important;
 
           a {
-            color: #555555 !important;
+            color: #FFFFFF !important;
           }
         }
 
         &.active {
-          color: #555555 !important;
+          color: #FFFFFF !important;
           outline: none;
           border-bottom: 0.25rem solid transparent;
 
           a {
-            color: #555555 !important;
+            color: #FFFFFF !important;
           }
         }
       }
@@ -302,18 +352,31 @@
     transform: translateY(0);
   }
 
+  #mainNav.mobile-menu-open .hamburger-line {
+    background-color: #000000 !important;
+  }
+
+  /* Animate hamburger into X */
+  #mainNav.mobile-menu-open .hamburger-line:first-child {
+    transform: translateX(-20px) translateY(5.375px) rotate(45deg) scale(0.75);
+  }
+
+  #mainNav.mobile-menu-open .hamburger-line:last-child {
+    transform: translateX(-20px) translateY(-5.375px) rotate(-45deg) scale(0.75);
+  }
+
   /* FULLSCREEN MOBILE MENU ALWAYS USES DARK TEXT */
   #mainNav.mobile-menu-open .navbar-collapse .navbar-nav .nav-item .nav-link,
   #mainNav.mobile-menu-open .navbar-collapse .navbar-nav .nav-item .nav-link a,
   #mainNav.mobile-menu-open.navbar-shrink .navbar-collapse .navbar-nav .nav-item .nav-link,
-  #mainNav.mobile-menu-open.navbar-shrink .navbar-collapse .navbar-nav .nav-item .nav-link a {
+  #mainNav.mobile-menu-open.navbar-shrink .navbar-nav .nav-item .nav-link a {
     color: #555555 !important;
   }
 
   #mainNav.mobile-menu-open .navbar-collapse .navbar-nav .nav-item:hover .nav-link,
   #mainNav.mobile-menu-open .navbar-collapse .navbar-nav .nav-item:hover .nav-link a,
-  #mainNav.mobile-menu-open.navbar-shrink .navbar-collapse .navbar-nav .nav-item:hover .nav-link,
-  #mainNav.mobile-menu-open.navbar-shrink .navbar-collapse .navbar-nav .nav-item:hover .nav-link a {
+  #mainNav.mobile-menu-open.navbar-shrink .navbar-collapse .nav-item:hover .nav-link,
+  #mainNav.mobile-menu-open.navbar-shrink .navbar-nav .nav-item:hover .nav-link a {
     color: #555555 !important;
     text-decoration: underline;
   }

@@ -5,7 +5,6 @@
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: .15rem;
-  border: 0;
 }
 
 .btn-primary {
@@ -23,16 +22,13 @@
 }
 
 .more {
-				background-image: url('../images/arrow.png');
-				background-position: center;
-				background-repeat: no-repeat;
-				background-size: contain;
-				bottom: 4em;
-				content: '';
-				display: block;
-				height: 1.5em;
-				left: 50%;
-				margin: 0 0 0 -0.75em;
-				position: absolute;
-				width: 1.5em;
-			}
+  bottom: 2.5em;
+  display: block;
+  height: 1.6em;
+  left: 50%;
+  position: absolute;
+  width: 1.6em;
+  border-right: 1.25px solid white;
+  border-bottom: 1.25px solid white;
+  transform: translateX(-50%) rotate(45deg);
+}

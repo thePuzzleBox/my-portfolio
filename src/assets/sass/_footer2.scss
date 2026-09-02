@@ -2,6 +2,7 @@ footer {
   width: 100%;
   margin: 0;
   padding: 0;
+  background-color: #f1f1ef;
 }
 
 .footer-layout {
@@ -46,6 +47,7 @@ footer {
   font-size: 0.875rem;
   line-height: 1;
   text-align: center;
+  color:#222222; // brown #665F59;
 }
 
 @media only screen and (max-width: 991px) {

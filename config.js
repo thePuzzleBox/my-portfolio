@@ -13,11 +13,6 @@ module.exports = {
 
   // social
   socialLinks: [
-   /*{
-     icon: 'fa-github',
-      name: 'Github',
-      url: 'https://github.com/thepuzzlebox',
-    },*/
     {
       icon: 'far fa-envelope',
       name: 'Email',

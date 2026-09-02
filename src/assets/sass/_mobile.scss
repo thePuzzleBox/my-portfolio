@@ -1,9 +1,6 @@
 /* _mobile.scss */
 
 /* General styles */
-.header {
-  background-color: white;
-}
 
 #wrapper {
   display: flex;
@@ -33,11 +30,11 @@
   .side {
     width: 100% !important;
     flex-direction: column !important;
-    margin-top: 80px !important; /* Adjusted to the navbar height */
+    margin-top: 0 !important;
     gap: 2px;
-    height: calc(100vh - 80px); /* Set height to fill remaining viewport height after accounting for navbar */
-    overflow-y: auto; /* Enable vertical scrolling if content exceeds container height */
-    overflow-x: hidden; /* Hide horizontal scrollbar */
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
 
   article {
@@ -97,7 +94,7 @@
 
         img,
         video {
-          transform: scale(1); /* Zoom out effect on hover or click */
+          transform: scale(1);
         }
       }
     }

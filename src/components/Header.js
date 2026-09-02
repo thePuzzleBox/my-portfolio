@@ -94,7 +94,8 @@ export default class Header extends Component {
               aria-expanded={openMenu}
               aria-label="Toggle navigation"
             >
-              <i className="fas fa-bars"></i>
+              <span className="hamburger-line"></span>
+              <span className="hamburger-line"></span>
             </button>
 
             <div

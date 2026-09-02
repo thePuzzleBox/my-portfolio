@@ -4,7 +4,7 @@ import '../assets/sass/_footer2.scss';
 
 export default function Footer() {
   return (
-    <footer className="bg-black text-white-50">
+    <footer>
       <div className="footer-layout">
         <div className="footer-left"></div>
 

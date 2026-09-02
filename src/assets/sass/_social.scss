@@ -1,36 +1,45 @@
-.social-section {
-  padding: 0.5rem;
-  .card {
-    border: 0;
-    border-bottom: 0.05rem solid $primary;
-    h4 {
-      font-size: 0.8rem;
-      font-family: 'Varela Round';
-      text-transform: uppercase;
-      letter-spacing: 0.15rem;
+.social {
+
+  margin-top: 2rem;
+
+  a {
+
+    text-align: center;
+
+    height: auto;
+
+    width: auto;
+
+    background: transparent;
+
+    border-radius: 0;
+
+    line-height: 1;
+
+    color: #665F59;
+
+    font-size: 1.3rem;
+
+    margin-left: 0.75rem;
+
+    margin-right: 0.75rem;
+
+    &:hover {
+
+      color: #4F4944;
+
+      background: transparent;
+
     }
-    hr {
-      border-color: $primary;
-      border-width: 0.25rem;
-      width: 3rem;
+
+    &:active {
+
+      color: #4F4944;
+
+      background: transparent;
+
     }
+
   }
-  .social {
-    margin-top: 2rem;
-    a {
-      text-align: center;
-      height: 3rem;
-      width: 3rem;
-      background: fade-out($white, 0.9);
-      border-radius: 100%;
-      line-height: 3rem;
-      color: fade-out($white, 0.7);
-      &:hover {
-        color: fade-out($white, 0.5);
-      }
-      &:active {
-        color: $white;
-      }
-    }
-  }
+
 }
