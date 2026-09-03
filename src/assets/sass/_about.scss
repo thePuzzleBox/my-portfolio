@@ -1,7 +1,6 @@
 .about-section {
   padding-top: 7rem;
   padding-bottom: 3rem;
-  background: white;
 
   .row {
     display: flex;
@@ -30,6 +29,7 @@
     max-width: none !important;
     transform: scale(1);
     transform-origin: right center;
+    border-radius: 5px;
   }
 
   /* Change width of text box */
@@ -52,7 +52,7 @@
 }
 
 .about-section .row > div:last-child {
-  animation-delay: 0.2s;
+  animation-delay: 0.5s;
 }
 
 @keyframes aboutFadeUp {

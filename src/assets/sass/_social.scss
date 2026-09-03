@@ -3,31 +3,22 @@
   margin-top: 2rem;
 
   a {
-
     text-align: center;
-
     height: auto;
-
     width: auto;
-
     background: transparent;
-
     border-radius: 0;
-
     line-height: 1;
-
-    color: #665F59;
-
+    
+    color: #665F59; // Social icons color
+    
     font-size: 1.2rem;
-
     margin-left: 0.75rem;
-
     margin-right: 0.75rem;
 
     &:hover {
 
       color: #4F4944;
-
       background: transparent;
 
     }
@@ -35,11 +26,8 @@
     &:active {
 
       color: #4F4944;
-
       background: transparent;
 
     }
-
   }
-
 }

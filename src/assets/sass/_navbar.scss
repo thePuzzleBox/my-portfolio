@@ -59,10 +59,10 @@
     > .hamburger-line {
       display: block !important;
       width: 35px !important;
-      height: 2px !important;
+      height: 1.5px !important;
       background-color: #FFFFFF !important;
-      transform: translateX(-20px) scaleY(0.75);
-      transition: transform 0.3s ease-in-out;
+      transform: scaleY(0.75);
+      transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1.08);
     }
   }
 
@@ -70,7 +70,6 @@
     color: #D0D0D0;
     font-weight: 700;
     padding: .9rem 1rem;
-    margin-left: 10px;
   }
 
   .navbar-nav {
@@ -104,6 +103,10 @@
   // MOBILE
   @media (max-width: 991px) {
 
+    .navbar-brand img {
+      width: 32px !important;
+    }
+
     .navbar-toggler {
       display: flex;
     }
@@ -123,7 +126,7 @@
       margin: 0;
       padding: 0;
 
-      background-color: white;
+      background-color: #FEFDFC;
 
       opacity: 0;
       visibility: hidden;
@@ -209,10 +212,6 @@
       opacity: 1;
     }
 
-    .navbar-brand {
-      color: #FFFFFF !important;
-    }
-
     .navbar-toggler {
       color: #FFFFFF;
     }
@@ -247,8 +246,7 @@
 
     .navbar-brand {
       padding: .5rem 0;
-      margin-left: 150px;
-      color: #D0D0D0 !important;
+      margin-left: 100px;
     }
 
     .navbar-nav {
@@ -287,9 +285,6 @@
 
       background-color: transparent;
 
-      .navbar-brand {
-        color: #FFFFFF !important;
-      }
 
       .nav-link {
         color: #FFFFFF !important;
@@ -358,11 +353,11 @@
 
   /* Animate hamburger into X */
   #mainNav.mobile-menu-open .hamburger-line:first-child {
-    transform: translateX(-20px) translateY(5.375px) rotate(45deg) scale(0.75);
+    transform: translateY(5.375px) rotate(135deg) scale(0.75);
   }
 
   #mainNav.mobile-menu-open .hamburger-line:last-child {
-    transform: translateX(-20px) translateY(-5.375px) rotate(-45deg) scale(0.75);
+    transform: translateY(-5.375px) rotate(-135deg) scale(0.75);
   }
 
   /* FULLSCREEN MOBILE MENU ALWAYS USES DARK TEXT */

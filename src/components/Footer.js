@@ -15,7 +15,7 @@ export default function Footer() {
         {isIndexPage ? (
           <>&copy; 2026</>
         ) : (
-          <>&copy; 2026 | Made to Wonder.</>
+          <>&copy; 2026 | Made by Heart.</>
         )}
       </div>
     </footer>
