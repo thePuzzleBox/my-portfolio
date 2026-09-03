@@ -34,10 +34,8 @@
 .footnote-text {
   h4 {
     opacity: 0;
-    transform: translateY(40px);
     transition:
-      opacity 1s ease-out,
-      transform 1s ease-out;
+      opacity 1.5s ease-out;
 
     font-size: 1.1rem;
   }
@@ -49,7 +47,6 @@
 
 .footnote-section.is-visible .footnote-text h4 {
   opacity: 1;
-  transform: translateY(0);
 }
 
 /* Media query for non-mobile devices */

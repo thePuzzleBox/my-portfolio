@@ -93,6 +93,18 @@
 .masthead-title {
   position: relative;
   top: 200px;
+  opacity: 0;
+  animation: mastheadFadeIn 1.5s ease-out 3s forwards;
+}
+
+@keyframes mastheadFadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 /* MOBILE TITLE CONTROLS */
