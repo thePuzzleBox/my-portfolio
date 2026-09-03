@@ -31,9 +31,36 @@
   border: 0;
 }
 
+.footnote-text {
+  h4 {
+    opacity: 0;
+    transform: translateY(40px);
+    transition:
+      opacity 1s ease-out,
+      transform 1s ease-out;
+
+    font-size: 1.1rem;
+  }
+
+  h4:nth-of-type(2) {
+    transition-delay: 0.8s;
+  }
+}
+
+.footnote-section.is-visible .footnote-text h4 {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 /* Media query for non-mobile devices */
 @media (min-width: 768px) {
   .footnote-section {
     min-height: 680px; /* Adjust this value as needed for non-mobile devices */
+  }
+}
+
+@media (min-width: 992px) {
+  .footnote-text h4 {
+    font-size: 1.25rem;
   }
 }

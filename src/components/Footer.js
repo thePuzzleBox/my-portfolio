@@ -1,10 +1,22 @@
 import React from 'react';
+import { useLocation } from '@reach/router';
 
 export default function Footer() {
+  const location = useLocation();
+  const isIndexPage = location.pathname === '/';
+
   return (
-    <footer className="foot bg-black small text-center text-white-50">
+    <footer
+      className={`foot small text-center ${
+        isIndexPage ? 'bg-black text-white-50' : 'page-footer'
+      }`}
+    >
       <div className="container">
-        &copy; 2026
+        {isIndexPage ? (
+          <>&copy; 2026</>
+        ) : (
+          <>&copy; 2026 | Made to Wonder.</>
+        )}
       </div>
     </footer>
   );

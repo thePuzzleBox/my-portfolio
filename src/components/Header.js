@@ -65,6 +65,12 @@ export default class Header extends Component {
     document.body.style.overflow = '';
   }
 
+  handleNavClick = () => {
+    if (window.innerWidth <= 991) {
+      this.toggleMenu(false);
+    }
+  };
+
   render() {
     const { openMenu, visibilityClass } = this.state;
 
@@ -108,7 +114,7 @@ export default class Header extends Component {
 
                 <li className="nav-item">
                   <Scroll
-                    onClick={_ => this.toggleMenu(!openMenu)}
+                    onClick={this.handleNavClick}
                     type="id"
                     element="my work"
                   >
@@ -120,7 +126,7 @@ export default class Header extends Component {
 
                 <li className="nav-item">
                   <Scroll
-                    onClick={_ => this.toggleMenu(!openMenu)}
+                    onClick={this.handleNavClick}
                     type="id"
                     element="about"
                   >
@@ -132,7 +138,7 @@ export default class Header extends Component {
 
                 {/*<li className="nav-item">
                   <Scroll
-                    onClick={_ => this.toggleMenu(!openMenu)}
+                    onClick={this.handleNavClick}
                     type="id"
                     element="contact"
                   >
