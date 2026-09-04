@@ -4,7 +4,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 import Header from '../components/Header';
 import Footer from '../components/Footer2';
-import portrait from '../assets/images/oh.jpg';
+import portrait from '../assets/images/imgg.jpg';
 
 const AboutPage = () => (
   <Layout>
