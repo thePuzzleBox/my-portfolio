@@ -15,7 +15,7 @@ const AboutPage = () => (
     <div className="row">
 
       <div className="about-image">
-        <img src={portrait} className="img-fluid" alt="" />
+        <img src={portrait} className="img-fluid" alt="Jalen Smith Photo" />
       </div>
 
           <div className="col-lg-7">
