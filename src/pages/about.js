@@ -23,7 +23,7 @@ const AboutPage = () => (
 
             <p className="fg text-black">
               Jalen is a nomadic documentary filmmaker and conservation storyteller passionate about bringing people closer to the natural world. At 21, he left home for South Africa purely to chase
-              a dream of filming wildlife. Without any prior experience behind a camera, he knew that's where he needed to be. After living among untamed giants and experiencing a deeply connected
+              a dream of filming wildlife. With little to no experience behind a camera, he knew that's where he needed to be. After living among untamed giants and experiencing a deeply connected
               way of life, he didn't just find what he was looking for. He returned having found what he wanted to dedicate his life to.
 
               <br/><br/>Using visual storytelling to make seemingly distant worlds feel deeply personal, Jalen captures our complex relationships with nature and what they reveal about the human experience
