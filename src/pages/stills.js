@@ -103,7 +103,7 @@ const IndexPage = () => {
             <div className="content stills-text">
               <h2>MOUNTAINS</h2>
               <h3><i>& Glaciers</i></h3>
-              <h3><i>coming soon</i></h3>
+              <h3><i>(coming soon)</i></h3>
             </div>
           </Link>
         </article>
