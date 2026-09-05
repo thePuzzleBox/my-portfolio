@@ -12,12 +12,18 @@
 @import './fontawesome/css/all.min.css';
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
 @import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;500;600;700&display=swap');
+
+
+
 
 body {
   font-family: 'Poppins';
@@ -31,6 +37,10 @@ body {
 
 .bg-primary {
   background-color: $primary !important;
+}
+
+a {
+  color: $black;
 }
 
 .text-primary {
