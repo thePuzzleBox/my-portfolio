@@ -23,11 +23,11 @@ module.exports = {
       name: 'Linkedin',
       url: 'https://linkedin.com/in/jalensmith/',
     },
-    /*{
+    {
       icon: 'fa-vimeo-v',
       name: 'YouTube',
-      url: 'https://vimeo.com',
-    },*/
+      url: 'https://vimeo.com/jalensmith',
+    },
     /*{
       icon: 'fa-youtube',
       name: 'YouTube',
