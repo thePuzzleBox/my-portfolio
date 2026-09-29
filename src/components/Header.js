@@ -119,7 +119,7 @@ export default class Header extends Component {
                     element="my work"
                   >
                     <a className="nav-link" href="#portfolio">
-                      <Link to="/portfolio">My Work</Link>
+                      <Link to="/portfolio">Work</Link>
                     </a>
                   </Scroll>
                 </li>
