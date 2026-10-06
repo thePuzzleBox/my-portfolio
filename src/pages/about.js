@@ -27,7 +27,7 @@ const AboutPage = () => (
               <br/><br/> At 21, unsure of what his future would look like, he left home for South Africa to chase a dream of filming wildlife. After living among untamed giants and experiencing
               a deeply connected way of life, he didn't just find what he was looking for. He returned having found what he wanted to dedicate his life to.
 
-              <br/><br/>Drawn to stories that explore something fundamental about the human experience, Jalen captures the cultures and lives shaped by our complex relationship
+              <br/><br/>Drawn to stories that explore something fundamental about the human experience, Jalen captures the cultures and lives shaped by our relationship
               with nature and what they reveal about our place within it.
 
               <br/><br/>His portfolio spans documentary film and photography in expedition environments across land and sea. Based in Los Angeles, Jalen has worked with organizations such as The
