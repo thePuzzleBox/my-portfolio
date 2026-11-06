@@ -1,0 +1,84 @@
+.featured {
+  background-color: #1a1a1a;
+  color: #ffffff;
+
+  h4,
+  h5,
+  p {
+    color: #ffffff;
+  }
+}
+
+.featured-image,
+.featured-text {
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+.featured.is-visible .featured-image,
+.featured.is-visible .featured-text {
+  animation: aboutFadeUp 0.8s ease-out forwards;
+}
+
+.featured.is-visible .featured-text {
+  animation-delay: 0.5s;
+}
+
+.featured-text h4 a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.featured-text h4 a:hover {
+  color: #a6a6a6;
+}
+
+.featured-image-column {
+  padding: 0;
+}
+
+.featured-image-wrapper {
+  padding: 0 2rem;
+}
+
+.featured-image-wrapper a {
+  display: block;
+}
+
+.featured-image-wrapper img.featured-image {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto !important;
+  min-height: 0;
+  max-height: none;
+  object-fit: contain;
+  aspect-ratio: auto;
+}
+
+.featured-text-column {
+  padding: 0;
+}
+
+.featured-text-wrapper {
+  padding-left: 4rem;
+  padding-right: 6rem;
+}
+
+@keyframes aboutFadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 991px) {
+  .featured-image-wrapper {
+    padding: 0 2rem;
+  }
+
+  .featured-text-wrapper {
+    padding: 2rem;
+  }
+}
