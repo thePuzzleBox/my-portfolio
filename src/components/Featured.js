@@ -70,8 +70,8 @@ const Featured = () => {
                 <h5>Documentary Short</h5>
                 <br />
                 <p>
-                  Set in a community in Ancon, Peru, the film follows two volunteers during with the Yale Alumni Service Corps. Through their individual experiences with each other
-                  and the community, they gain a deeper understanding of themselves and their place in the world around them.
+                  Set in a community in Ancon, Peru, the film follows two volunteers with the Yale Alumni Service Corps. Through their individual experiences with each other
+                  and the community, they develop a deeper understanding of themselves and their place in the world around them.
                 </p>
               </div>
             </div>

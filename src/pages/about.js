@@ -33,14 +33,7 @@ const AboutPage = () => (
               Nature Conservancy and currently freelances for OceanX. He earned his B.A. from Yale University after starting his education at community college.
 
               <br/><br/>When he’s not in the field, he can usually be found sitting at a piano, skateboarding, planting trees big and small, or learning how to freedive.
-
-              {/*Jalen Smith is a nomadic documentary filmmaker and conservation storyteller from Los Angeles, CA. His journey in conservation started with filming wildlife and teaching kids how to plant
-               trees. Two very different experiences that solidified a lifelong passion for bringing people closer to the natural world.
-
-                Since then, Jalen's commitment to this vision has led him to work and film in communities worldwide. From sailing across Indonesia to planting trees across South America, he has found himself in some
-                of the most biodiverse regions on Earth, learning from and engaging with a diverse range of people, ecosystems, and alternative ways of life. As a result, he aims to not only share this wealth and
-                  knowledge of the natural world, but through capturing its stories of preservation, he hopes others learn what it means to be truly part of it.
-                */}
+              
             </p>
           </div>
 
