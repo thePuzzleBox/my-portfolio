@@ -1,15 +1,7 @@
 {
   "name": "gatsby-starter-grayscale",
   "version": "0.0.2",
-  "description": "Gatsby.js V4 starter template based on Grayscale by startbootstrap",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-grayscale.git"
-  },
-  "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
-  },
+
   "dependencies": {
     "gatsby": "^4.2.0",
     "gatsby-plugin-manifest": "^4.2.0",
@@ -42,9 +34,5 @@
     "gatsby-starter",
     "gatsby-starter-grayscale"
   ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/anubhavsrivastava/gatsby-starter-grayscale/issues"
-  },
-  "homepage": "https://github.com/anubhavsrivastava/gatsby-starter-grayscale#readme"
+  "license": "MIT"
 }
