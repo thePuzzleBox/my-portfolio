@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 
 
 import '../assets/sass/_featured.scss';
-import color from '../assets/images/color.jpg';
+import color from '../assets/images/color1.jpg';
 
 const Featured = () => {
   const featuredRef = useRef(null);
@@ -70,8 +70,8 @@ const Featured = () => {
                 <h5>Documentary Short</h5>
                 <br />
                 <p>
-                  Set in a community in Ancon, Peru, the film follows two volunteers with the Yale Alumni Service Corps. Through their individual experiences with each other
-                  and the community, they develop a deeper understanding of themselves and their place in the world around them.
+                  A testament to connection, the film follows two service corps volunteers whose paths cross while working on a labor project in central Peru. Through their individual
+                  experiences in the community, the film explores how we develop a deeper understanding of ourselves and our place in the world around us.
                 </p>
               </div>
             </div>

@@ -1,3 +1,4 @@
+
 .featured {
   background-color: #1a1a1a;
   color: #ffffff;
@@ -49,10 +50,11 @@
 .featured-image-wrapper img.featured-image {
   display: block;
   width: 100%;
-  max-width: 100%;
+  max-width: 95%;
   height: auto !important;
   min-height: 0;
   max-height: none;
+  margin: 0 auto;
   object-fit: contain;
   aspect-ratio: auto;
 }
