@@ -70,8 +70,8 @@ const Featured = () => {
                 <h5>Documentary Short</h5>
                 <br />
                 <p>
-                  A testament to human connection, the film follows two Yale volunteers whose paths cross while working on a community painting project in Peru. Through their individual
-                  experiences in the community, the documentary explores how we develop a deeper understanding of ourselves and our place in the world around us.
+                  A testament to human connection, the film follows two Yale volunteers whose paths cross while working on a painting project in Peru. Through their
+                  experiences with each other and the community, the documentary explores how we develop a deeper understanding of ourselves and our place in the world around us.
                 </p>
               </div>
             </div>
